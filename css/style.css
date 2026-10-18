@@ -110,12 +110,11 @@ a {
 }
 
 .nav__mark {
-  width: 2.3rem;
-  height: 2.3rem;
+  width: 2.75rem;
+  height: 2.75rem;
   border-radius: 50%;
-  background:
-    repeating-linear-gradient(90deg, var(--red) 0 4px, var(--white) 4px 7px);
-  box-shadow: inset 0 0 0 2px var(--white);
+  object-fit: cover;
+  flex: none;
 }
 
 .nav__links {
@@ -300,35 +299,131 @@ a {
 }
 
 @keyframes drift-a {
-  0% { left: -4%; top: 6%; rotate: -12deg; }
-  25% { left: 72%; top: 78%; rotate: 10deg; }
-  50% { left: 86%; top: 8%; rotate: -6deg; }
-  75% { left: 8%; top: 88%; rotate: 14deg; }
-  100% { left: -4%; top: 6%; rotate: -12deg; }
+  0% {
+    left: -4%;
+    top: 6%;
+    rotate: -12deg;
+  }
+
+  25% {
+    left: 72%;
+    top: 78%;
+    rotate: 10deg;
+  }
+
+  50% {
+    left: 86%;
+    top: 8%;
+    rotate: -6deg;
+  }
+
+  75% {
+    left: 8%;
+    top: 88%;
+    rotate: 14deg;
+  }
+
+  100% {
+    left: -4%;
+    top: 6%;
+    rotate: -12deg;
+  }
 }
 
 @keyframes drift-b {
-  0% { left: 40%; top: -6%; rotate: 8deg; }
-  25% { left: 4%; top: 62%; rotate: -14deg; }
-  50% { left: 80%; top: 42%; rotate: 6deg; }
-  75% { left: 28%; top: 92%; rotate: -8deg; }
-  100% { left: 40%; top: -6%; rotate: 8deg; }
+  0% {
+    left: 40%;
+    top: -6%;
+    rotate: 8deg;
+  }
+
+  25% {
+    left: 4%;
+    top: 62%;
+    rotate: -14deg;
+  }
+
+  50% {
+    left: 80%;
+    top: 42%;
+    rotate: 6deg;
+  }
+
+  75% {
+    left: 28%;
+    top: 92%;
+    rotate: -8deg;
+  }
+
+  100% {
+    left: 40%;
+    top: -6%;
+    rotate: 8deg;
+  }
 }
 
 @keyframes drift-c {
-  0% { left: 92%; top: 70%; rotate: 16deg; }
-  25% { left: 10%; top: 4%; rotate: -10deg; }
-  50% { left: 48%; top: 84%; rotate: 8deg; }
-  75% { left: 84%; top: 22%; rotate: -16deg; }
-  100% { left: 92%; top: 70%; rotate: 16deg; }
+  0% {
+    left: 92%;
+    top: 70%;
+    rotate: 16deg;
+  }
+
+  25% {
+    left: 10%;
+    top: 4%;
+    rotate: -10deg;
+  }
+
+  50% {
+    left: 48%;
+    top: 84%;
+    rotate: 8deg;
+  }
+
+  75% {
+    left: 84%;
+    top: 22%;
+    rotate: -16deg;
+  }
+
+  100% {
+    left: 92%;
+    top: 70%;
+    rotate: 16deg;
+  }
 }
 
 @keyframes drift-d {
-  0% { left: 18%; top: 40%; rotate: -6deg; }
-  25% { left: 90%; top: 12%; rotate: 12deg; }
-  50% { left: 60%; top: 90%; rotate: -12deg; }
-  75% { left: -6%; top: 18%; rotate: 4deg; }
-  100% { left: 18%; top: 40%; rotate: -6deg; }
+  0% {
+    left: 18%;
+    top: 40%;
+    rotate: -6deg;
+  }
+
+  25% {
+    left: 90%;
+    top: 12%;
+    rotate: 12deg;
+  }
+
+  50% {
+    left: 60%;
+    top: 90%;
+    rotate: -12deg;
+  }
+
+  75% {
+    left: -6%;
+    top: 18%;
+    rotate: 4deg;
+  }
+
+  100% {
+    left: 18%;
+    top: 40%;
+    rotate: -6deg;
+  }
 }
 
 .hero__layout {
@@ -344,19 +439,23 @@ a {
   width: min(280px, 70vw);
   aspect-ratio: 1;
   border-radius: 50%;
-  background: var(--white);
+  background:
+    radial-gradient(circle closest-side,
+      var(--white) 0 80%,
+      #c6292d 81% 90%,
+      #ae272d 90% 100%);
   color: var(--red);
   display: grid;
   place-items: center;
   text-align: center;
-  padding: 2rem;
+  padding: 3.3rem;
   box-shadow: 0 20px 50px rgba(120, 8, 12, 0.28);
   transition: translate 0.35s ease;
 }
 
 .badge__title {
   font-family: var(--script);
-  font-size: clamp(2.6rem, 6vw, 3.6rem);
+  font-size: clamp(2.4rem, 5.4vw, 3.4rem);
   line-height: 0.95;
   font-weight: 400;
 }
@@ -364,7 +463,7 @@ a {
 .badge__sub {
   margin-top: 0.7rem;
   font-size: 0.78rem;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -510,7 +609,7 @@ a {
 
 .band {
   position: relative;
-  height: 180px;
+  height: 200px;
   overflow: hidden;
   display: grid;
   place-items: center;
@@ -521,8 +620,12 @@ a {
   z-index: 1;
   color: var(--white);
   font-family: var(--script);
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
-  text-shadow: 0 6px 16px rgba(120, 0, 10, 0.35);
+  font-size: clamp(2.6rem, 6.5vw, 4.6rem);
+  line-height: 1.1;
+  text-shadow:
+    0 2px 0 rgba(90, 0, 8, 0.45),
+    0 10px 22px rgba(60, 0, 6, 0.65),
+    0 0 32px rgba(40, 0, 4, 0.45);
 }
 
 .menu-tools {
@@ -747,6 +850,10 @@ a {
 
 .footer__credit {
   font-weight: 700;
+}
+
+.footer__credit a:hover {
+  text-decoration: underline;
 }
 
 .whatsapp {
