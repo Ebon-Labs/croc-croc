@@ -227,6 +227,232 @@ function initTierToggle() {
   });
 }
 
+function portionGrams(item) {
+  const match = item.portion.match(/(\d+)\s*g/);
+  return match ? Number(match[1]) : null;
+}
+
+function moneyValue(text) {
+  return Number(String(text).replace(/[^\d,]/g, '').replace(',', '.'));
+}
+
+const calcState = {
+  id: MENU[0].id,
+  tier: 'varejo',
+  grams: portionGrams(MENU[0]) || 100,
+  units: 1
+};
+
+function calcItem() {
+  return MENU.find((item) => item.id === calcState.id) || MENU[0];
+}
+
+function calcUnitPrice(item) {
+  return moneyValue(calcState.tier === 'atacado' ? item.atacado : item.varejo);
+}
+
+function calcTotal(item, amount) {
+  const price = calcUnitPrice(item);
+  const grams = portionGrams(item);
+  if (!grams) return Math.round(price * amount * 100) / 100;
+  if (amount % grams === 0) return price * (amount / grams);
+  return Math.round((price / grams) * amount * 100) / 100;
+}
+
+function calcPresets(item) {
+  const grams = portionGrams(item);
+  if (grams) return [...new Set([grams, 50, 100, 250, 500])].sort((a, b) => a - b);
+  return [...new Set([1, item.lote])].sort((a, b) => a - b);
+}
+
+function renderCalcFlavors() {
+  const host = document.getElementById('calc-flavors');
+  if (!host) return;
+
+  host.innerHTML = MENU.map((item) => `
+    <button type="button" class="calc__flavor${item.id === calcState.id ? ' is-active' : ''}" role="radio" aria-checked="${item.id === calcState.id}" data-flavor="${item.id}">
+      <img src="${item.photo}" alt="">
+      <span>
+        <span class="calc__flavor-name">${item.name}</span>
+        <span class="calc__flavor-meta">${item.group} · ${item.portion}</span>
+      </span>
+    </button>
+  `).join('');
+}
+
+function syncCalcControls() {
+  const item = calcItem();
+  const grams = portionGrams(item);
+  const amountInput = document.getElementById('calc-amount');
+  const range = document.getElementById('calc-range');
+  const label = document.getElementById('calc-amount-label');
+  const unit = document.getElementById('calc-unit');
+  const presets = document.getElementById('calc-presets');
+  if (!amountInput || !range || !label || !unit || !presets) return;
+
+  const max = grams ? 1000 : 100;
+  const amount = grams ? calcState.grams : calcState.units;
+  label.textContent = grams ? 'Gramas' : 'Unidades';
+  unit.textContent = grams ? 'g' : 'un.';
+  amountInput.min = '1';
+  amountInput.max = String(max);
+  amountInput.value = String(amount);
+  range.min = '1';
+  range.max = String(max);
+  range.value = String(amount);
+  range.setAttribute('aria-label', grams ? 'Gramas' : 'Unidades');
+
+  const current = Number(amount);
+  presets.innerHTML = calcPresets(item).map((value) => `
+    <button type="button" class="calc__preset${value === current ? ' is-active' : ''}" data-preset="${value}">
+      ${grams ? `${value} g` : `${value} un.`}
+    </button>
+  `).join('');
+}
+
+function readCalcAmount() {
+  const input = document.getElementById('calc-amount');
+  const item = calcItem();
+  const max = portionGrams(item) ? 1000 : 100;
+  const raw = input.value.trim();
+  if (!raw) return null;
+  const value = Number(raw);
+  if (!Number.isInteger(value) || value < 1 || value > max) return null;
+  return value;
+}
+
+function updateCalc() {
+  const item = calcItem();
+  const grams = portionGrams(item);
+  const amount = readCalcAmount();
+  const group = document.getElementById('calc-group');
+  const name = document.getElementById('calc-name');
+  const ref = document.getElementById('calc-ref');
+  const priceEl = document.getElementById('calc-price-value');
+  const order = document.getElementById('calc-order');
+  const presets = document.getElementById('calc-presets');
+  if (!priceEl || !order) return;
+
+  const wholesale = calcState.tier === 'atacado';
+  const tierName = wholesale ? 'atacado' : 'varejo';
+  const unitPrice = wholesale ? item.atacado : item.varejo;
+  const loteNote = wholesale ? ` O lote de ${loteCount(item)} sai a ${lotePrice(item)}.` : '';
+  group.textContent = item.group;
+  name.textContent = item.name;
+  document.getElementById('calc-tier-label').textContent = wholesale ? 'Atacado' : 'Varejo';
+  ref.textContent = grams
+    ? `O pacote de ${item.portion} sai a ${unitPrice} no ${tierName}.${loteNote} O valor acompanha os gramas.`
+    : `Cada unidade sai a ${unitPrice} no ${tierName}.${loteNote}`;
+
+  presets?.querySelectorAll('[data-preset]').forEach((button) => {
+    button.classList.toggle('is-active', Number(button.dataset.preset) === amount);
+  });
+
+  if (amount === null) {
+    priceEl.textContent = '—';
+    order.removeAttribute('href');
+    order.setAttribute('aria-disabled', 'true');
+    order.tabIndex = -1;
+    order.classList.add('is-disabled');
+    return;
+  }
+
+  if (grams) calcState.grams = amount;
+  else calcState.units = amount;
+
+  const priceLabel = formatMoney(calcTotal(item, amount));
+  priceEl.textContent = priceLabel;
+
+  const qty = grams
+    ? `${amount} g de ${item.name}`
+    : `${amount} ${amount === 1 ? 'unidade' : 'unidades'} de ${item.name}`;
+  const text = `Olá! Quero encomendar ${qty}. Preço de ${tierName}: ${priceLabel}.`;
+  order.href = `${WHATSAPP}?text=${encodeURIComponent(text)}`;
+  order.setAttribute('aria-disabled', 'false');
+  order.tabIndex = 0;
+  order.classList.remove('is-disabled');
+}
+
+function initCalculator() {
+  const host = document.getElementById('calc-flavors');
+  const amountInput = document.getElementById('calc-amount');
+  const range = document.getElementById('calc-range');
+  const order = document.getElementById('calc-order');
+  if (!host || !amountInput || !range || !order) return;
+
+  const setAmount = (value) => {
+    const item = calcItem();
+    const max = portionGrams(item) ? 1000 : 100;
+    const next = Math.min(max, Math.max(1, Math.round(value)));
+    amountInput.value = String(next);
+    range.value = String(next);
+    updateCalc();
+  };
+
+  renderCalcFlavors();
+  syncCalcControls();
+
+  document.querySelectorAll('[data-calc-tier]').forEach((button) => {
+    button.addEventListener('click', () => {
+      calcState.tier = button.dataset.calcTier;
+      document.querySelectorAll('[data-calc-tier]').forEach((other) => {
+        const active = other === button;
+        other.classList.toggle('is-active', active);
+        other.setAttribute('aria-pressed', String(active));
+      });
+      updateCalc();
+    });
+  });
+
+  host.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-flavor]');
+    if (!button) return;
+    calcState.id = button.dataset.flavor;
+    host.querySelectorAll('[data-flavor]').forEach((other) => {
+      const active = other === button;
+      other.classList.toggle('is-active', active);
+      other.setAttribute('aria-checked', String(active));
+    });
+    syncCalcControls();
+    updateCalc();
+  });
+
+  document.getElementById('calc-presets')?.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-preset]');
+    if (!button) return;
+    setAmount(Number(button.dataset.preset));
+  });
+
+  amountInput.addEventListener('input', () => {
+    const value = Number(amountInput.value);
+    if (Number.isInteger(value)) {
+      const min = Number(range.min);
+      const max = Number(range.max);
+      range.value = String(Math.min(max, Math.max(min, value)));
+    }
+    updateCalc();
+  });
+
+  range.addEventListener('input', () => {
+    amountInput.value = range.value;
+    updateCalc();
+  });
+
+  document.getElementById('calc-minus')?.addEventListener('click', () => {
+    setAmount((Number(amountInput.value) || 1) - 1);
+  });
+
+  document.getElementById('calc-plus')?.addEventListener('click', () => {
+    setAmount((Number(amountInput.value) || 0) + 1);
+  });
+
+  order.addEventListener('click', (event) => {
+    if (order.getAttribute('aria-disabled') === 'true') event.preventDefault();
+  });
+
+  updateCalc();
+}
+
 function initHeader() {
   const header = document.querySelector('.header');
   const toggle = document.querySelector('.nav__toggle');
@@ -322,5 +548,6 @@ initHeader();
 initTierToggle();
 renderFilters();
 renderMenu();
+initCalculator();
 initReveal();
 initParallax();

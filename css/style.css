@@ -786,6 +786,217 @@ a {
   margin-top: 0.45rem;
 }
 
+.calc {
+  display: grid;
+  grid-template-columns: 1.35fr 0.85fr;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  align-items: start;
+}
+
+.calc__flavors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+}
+
+.calc__flavor {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  text-align: left;
+  background: var(--white);
+  color: var(--ink);
+  border: 0;
+  border-radius: 16px;
+  padding: 0.5rem 0.7rem 0.5rem 0.5rem;
+  box-shadow: inset 0 0 0 1px rgba(227, 6, 19, 0.18);
+  cursor: pointer;
+  font: inherit;
+}
+
+.calc__flavor img {
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 12px;
+  object-fit: cover;
+  flex: none;
+}
+
+.calc__flavor-name {
+  display: block;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.calc__flavor-meta {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.calc__flavor.is-active {
+  background: var(--red);
+  color: var(--white);
+  box-shadow: none;
+}
+
+.calc__flavor.is-active .calc__flavor-meta {
+  color: var(--red-soft);
+}
+
+.calc__panel {
+  position: sticky;
+  top: 5.5rem;
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.35rem 1.3rem;
+  box-shadow: var(--shadow);
+}
+
+.calc__group {
+  color: var(--red);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.calc__name {
+  font-family: var(--script);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.05;
+  margin: 0.2rem 0 0.85rem;
+}
+
+.calc__switch {
+  margin-bottom: 1rem;
+}
+
+.calc__label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.calc__amount {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0.45rem;
+}
+
+.calc__step {
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 0;
+  border-radius: 50%;
+  background: var(--cream-deep);
+  color: var(--red);
+  font: inherit;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.calc__step:hover {
+  background: var(--red);
+  color: var(--white);
+}
+
+.calc__amount input {
+  width: 5.6rem;
+  border: 0;
+  border-radius: 14px;
+  background: var(--cream);
+  color: var(--ink);
+  font: inherit;
+  font-size: 1.45rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 0.45rem 0.4rem;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.calc__amount input::-webkit-outer-spin-button,
+.calc__amount input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calc__unit {
+  font-weight: 800;
+  color: var(--muted);
+}
+
+.calc__range {
+  width: 100%;
+  margin: 0.9rem 0 0.7rem;
+  accent-color: var(--red);
+}
+
+.calc__presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.calc__preset {
+  border: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+
+.calc__preset.is-active {
+  background: var(--red);
+  color: var(--white);
+}
+
+.calc__ref {
+  margin-top: 0.9rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.calc__price {
+  margin-top: 0.7rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--red-soft);
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--red);
+}
+
+.calc__price .menu-card__tier {
+  margin-bottom: 0.35rem;
+}
+
+.calc__order {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.calc__order.is-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .contact-list {
   display: grid;
   gap: 0.7rem;
@@ -916,8 +1127,47 @@ a {
   .about,
   .order,
   .menu-grid,
-  .gallery {
+  .gallery,
+  .calc {
     grid-template-columns: 1fr;
+  }
+
+  .calc__panel {
+    position: static;
+    padding: 1rem 1rem 0.9rem;
+  }
+
+  .calc__name {
+    margin-bottom: 0.55rem;
+  }
+
+  .calc__switch {
+    margin-bottom: 0.65rem;
+  }
+
+  .calc__ref {
+    margin-top: 0.55rem;
+  }
+
+  .calc__price {
+    margin-top: 0.45rem;
+    padding-top: 0.55rem;
+  }
+
+  .calc__order {
+    margin-top: 0.7rem;
+  }
+
+  .calc__flavors {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 0.35rem;
+    scroll-snap-type: x mandatory;
+  }
+
+  .calc__flavor {
+    flex: 0 0 16rem;
+    scroll-snap-align: start;
   }
 
   .gallery {

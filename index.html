@@ -56,6 +56,7 @@
             <ul class="nav__links" id="menu-nav">
                 <li><a href="#fotos">Fotos</a></li>
                 <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#calculadora">Calculadora</a></li>
                 <li><a href="#encomendas">Encomendas</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a class="nav__cta" href="https://wa.me/5571986762904" target="_blank"
@@ -242,6 +243,46 @@
                         <li>Pirulito simples — varejo R$ 6,00, atacado R$ 32,00 o lote de 8 unidades</li>
                     </ul>
                 </noscript>
+            </div>
+        </section>
+
+        <section class="section" id="calculadora" aria-labelledby="calculadora-title">
+            <div class="container">
+                <header class="reveal">
+                    <p class="eyebrow">Calculadora</p>
+                    <h2 class="section__title" id="calculadora-title">Quanto vai custar</h2>
+                    <p class="section__desc">Escolha o sabor, varejo ou atacado, e quantos gramas quer. Barrinha e
+                        pirulito entram por unidade. O valor segue o pacote do cardápio.</p>
+                </header>
+                <div class="calc reveal">
+                    <div class="calc__flavors" id="calc-flavors" role="radiogroup" aria-label="Sabor"></div>
+                    <div class="calc__panel">
+                        <p class="calc__group" id="calc-group"></p>
+                        <h3 class="calc__name" id="calc-name"></h3>
+                        <div class="tier calc__switch" role="group" aria-label="Tipo de preço">
+                            <button class="tier__btn is-active" type="button" data-calc-tier="varejo"
+                                aria-pressed="true">Varejo</button>
+                            <button class="tier__btn" type="button" data-calc-tier="atacado"
+                                aria-pressed="false">Atacado</button>
+                        </div>
+                        <label class="calc__label" id="calc-amount-label" for="calc-amount">Gramas</label>
+                        <div class="calc__amount">
+                            <button class="calc__step" id="calc-minus" type="button" aria-label="Diminuir">−</button>
+                            <input id="calc-amount" type="number" inputmode="numeric" min="1" max="1000" value="27"
+                                required>
+                            <button class="calc__step" id="calc-plus" type="button" aria-label="Aumentar">+</button>
+                            <span class="calc__unit" id="calc-unit">g</span>
+                        </div>
+                        <input class="calc__range" id="calc-range" type="range" min="1" max="1000" value="27"
+                            aria-label="Gramas">
+                        <div class="calc__presets" id="calc-presets"></div>
+                        <p class="calc__ref" id="calc-ref"></p>
+                        <p class="calc__price" id="calc-price" aria-live="polite"><span class="menu-card__tier"
+                                id="calc-tier-label">Varejo</span><span id="calc-price-value"></span></p>
+                        <a class="btn calc__order is-disabled" id="calc-order" target="_blank" rel="noopener noreferrer"
+                            aria-disabled="true">Pedir</a>
+                    </div>
+                </div>
             </div>
         </section>
 
