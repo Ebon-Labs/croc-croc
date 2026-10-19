@@ -434,7 +434,8 @@ a {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto auto;
+  justify-content: center;
   gap: clamp(1.5rem, 5vw, 4rem);
   align-items: center;
 }
@@ -451,7 +452,7 @@ a {
 }
 
 .hero__copy {
-  max-width: 38rem;
+  max-width: 30rem;
   background: var(--cream);
   color: var(--ink);
   border-radius: 28px;
