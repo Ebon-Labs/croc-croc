@@ -101,20 +101,9 @@ a {
 }
 
 .nav__logo {
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
   font-family: var(--script);
   font-size: 1.35rem;
   color: var(--red);
-}
-
-.nav__mark {
-  width: 2.75rem;
-  height: 2.75rem;
-  border-radius: 50%;
-  object-fit: cover;
-  flex: none;
 }
 
 .nav__links {
@@ -437,35 +426,13 @@ a {
 
 .badge {
   width: min(280px, 70vw);
+  height: auto;
   aspect-ratio: 1;
   border-radius: 50%;
-  background:
-    radial-gradient(circle closest-side,
-      var(--white) 0 80%,
-      #c6292d 81% 90%,
-      #ae272d 90% 100%);
-  color: var(--red);
-  display: grid;
-  place-items: center;
-  text-align: center;
-  padding: 3.3rem;
+  object-fit: cover;
+  background: var(--white);
   box-shadow: 0 20px 50px rgba(120, 8, 12, 0.28);
   transition: translate 0.35s ease;
-}
-
-.badge__title {
-  font-family: var(--script);
-  font-size: clamp(2.4rem, 5.4vw, 3.4rem);
-  line-height: 0.95;
-  font-weight: 400;
-}
-
-.badge__sub {
-  margin-top: 0.7rem;
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 .hero__copy {
