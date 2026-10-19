@@ -84,9 +84,16 @@ a {
   position: fixed;
   inset: 0 0 auto;
   z-index: 10;
+  transition: box-shadow var(--ease);
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
   background: rgba(255, 246, 234, 0.92);
   backdrop-filter: blur(14px);
-  transition: box-shadow var(--ease);
 }
 
 .header.scrolled {
@@ -101,9 +108,16 @@ a {
 }
 
 .nav__logo {
-  font-family: var(--script);
-  font-size: 1.35rem;
-  color: var(--red);
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo img {
+  display: block;
+  height: 2.15rem;
+  width: auto;
 }
 
 .nav__links {
@@ -168,6 +182,7 @@ a {
   border: 0;
   background: transparent;
   position: relative;
+  z-index: 2;
 }
 
 .nav__toggle span,
@@ -466,12 +481,13 @@ a {
 }
 
 .hero h1 {
-  font-family: var(--script);
-  font-size: clamp(3rem, 7vw, 5.2rem);
-  font-weight: 400;
-  line-height: 0.95;
-  margin: 0.3rem 0 0.8rem;
-  color: var(--red);
+  margin: 0.15rem 0 0.9rem;
+}
+
+.hero h1 img {
+  display: block;
+  width: min(100%, 18rem);
+  height: auto;
 }
 
 .hero__lead {
@@ -1002,8 +1018,14 @@ a {
 }
 
 .footer__name {
-  font-family: var(--script);
-  font-size: 2rem;
+  margin-bottom: 0.35rem;
+}
+
+.footer__name img {
+  display: block;
+  height: 2.6rem;
+  width: auto;
+  filter: brightness(0) invert(1);
 }
 
 .footer__links {
@@ -1073,11 +1095,14 @@ a {
 
   .nav__links {
     position: fixed;
-    inset: 0 0 0 30%;
+    inset: 0;
+    z-index: 1;
     background: var(--cream);
     flex-direction: column;
     align-items: flex-start;
     padding: 6rem 1.5rem;
+    min-height: 100dvh;
+    overflow-y: auto;
     transform: translateX(100%);
     transition: transform var(--ease);
   }
@@ -1156,6 +1181,10 @@ a {
 
   .hero__copy {
     text-align: center;
+  }
+
+  .hero h1 img {
+    margin-inline: auto;
   }
 
   .hero__actions {
