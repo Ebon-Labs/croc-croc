@@ -6,11 +6,11 @@ const MENU = [
     name: 'Cocada',
     portion: '27 g',
     group: 'Doces',
-    varejo: 'R$ 7,00',
-    atacado: 'R$ 5,00',
+    varejo: 'R$ 6,00',
+    atacado: 'R$ 4,00',
     lote: 52,
     loteUnit: 'pacote',
-    desc: 'Doce de milho com coco ralado desidratado, manteiga e leite em pó.',
+    desc: 'Doce de milho com coco ralado, manteiga e leite em pó.',
     photo: 'assets/instagram/cocada.jpg',
     photoAlt: 'Saco de pipoca cocada com o adesivo da Croc Croc.'
   },
@@ -90,7 +90,7 @@ const MENU = [
     loteUnit: 'pacote',
     desc: 'Banho de chocolate e, em seguida, coco ralado desidratado.',
     photo: 'assets/instagram/prestigio.jpg',
-    photoAlt: 'Pipoca coberta de chocolate com coco ralado, ao lado do cartão da Croc Croc.'
+    photoAlt: 'Pipoca coberta de chocolate com coco ralado desidratado, ao lado do cartão da Croc Croc.'
   },
   {
     id: 'barrinha',
@@ -130,6 +130,61 @@ const MENU = [
     desc: 'No palito, com laço e chocolate em pó.',
     photo: 'assets/instagram/pirulitos-embalados.jpg',
     photoAlt: 'Pirulitos embalados com laço e o selo da Croc Croc.'
+  },
+  {
+    id: 'caramelada-cocada',
+    name: 'Pipoca caramelada de cocada',
+    portion: '215 g',
+    group: 'Doces',
+    varejo: 'R$ 41,00',
+    atacado: 'R$ 28,00',
+    lote: 1,
+    loteUnit: 'pacote',
+    desc: 'Pacote com coco ralado e leite em pó.'
+  },
+  {
+    id: 'caramelada-churros',
+    name: 'Pipoca caramelada de churros',
+    portion: '200 g',
+    group: 'Doces',
+    varejo: 'R$ 43,00',
+    atacado: 'R$ 29,00',
+    lote: 1,
+    loteUnit: 'pacote',
+    desc: 'Pacote com canela e leite em pó na finalização.'
+  },
+  {
+    id: 'caramelada-chocolate',
+    name: 'Pipoca caramelada de chocolate',
+    portion: '215 g',
+    group: 'Doces',
+    varejo: 'R$ 41,00',
+    atacado: 'R$ 27,00',
+    lote: 1,
+    loteUnit: 'pacote',
+    desc: 'Pacote com chocolate em pó e leite em pó.'
+  },
+  {
+    id: 'caramelada-limao',
+    name: 'Pipoca caramelada de limão',
+    portion: '200 g',
+    group: 'Doces',
+    varejo: 'R$ 37,00',
+    atacado: 'R$ 25,00',
+    lote: 1,
+    loteUnit: 'pacote',
+    desc: 'Pacote com raspa de limão e leite em pó.'
+  },
+  {
+    id: 'caramelada-ninho',
+    name: 'Pipoca caramelada de Leite Ninho',
+    portion: '200 g',
+    group: 'Doces',
+    varejo: 'R$ 40,00',
+    atacado: 'R$ 26,00',
+    lote: 1,
+    loteUnit: 'pacote',
+    desc: 'Pacote com leite em pó na massa e na finalização.'
   }
 ];
 
@@ -271,7 +326,7 @@ function renderCalcFlavors() {
 
   host.innerHTML = MENU.map((item) => `
     <button type="button" class="calc__flavor${item.id === calcState.id ? ' is-active' : ''}" role="radio" aria-checked="${item.id === calcState.id}" data-flavor="${item.id}">
-      <img src="${item.photo}" alt="">
+      ${item.photo ? `<img src="${item.photo}" alt="">` : ''}
       <span>
         <span class="calc__flavor-name">${item.name}</span>
         <span class="calc__flavor-meta">${item.group} · ${item.portion}</span>
