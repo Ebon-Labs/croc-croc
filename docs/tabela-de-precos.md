@@ -11,7 +11,7 @@ O cardápio tem dois preços:
 
 O custo de cada unidade soma ingredientes, material, gás, água e mão de obra. A embalagem da pipoca custa **R$ 0,10**. Barrinha e pirulitos usam o material descrito na ficha de cada um. A mão de obra usa o salário mínimo de 2026, **R$ 7,37 por hora**, sem encargos. O preço precisa deixar essa hora paga.
 
-Atualizado em **18 de outubro de 2026**.
+Atualizado em **24 de outubro de 2026**.
 
 ## Índice
 
@@ -32,6 +32,14 @@ Atualizado em **18 de outubro de 2026**.
 - [Como calcular](#como-calcular)
 
 ## Atualizações do documento
+
+### 24 de outubro de 2026 — coco ralado
+
+Entrou coco ralado, R$ 2,50 o pacote de 50 g (R$ 0,050000 por grama). O coco ralado desidratado continua R$ 6,00 o pacote de 50 g. Nenhum sabor usa o coco ralado ainda. Cocada e Trufadas Prestígio seguem com o desidratado.
+
+### 24 de outubro de 2026 — ingredientes
+
+Ovomaltine passou de R$ 21,90 (300 g) para R$ 16,00 (190 g), ou R$ 0,084211 por grama. Entraram limão, R$ 11,80 o quilo (R$ 0,011800 por grama), canela em pó, R$ 2,50 o pacote de 20 g (R$ 0,125000 por grama), e amendoim descascado, R$ 18,00 o quilo (R$ 0,018000 por grama). Nenhum sabor usa esses itens ainda.
 
 ### 18 de outubro de 2026 — barrinha e pirulitos
 
@@ -735,7 +743,7 @@ O atacado usa o fator 2: 2,00 × 2 = 4,00, que já é **R$ 4,00**. Os 8 rendem R
 
 Lista de compras. Quando o mercado mudar, altere esta tabela e refaça o cardápio. O custo por grama é `preço pago ÷ quantidade da embalagem`. O custo por unidade é `preço pago ÷ quantidade`.
 
-Compra conferida em **18 de outubro de 2026**.
+Compra conferida em **24 de outubro de 2026**.
 
 ### Ingredientes
 
@@ -745,17 +753,21 @@ Compra conferida em **18 de outubro de 2026**.
 | Açúcar | 1.000 g | R$ 3,80 | R$ 0,003800/g | Cocada, Chocolate caramelado, Leite Ninho, Meio Amargo, Trufadas, Trufadas Prestígio, Barrinha, Pirulitos |
 | Manteiga | 200 g | R$ 11,50 | R$ 0,057500/g | Todos os sabores |
 | Margarina | 500 g | R$ 11,30 | R$ 0,022600/g | Cocada, Chocolate caramelado |
+| Coco ralado | 50 g | R$ 2,50 | R$ 0,050000/g | Ainda sem sabor |
 | Coco ralado desidratado | 50 g | R$ 6,00 | R$ 0,120000/g | Cocada, Trufadas Prestígio |
 | Leite em pó | 200 g | R$ 7,00 | R$ 0,035000/g | Cocada, Chocolate caramelado, Leite Ninho, Meio Amargo |
 | Chocolate em pó | 200 g | R$ 9,00 | R$ 0,045000/g | Chocolate caramelado, Meio Amargo, Pirulito com cobertura, Pirulito simples |
 | Chocolate fracionado | 1.000 g | R$ 48,00 | R$ 0,048000/g | Leite Ninho, Meio Amargo, Trufadas, Trufadas Prestígio, Barrinha, Pirulito com cobertura |
-| Ovomaltine | 300 g | R$ 21,90 | R$ 0,073000/g | Ainda sem sabor |
+| Ovomaltine | 190 g | R$ 16,00 | R$ 0,084211/g | Ainda sem sabor |
 | Flocos de arroz | 500 g | R$ 24,00 | R$ 0,048000/g | Ainda sem sabor |
+| Amendoim descascado | 1.000 g | R$ 18,00 | R$ 0,018000/g | Ainda sem sabor |
+| Canela em pó | 20 g | R$ 2,50 | R$ 0,125000/g | Ainda sem sabor |
+| Limão | 1.000 g | R$ 11,80 | R$ 0,011800/g | Ainda sem sabor |
 | Corante | 25 g | R$ 6,00 | R$ 0,240000/g | Chocolate caramelado |
 | Creme de cebola | 65 g | R$ 9,00 | R$ 0,138462/g | Cebola |
 | Azeite doce | 500 ml | R$ 11,00 | R$ 0,022000/ml | Cebola |
 
-O chocolate em pó continua na embalagem de 200 g já usada na ficha. Margarina, corante, creme de cebola e azeite doce não foram recotados em 18 de outubro de 2026.
+O chocolate em pó continua na embalagem de 200 g já usada na ficha. Margarina, corante, creme de cebola e azeite doce não foram recotados em 18 de outubro de 2026. Em 24 de outubro de 2026 entraram coco ralado, limão, canela em pó e amendoim descascado, e o ovomaltine passou para o pacote de 190 g. Nenhum desses itens entra em um sabor ainda. O coco desidratado permanece R$ 6,00.
 
 ### Material
 
@@ -839,12 +851,16 @@ Peso dos ingredientes: ____ g
 | Açúcar                   |            | 0,003800 / g   |         |
 | Manteiga                 |            | 0,057500 / g   |         |
 | Margarina                |            | 0,022600 / g   |         |
+| Coco ralado              |            | 0,050000 / g   |         |
 | Coco ralado desidratado  |            | 0,120000 / g   |         |
 | Leite em pó              |            | 0,035000 / g   |         |
 | Chocolate em pó          |            | 0,045000 / g   |         |
 | Chocolate fracionado     |            | 0,048000 / g   |         |
-| Ovomaltine               |            | 0,073000 / g   |         |
+| Ovomaltine               |            | 0,084211 / g   |         |
 | Flocos de arroz          |            | 0,048000 / g   |         |
+| Amendoim descascado      |            | 0,018000 / g   |         |
+| Canela em pó             |            | 0,125000 / g   |         |
+| Limão                    |            | 0,011800 / g   |         |
 | Corante                  |            | 0,240000 / g   |         |
 | Creme de cebola          |            | 0,138462 / g   |         |
 | Azeite doce              | __ ml      | 0,022000 / ml  |         |
