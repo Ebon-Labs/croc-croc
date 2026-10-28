@@ -2,32 +2,6 @@ const WHATSAPP = 'https://wa.me/5571986762904';
 
 const MENU = [
   {
-    id: 'cocada',
-    name: 'Cocada',
-    portion: '27 g',
-    group: 'Doces',
-    varejo: 'R$ 6,00',
-    atacado: 'R$ 4,00',
-    lote: 52,
-    loteUnit: 'pacote',
-    desc: 'Doce de milho com coco ralado, manteiga e leite em pó.',
-    photo: 'assets/instagram/cocada.jpg',
-    photoAlt: 'Saco de pipoca cocada com o adesivo da Croc Croc.'
-  },
-  {
-    id: 'chocolate',
-    name: 'Chocolate caramelado',
-    portion: '27 g',
-    group: 'Doces',
-    varejo: 'R$ 6,00',
-    atacado: 'R$ 4,00',
-    lote: 52,
-    loteUnit: 'pacote',
-    desc: 'Pipoca caramelada com chocolate em pó e leite em pó.',
-    photo: 'assets/instagram/chocolate.jpg',
-    photoAlt: 'Sacos de pipoca de chocolate com laço roxo e o cartão da Croc Croc.'
-  },
-  {
     id: 'cebola',
     name: 'Cebola',
     portion: '25 g',
@@ -49,7 +23,7 @@ const MENU = [
     atacado: 'R$ 17,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Pipoca coberta com chocolate fracionado e leite em pó.',
+    desc: 'Pipoca caramelada coberta com chocolate branco e finalizada com leite em pó.',
     photo: 'assets/instagram/ninho.png',
     photoAlt: 'Sacos de pipoca branca com o adesivo Leite Ninho da Croc Croc.'
   },
@@ -62,7 +36,7 @@ const MENU = [
     atacado: 'R$ 18,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Chocolate fracionado, leite em pó e chocolate em pó.',
+    desc: 'Pipoca caramelada coberta com chocolate meio amargo, finalizada com leite em pó e chocolate em pó.',
     photo: 'assets/instagram/meio-amargo.png',
     photoAlt: 'Pipoca coberta com chocolate em pó, aberta e com o recheio branco à mostra.'
   },
@@ -75,7 +49,7 @@ const MENU = [
     atacado: 'R$ 19,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Chocolate fracionado com flocos de arroz.'
+    desc: 'Chocolate com flocos de arroz.'
   },
   {
     id: 'trufadas',
@@ -99,7 +73,7 @@ const MENU = [
     atacado: 'R$ 31,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Banho de chocolate e, em seguida, coco ralado desidratado.',
+    desc: 'Pipoca caramelada banhada no chocolate meio amargo, finalizada com coco ralado desidratado.',
     photo: 'assets/instagram/prestigio.jpg',
     photoAlt: 'Pipoca coberta de chocolate com coco ralado desidratado, ao lado do cartão da Croc Croc.'
   },
@@ -112,7 +86,7 @@ const MENU = [
     atacado: 'R$ 1,50',
     lote: 12,
     loteUnit: 'unidade',
-    desc: 'Barrinha de pipoca com chocolate fracionado.',
+    desc: 'Pipoca caramelada levemente triturada, banhada em chocolate branco ou meio amargo.',
     photo: 'assets/instagram/barrinha.png',
     photoAlt: 'Barrinha de pipoca coberta de chocolate, com o cartão da Croc Croc ao fundo.'
   },
@@ -125,7 +99,7 @@ const MENU = [
     atacado: 'R$ 9,00',
     lote: 8,
     loteUnit: 'unidade',
-    desc: 'No palito, com laço e cobertura de chocolate fracionado.',
+    desc: 'Pipoca caramelada de chocolate em formato de pirulito, banhada no chocolate, com saquinho plástico e fita de cetim.',
     photo: 'assets/instagram/pirulitos.jpg',
     photoAlt: 'Pirulito de chocolate branco e ao leite com riscos de chocolate.'
   },
@@ -138,7 +112,7 @@ const MENU = [
     atacado: 'R$ 4,00',
     lote: 8,
     loteUnit: 'unidade',
-    desc: 'No palito, com laço e chocolate em pó.',
+    desc: 'Pipoca caramelada de chocolate em formato de pirulito, com saquinho plástico e fita de cetim.',
     photo: 'assets/instagram/pirulitos-embalados.jpg',
     photoAlt: 'Pirulitos embalados com laço e o selo da Croc Croc.'
   },
