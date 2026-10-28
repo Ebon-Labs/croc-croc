@@ -49,7 +49,9 @@ const MENU = [
     atacado: 'R$ 19,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Chocolate com flocos de arroz.'
+    desc: 'Chocolate com flocos de arroz.',
+    photo: 'assets/instagram/choquito.jpg',
+    photoAlt: 'Choquito de chocolate com flocos, ao lado do cartão da Croc Croc.'
   },
   {
     id: 'trufadas',
@@ -113,8 +115,8 @@ const MENU = [
     lote: 8,
     loteUnit: 'unidade',
     desc: 'Pipoca caramelada de chocolate em formato de pirulito, com saquinho plástico e fita de cetim.',
-    photo: 'assets/instagram/pirulitos-embalados.jpg',
-    photoAlt: 'Pirulitos embalados com laço e o selo da Croc Croc.'
+    photo: 'assets/instagram/pirulito-simples.jpg',
+    photoAlt: 'Pirulito de pipoca no saquinho plástico, com laço vermelho e o adesivo da Croc Croc.'
   },
   {
     id: 'caramelada-cocada',
@@ -125,7 +127,9 @@ const MENU = [
     atacado: 'R$ 28,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Pacote com coco ralado e leite em pó.'
+    desc: 'Pacote com coco ralado e leite em pó.',
+    photo: 'assets/instagram/caramelada-cocada.jpg',
+    photoAlt: 'Pote de pipoca caramelada de cocada, com o cartão da Croc Croc ao fundo.'
   },
   {
     id: 'caramelada-cocada-colorida',
@@ -136,7 +140,9 @@ const MENU = [
     atacado: 'R$ 28,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'A cocada de 215 g com 1 g de corante.'
+    desc: 'A cocada de 215 g com 1 g de corante.',
+    photo: 'assets/instagram/caramelada-cocada-colorida.jpg',
+    photoAlt: 'Sacos de pipoca caramelada de cocada colorida, com laços e pipoca rosa, azul e amarela.'
   },
   {
     id: 'caramelada-churros',
@@ -147,7 +153,9 @@ const MENU = [
     atacado: 'R$ 29,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Pacote com canela e leite em pó na finalização.'
+    desc: 'Pacote com canela e leite em pó na finalização.',
+    photo: 'assets/instagram/caramelada-churros.jpg',
+    photoAlt: 'Saco de pipoca caramelada de churros com laço verde e o adesivo da Croc Croc.'
   },
   {
     id: 'caramelada-chocolate',
@@ -158,7 +166,9 @@ const MENU = [
     atacado: 'R$ 28,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Pacote com chocolate em pó, leite em pó e corante.'
+    desc: 'Pacote com chocolate em pó, leite em pó e corante.',
+    photo: 'assets/instagram/caramelada-chocolate.jpg',
+    photoAlt: 'Saco de pipoca caramelada de chocolate com laço vermelho e o adesivo da Croc Croc.'
   },
   {
     id: 'caramelada-limao',
@@ -169,7 +179,9 @@ const MENU = [
     atacado: 'R$ 25,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Pacote com raspa de limão e leite em pó.'
+    desc: 'Pacote com raspa de limão e leite em pó.',
+    photo: 'assets/instagram/caramelada-limao.jpg',
+    photoAlt: 'Pipoca caramelada de limão verde-água, com fatias de limão e o cartão da Croc Croc.'
   },
   {
     id: 'caramelada-amendoim',
@@ -180,7 +192,9 @@ const MENU = [
     atacado: 'R$ 27,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Pacote com amendoim triturado, leite em pó e canela na finalização.'
+    desc: 'Pacote com amendoim triturado, leite em pó e canela na finalização.',
+    photo: 'assets/instagram/caramelada-amendoim.jpg',
+    photoAlt: 'Sacos de pipoca caramelada de amendoim com laço xadrez e o adesivo da Croc Croc.'
   },
   {
     id: 'caramelada-ninho',
@@ -191,7 +205,9 @@ const MENU = [
     atacado: 'R$ 26,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Pacote com leite em pó na massa e na finalização.'
+    desc: 'Pacote com leite em pó na massa e na finalização.',
+    photo: 'assets/instagram/caramelada-ninho.jpg',
+    photoAlt: 'Pipoca caramelada de Leite Ninho em um prato, com leite em pó ao lado e o cartão da Croc Croc.'
   }
 ];
 
