@@ -154,6 +154,17 @@ const MENU = [
     desc: 'Pacote com coco ralado e leite em pó.'
   },
   {
+    id: 'caramelada-cocada-colorida',
+    name: 'Pipoca caramelada de cocada colorida',
+    portion: '215 g',
+    group: 'Doces',
+    varejo: 'R$ 42,00',
+    atacado: 'R$ 28,00',
+    lote: 1,
+    loteUnit: 'pacote',
+    desc: 'A cocada de 215 g com 1 g de corante.'
+  },
+  {
     id: 'caramelada-churros',
     name: 'Pipoca caramelada de churros',
     portion: '200 g',
@@ -169,11 +180,11 @@ const MENU = [
     name: 'Pipoca caramelada de chocolate',
     portion: '215 g',
     group: 'Doces',
-    varejo: 'R$ 41,00',
-    atacado: 'R$ 27,00',
+    varejo: 'R$ 42,00',
+    atacado: 'R$ 28,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Pacote com chocolate em pó e leite em pó.'
+    desc: 'Pacote com chocolate em pó, leite em pó e corante.'
   },
   {
     id: 'caramelada-limao',

@@ -28,6 +28,7 @@ Atualizado em **28 de outubro de 2026**.
   - [Pirulito com cobertura](#pirulito-com-cobertura)
   - [Pirulito simples](#pirulito-simples)
   - [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada)
+  - [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida)
   - [Pipoca caramelada de churros](#pipoca-caramelada-de-churros)
   - [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate)
   - [Pipoca caramelada de limão](#pipoca-caramelada-de-limão)
@@ -37,6 +38,14 @@ Atualizado em **28 de outubro de 2026**.
 - [Como calcular](#como-calcular)
 
 ## Atualizações do documento
+
+### 28 de outubro de 2026 — corante na pipoca caramelada de chocolate
+
+A pipoca caramelada de chocolate passa a levar **1 g de corante**. O pacote sobe de R$ 13,62 para R$ 13,86. Varejo **R$ 42,00** e atacado **R$ 28,00**.
+
+### 28 de outubro de 2026 — pipoca caramelada de cocada colorida
+
+Entrou a pipoca caramelada de cocada colorida, 1 pacote de 215 g. Repete a pipoca caramelada de cocada e soma **1 g de corante**, o mesmo peso usado no limão e no amendoim. Gás, água e as 1,2 h não mudam.
 
 ### 28 de outubro de 2026 — pipoca caramelada de amendoim
 
@@ -104,8 +113,9 @@ Preço por pacote. O custo já inclui ingredientes, embalagem, gás, água e mã
 | [Pirulito com cobertura](#pirulito-com-cobertura) | 1 un. | R$ 4,40 | **R$ 13,00** | **R$ 9,00** |
 | [Pirulito simples](#pirulito-simples) | 1 un. | R$ 2,00 | **R$ 6,00** | **R$ 4,00** |
 | [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 215 g | R$ 13,75 | **R$ 41,00** | **R$ 28,00** |
+| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 215 g | R$ 13,99 | **R$ 42,00** | **R$ 28,00** |
 | [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 200 g | R$ 14,47 | **R$ 43,00** | **R$ 29,00** |
-| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 215 g | R$ 13,62 | **R$ 41,00** | **R$ 27,00** |
+| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 215 g | R$ 13,86 | **R$ 42,00** | **R$ 28,00** |
 | [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 200 g | R$ 12,44 | **R$ 37,00** | **R$ 25,00** |
 | [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 215 g | R$ 13,64 | **R$ 41,00** | **R$ 27,00** |
 | [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 200 g | R$ 13,24 | **R$ 40,00** | **R$ 26,00** |
@@ -771,6 +781,66 @@ O atacado usa o fator 2: 13,75 × 2 = 27,50, arredondado para **R$ 28,00**. Fica
 | **R$ 41,00** | **Varejo** | **R$ 0,19** | **R$ 27,25** | **R$ 36,09** | **R$ 30** |
 | R$ 45,00 | | R$ 0,21 | R$ 31,25 | R$ 40,09 | R$ 33 |
 
+### Pipoca caramelada de cocada colorida
+
+**1 pacote de 215 g.** Ingredientes pesados: 274 g. Rendimento: 78% (o restante sai como vapor e perda de cozimento).
+
+Repete a pipoca caramelada de cocada e soma **1 g de corante**. Gás, água, a embalagem e as 1,2 h são os mesmos.
+
+#### Ingredientes e material
+
+| Item | Quantidade | Conta | Custo |
+| --- | ---: | --- | ---: |
+| Milho | 60 g | 60 × 0,008000 | R$ 0,48 |
+| Açúcar | 135 g | 135 × 0,003800 | R$ 0,51 |
+| Manteiga | 17 g | 17 × 0,057500 | R$ 0,98 |
+| Margarina | 2 g | 2 × 0,022600 | R$ 0,05 |
+| Coco ralado | 34 g | 34 × 0,050000 | R$ 1,70 |
+| Leite em pó | 25 g | 25 × 0,035000 | R$ 0,88 |
+| Corante | 1 g | 1 × 0,240000 | R$ 0,24 |
+| **Ingredientes** | | | **R$ 4,84** |
+| Embalagem | 1 un. | 1 × 0,10 | R$ 0,10 |
+| **Ingredientes + embalagem** | | | **R$ 4,94** |
+
+O coco ralado sozinho é R$ 1,70 de R$ 4,94 (34% dos ingredientes e da embalagem). O corante é R$ 0,24.
+
+#### Custos
+
+| Item | Custo |
+| --- | ---: |
+| Ingredientes | R$ 4,84 |
+| Embalagem | R$ 0,10 |
+| Gás (cerca de 5 min) | R$ 0,17 |
+| Água (1,6 L) | R$ 0,04 |
+| Mão de obra (1,2 h × R$ 7,37) | R$ 8,84 |
+| **Total do pacote de 215 g** | **R$ 13,99** |
+| **Custo por grama** | **R$ 0,065** |
+
+Composição do pacote: mão de obra R$ 8,84; ingredientes R$ 4,84; embalagem R$ 0,10; gás R$ 0,17; água R$ 0,04.
+
+#### Processo de preparação
+
+O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
+
+1. Pesar milho, açúcar, manteiga, margarina, coco ralado, leite em pó e corante.
+2. Cozinhar no fogão a gás.
+3. Deixar descansar.
+4. Porcionar os 215 g.
+5. Embalar, uma embalagem por pacote.
+
+#### Varejo e atacado
+
+O varejo usa o fator 3: 13,99 × 3 = 41,97, arredondado para **R$ 42,00**. Fica **R$ 36,85** nas 1,2 hora — cerca de **R$ 31 por hora**.
+
+O atacado usa o fator 2: 13,99 × 2 = 27,98, arredondado para **R$ 28,00**. Fica **R$ 22,85**, cerca de **R$ 19 por hora**. Quem compra a R$ 28,00 e revende a R$ 42,00 fica com R$ 14,00 por pacote.
+
+| Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
+| ---: | --- | ---: | ---: | ---: | ---: |
+| **R$ 28,00** | **Atacado** | **R$ 0,13** | **R$ 14,01** | **R$ 22,85** | **R$ 19** |
+| R$ 35,00 | | R$ 0,16 | R$ 21,01 | R$ 29,85 | R$ 25 |
+| **R$ 42,00** | **Varejo** | **R$ 0,20** | **R$ 28,01** | **R$ 36,85** | **R$ 31** |
+| R$ 45,00 | | R$ 0,21 | R$ 31,01 | R$ 39,85 | R$ 33 |
+
 ### Pipoca caramelada de churros
 
 **1 pacote de 200 g.** Ingredientes pesados: 253 g. Rendimento: 79% (o restante sai como vapor e perda de cozimento).
@@ -833,9 +903,9 @@ O atacado usa o fator 2: 14,47 × 2 = 28,94, arredondado para **R$ 29,00**. Fica
 
 ### Pipoca caramelada de chocolate
 
-**1 pacote de 215 g.** Ingredientes pesados: 272 g. Rendimento: 79% (o restante sai como vapor e perda de cozimento).
+**1 pacote de 215 g.** Ingredientes pesados: 273 g. Rendimento: 79% (o restante sai como vapor e perda de cozimento).
 
-O chocolate em pó soma 41 g: 34 g na cocção e 7 g na finalização. Os 17 g de leite em pó vão só na finalização. Não entra corante. Gás, água e as 1,2 h são os da pipoca caramelada de cocada.
+O chocolate em pó soma 41 g: 34 g na cocção e 7 g na finalização. Os 17 g de leite em pó vão só na finalização. O corante entra com 1 g. Gás, água e as 1,2 h são os da pipoca caramelada de cocada.
 
 #### Ingredientes e material
 
@@ -847,31 +917,32 @@ O chocolate em pó soma 41 g: 34 g na cocção e 7 g na finalização. Os 17 g d
 | Margarina | 2 g | 2 × 0,022600 | R$ 0,05 |
 | Chocolate em pó | 41 g | 41 × 0,045000 | R$ 1,85 |
 | Leite em pó | 17 g | 17 × 0,035000 | R$ 0,60 |
-| **Ingredientes** | | | **R$ 4,47** |
+| Corante | 1 g | 1 × 0,240000 | R$ 0,24 |
+| **Ingredientes** | | | **R$ 4,71** |
 | Embalagem | 1 un. | 1 × 0,10 | R$ 0,10 |
-| **Ingredientes + embalagem** | | | **R$ 4,57** |
+| **Ingredientes + embalagem** | | | **R$ 4,81** |
 
-O chocolate em pó sozinho é R$ 1,85 de R$ 4,57 (40% dos ingredientes e da embalagem).
+O chocolate em pó sozinho é R$ 1,85 de R$ 4,81 (38% dos ingredientes e da embalagem). O corante é R$ 0,24.
 
 #### Custos
 
 | Item | Custo |
 | --- | ---: |
-| Ingredientes | R$ 4,47 |
+| Ingredientes | R$ 4,71 |
 | Embalagem | R$ 0,10 |
 | Gás (cerca de 5 min) | R$ 0,17 |
 | Água (1,6 L) | R$ 0,04 |
 | Mão de obra (1,2 h × R$ 7,37) | R$ 8,84 |
-| **Total do pacote de 215 g** | **R$ 13,62** |
-| **Custo por grama** | **R$ 0,063** |
+| **Total do pacote de 215 g** | **R$ 13,86** |
+| **Custo por grama** | **R$ 0,064** |
 
-Composição do pacote: mão de obra R$ 8,84; ingredientes R$ 4,47; embalagem R$ 0,10; gás R$ 0,17; água R$ 0,04.
+Composição do pacote: mão de obra R$ 8,84; ingredientes R$ 4,71; embalagem R$ 0,10; gás R$ 0,17; água R$ 0,04.
 
 #### Processo de preparação
 
 O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
 
-1. Pesar milho, açúcar, manteiga, margarina e 34 g de chocolate em pó.
+1. Pesar milho, açúcar, manteiga, margarina, 34 g de chocolate em pó e corante.
 2. Cozinhar no fogão a gás.
 3. Deixar descansar.
 4. Finalizar com 7 g de chocolate em pó e 17 g de leite em pó.
@@ -880,16 +951,16 @@ O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
 
 #### Varejo e atacado
 
-O varejo usa o fator 3: 13,62 × 3 = 40,86, arredondado para **R$ 41,00**. Fica **R$ 36,22** nas 1,2 hora — cerca de **R$ 30 por hora**.
+O varejo usa o fator 3: 13,86 × 3 = 41,58, arredondado para **R$ 42,00**. Fica **R$ 36,98** nas 1,2 hora — cerca de **R$ 31 por hora**.
 
-O atacado usa o fator 2: 13,62 × 2 = 27,24, arredondado para **R$ 27,00**. Fica **R$ 22,22**, cerca de **R$ 19 por hora**. Quem compra a R$ 27,00 e revende a R$ 41,00 fica com R$ 14,00 por pacote.
+O atacado usa o fator 2: 13,86 × 2 = 27,72, arredondado para **R$ 28,00**. Fica **R$ 22,98**, cerca de **R$ 19 por hora**. Quem compra a R$ 28,00 e revende a R$ 42,00 fica com R$ 14,00 por pacote.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 27,00** | **Atacado** | **R$ 0,13** | **R$ 13,38** | **R$ 22,22** | **R$ 19** |
-| R$ 35,00 | | R$ 0,16 | R$ 21,38 | R$ 30,22 | R$ 25 |
-| **R$ 41,00** | **Varejo** | **R$ 0,19** | **R$ 27,38** | **R$ 36,22** | **R$ 30** |
-| R$ 45,00 | | R$ 0,21 | R$ 31,38 | R$ 40,22 | R$ 34 |
+| **R$ 28,00** | **Atacado** | **R$ 0,13** | **R$ 14,14** | **R$ 22,98** | **R$ 19** |
+| R$ 35,00 | | R$ 0,16 | R$ 21,14 | R$ 29,98 | R$ 25 |
+| **R$ 42,00** | **Varejo** | **R$ 0,20** | **R$ 28,14** | **R$ 36,98** | **R$ 31** |
+| R$ 45,00 | | R$ 0,21 | R$ 31,14 | R$ 39,98 | R$ 33 |
 
 ### Pipoca caramelada de limão
 
@@ -1098,7 +1169,7 @@ Compra conferida em **24 de outubro de 2026**.
 | Amendoim descascado | 1.000 g | R$ 18,00 | R$ 0,018000/g | Pipoca caramelada de amendoim |
 | Canela em pó | 20 g | R$ 2,50 | R$ 0,125000/g | Pipoca caramelada de churros, Pipoca caramelada de amendoim |
 | Limão | 1.000 g | R$ 11,80 | R$ 0,011800/g | Pipoca caramelada de limão |
-| Corante | 25 g | R$ 6,00 | R$ 0,240000/g | Pipoca caramelada de limão, Pipoca caramelada de amendoim |
+| Corante | 25 g | R$ 6,00 | R$ 0,240000/g | Pipoca caramelada de cocada colorida, Pipoca caramelada de chocolate, Pipoca caramelada de limão, Pipoca caramelada de amendoim |
 | Creme de cebola | 65 g | R$ 9,00 | R$ 0,138462/g | Cebola |
 | Azeite doce | 500 ml | R$ 11,00 | R$ 0,022000/ml | Cebola |
 
@@ -1122,7 +1193,7 @@ Leite Ninho, Meio Amargo, Choquito, Trufadas, Trufadas Prestígio e a Barrinha d
 
 Os dois pirulitos levam 50 g de milho: 1 h (R$ 7,37), cerca de 4 min de fogo (R$ 0,14) e 1,3 L de água (R$ 0,03). O tempo de cobrir os pirulitos ainda não foi separado dessa 1 hora.
 
-As pipocas carameladas de cocada, churros, chocolate, limão, amendoim e Leite Ninho levam 60 g de milho: 1,2 h (R$ 8,84), cerca de 5 min de fogo (R$ 0,17) e 1,6 L de água (R$ 0,04). A finalização entra nesse tempo, até um lote ser cronometrado.
+As pipocas carameladas de cocada, cocada colorida, churros, chocolate, limão, amendoim e Leite Ninho levam 60 g de milho: 1,2 h (R$ 8,84), cerca de 5 min de fogo (R$ 0,17) e 1,6 L de água (R$ 0,04). A finalização entra nesse tempo, até um lote ser cronometrado.
 
 | Item | Valor usado | Base |
 | --- | --- | --- |
