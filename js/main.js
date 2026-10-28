@@ -67,6 +67,17 @@ const MENU = [
     photoAlt: 'Pipoca coberta com chocolate em pó, aberta e com o recheio branco à mostra.'
   },
   {
+    id: 'choquito',
+    name: 'Choquito',
+    portion: '100 g',
+    group: 'Doces',
+    varejo: 'R$ 29,00',
+    atacado: 'R$ 19,00',
+    lote: 1,
+    loteUnit: 'pacote',
+    desc: 'Chocolate fracionado com flocos de arroz.'
+  },
+  {
     id: 'trufadas',
     name: 'Trufadas',
     portion: '100 g',
@@ -174,6 +185,17 @@ const MENU = [
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pacote com raspa de limão e leite em pó.'
+  },
+  {
+    id: 'caramelada-amendoim',
+    name: 'Pipoca caramelada de amendoim',
+    portion: '215 g',
+    group: 'Doces',
+    varejo: 'R$ 41,00',
+    atacado: 'R$ 27,00',
+    lote: 1,
+    loteUnit: 'pacote',
+    desc: 'Pacote com amendoim triturado, leite em pó e canela na finalização.'
   },
   {
     id: 'caramelada-ninho',
