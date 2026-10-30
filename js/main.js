@@ -619,6 +619,47 @@ function initParallax() {
   }
 }
 
+function initGallery() {
+  const dialog = document.getElementById('photo-modal');
+  const image = dialog?.querySelector('img');
+  if (!dialog || !image) return;
+
+  document.querySelectorAll('.gallery .shot').forEach((shot) => {
+    const source = shot.querySelector('img');
+    if (source?.alt) shot.setAttribute('aria-label', source.alt);
+    shot.addEventListener('click', () => {
+      if (!source) return;
+      image.alt = source.alt;
+      image.onload = () => fitPhoto(image);
+      image.src = source.currentSrc || source.src;
+      if (image.complete) fitPhoto(image);
+      dialog.showModal();
+    });
+  });
+
+  dialog.addEventListener('click', (event) => {
+    if (event.target === image) return;
+    dialog.close();
+  });
+
+  dialog.addEventListener('close', () => {
+    image.onload = null;
+    image.removeAttribute('src');
+    image.alt = '';
+    image.style.width = '';
+    image.style.height = '';
+  });
+}
+
+function fitPhoto(image) {
+  if (!image.naturalWidth) return;
+  const maxW = window.innerWidth - 42;
+  const maxH = window.innerHeight - 52;
+  const scale = Math.min(maxW / image.naturalWidth, maxH / image.naturalHeight, 1);
+  image.style.width = `${Math.round(image.naturalWidth * scale)}px`;
+  image.style.height = `${Math.round(image.naturalHeight * scale)}px`;
+}
+
 const year = document.getElementById('year');
 if (year) year.textContent = String(new Date().getFullYear());
 
@@ -629,3 +670,4 @@ renderMenu();
 initCalculator();
 initReveal();
 initParallax();
+initGallery();
