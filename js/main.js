@@ -238,6 +238,7 @@ function loteCount(item) {
 }
 
 function lotePhrase(item) {
+  if (!item.lote || item.lote <= 1) return '';
   const phrase = `lote de ${loteCount(item)}`;
   return phrase === 'lote de 6 pacotes' ? '' : phrase;
 }
@@ -253,7 +254,12 @@ function lotePrice(item) {
   return formatMoney(unit * item.lote);
 }
 
+function shownPortion(item) {
+  return menuState.tier === 'varejo' && item.festa ? '27 g' : item.portion;
+}
+
 function shownPrice(item) {
+  if (menuState.tier === 'varejo' && item.festa) return item.festa.varejo;
   return menuState.tier === 'atacado' ? item.atacado : item.varejo;
 }
 
@@ -261,7 +267,7 @@ function whatsappLink(item) {
   const tierLabel = menuState.tier === 'varejo' ? 'varejo' : 'atacado';
   const loteText = lotePhrase(item);
   const lote = menuState.tier === 'atacado' && loteText ? `, ${loteText}` : '';
-  const text = `Olá! Quero encomendar ${item.name} (${item.portion}), preço de ${tierLabel} ${shownPrice(item)}${lote}.`;
+  const text = `Olá! Quero encomendar ${item.name} (${shownPortion(item)}), preço de ${tierLabel} ${shownPrice(item)}${lote}.`;
   return `${WHATSAPP}?text=${encodeURIComponent(text)}`;
 }
 
@@ -278,7 +284,7 @@ function renderMenu() {
       <p class="menu-card__group">${item.group}</p>
       <h3 class="menu-card__name" id="item-${item.id}">${item.name}</h3>
       <p class="menu-card__desc">${item.desc}</p>
-      <p class="menu-card__portion">${item.portion}</p>
+      <p class="menu-card__portion">${shownPortion(item)}</p>
       <div class="menu-card__footer">
         <p class="menu-card__price">
           <span class="menu-card__tier">${tierLabel}</span>
