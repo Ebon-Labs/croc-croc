@@ -127,6 +127,8 @@ const MENU = [
     atacado: 'R$ 28,00',
     lote: 1,
     loteUnit: 'pacote',
+    calcPortion: 27,
+    festa: { varejo: 'R$ 5,00', atacado: 'R$ 4,00' },
     desc: 'Pacote com coco ralado e leite em pó.',
     photo: 'assets/instagram/caramelada-cocada.jpg',
     photoAlt: 'Pote de pipoca caramelada de cocada, com o cartão da Croc Croc ao fundo.'
@@ -140,6 +142,8 @@ const MENU = [
     atacado: 'R$ 28,00',
     lote: 1,
     loteUnit: 'pacote',
+    calcPortion: 27,
+    festa: { varejo: 'R$ 6,00', atacado: 'R$ 4,00' },
     desc: 'A cocada de 200 g com 1 g de corante.',
     photo: 'assets/instagram/caramelada-cocada-colorida.jpg',
     photoAlt: 'Sacos de pipoca caramelada de cocada colorida, com laços e pipoca rosa, azul e amarela.'
@@ -153,6 +157,8 @@ const MENU = [
     atacado: 'R$ 29,00',
     lote: 1,
     loteUnit: 'pacote',
+    calcPortion: 27,
+    festa: { varejo: 'R$ 6,00', atacado: 'R$ 4,00' },
     desc: 'Pacote com canela e leite em pó na finalização.',
     photo: 'assets/instagram/caramelada-churros.jpg',
     photoAlt: 'Saco de pipoca caramelada de churros com laço verde e o adesivo da Croc Croc.'
@@ -166,6 +172,8 @@ const MENU = [
     atacado: 'R$ 28,00',
     lote: 1,
     loteUnit: 'pacote',
+    calcPortion: 27,
+    festa: { varejo: 'R$ 5,00', atacado: 'R$ 4,00' },
     desc: 'Pacote com chocolate em pó, leite em pó e corante.',
     photo: 'assets/instagram/caramelada-chocolate.jpg',
     photoAlt: 'Saco de pipoca caramelada de chocolate com laço vermelho e o adesivo da Croc Croc.'
@@ -179,6 +187,8 @@ const MENU = [
     atacado: 'R$ 25,00',
     lote: 1,
     loteUnit: 'pacote',
+    calcPortion: 27,
+    festa: { varejo: 'R$ 5,00', atacado: 'R$ 4,00' },
     desc: 'Pacote com raspa de limão e leite em pó.',
     photo: 'assets/instagram/caramelada-limao.jpg',
     photoAlt: 'Pipoca caramelada de limão verde-água, com fatias de limão e o cartão da Croc Croc.'
@@ -192,6 +202,8 @@ const MENU = [
     atacado: 'R$ 27,00',
     lote: 1,
     loteUnit: 'pacote',
+    calcPortion: 27,
+    festa: { varejo: 'R$ 5,00', atacado: 'R$ 4,00' },
     desc: 'Pacote com amendoim triturado, leite em pó e canela na finalização.',
     photo: 'assets/instagram/caramelada-amendoim.jpg',
     photoAlt: 'Sacos de pipoca caramelada de amendoim com laço xadrez e o adesivo da Croc Croc.'
@@ -205,6 +217,8 @@ const MENU = [
     atacado: 'R$ 26,00',
     lote: 1,
     loteUnit: 'pacote',
+    calcPortion: 27,
+    festa: { varejo: 'R$ 6,00', atacado: 'R$ 4,00' },
     desc: 'Pacote com leite em pó na massa e na finalização.',
     photo: 'assets/instagram/caramelada-ninho.jpg',
     photoAlt: 'Pipoca caramelada de Leite Ninho em um prato, com leite em pó ao lado e o cartão da Croc Croc.'
@@ -240,7 +254,7 @@ function lotePrice(item) {
 }
 
 function shownPrice(item) {
-  return menuState.tier === 'atacado' ? lotePrice(item) : item.varejo;
+  return menuState.tier === 'atacado' ? item.atacado : item.varejo;
 }
 
 function whatsappLink(item) {
@@ -311,8 +325,19 @@ function initTierToggle() {
 }
 
 function portionGrams(item) {
+  if (item.calcPortion) return item.calcPortion;
   const match = item.portion.match(/(\d+)\s*g/);
   return match ? Number(match[1]) : null;
+}
+
+function calcPortionLabel(item) {
+  const grams = portionGrams(item);
+  return grams ? `${grams} g` : item.portion;
+}
+
+function calcPriceText(item) {
+  const tier = calcState.tier === 'atacado' ? 'atacado' : 'varejo';
+  return item.festa ? item.festa[tier] : item[tier];
 }
 
 function moneyValue(text) {
@@ -331,7 +356,7 @@ function calcItem() {
 }
 
 function calcUnitPrice(item) {
-  return moneyValue(calcState.tier === 'atacado' ? item.atacado : item.varejo);
+  return moneyValue(calcPriceText(item));
 }
 
 function calcTotal(item, amount) {
@@ -357,7 +382,7 @@ function renderCalcFlavors() {
       ${item.photo ? `<img src="${item.photo}" alt="">` : ''}
       <span>
         <span class="calc__flavor-name">${item.name}</span>
-        <span class="calc__flavor-meta">${item.group} · ${item.portion}</span>
+        <span class="calc__flavor-meta">${item.group} · ${calcPortionLabel(item)}</span>
       </span>
     </button>
   `).join('');
@@ -418,14 +443,14 @@ function updateCalc() {
 
   const wholesale = calcState.tier === 'atacado';
   const tierName = wholesale ? 'atacado' : 'varejo';
-  const unitPrice = wholesale ? item.atacado : item.varejo;
-  const loteText = lotePhrase(item);
+  const unitPrice = calcPriceText(item);
+  const loteText = item.festa ? '' : lotePhrase(item);
   const loteNote = wholesale && loteText ? ` O ${loteText} sai a ${lotePrice(item)}.` : '';
   group.textContent = item.group;
   name.textContent = item.name;
   document.getElementById('calc-tier-label').textContent = wholesale ? 'Atacado' : 'Varejo';
   ref.textContent = grams
-    ? `O pacote de ${item.portion} sai a ${unitPrice} no ${tierName}.${loteNote} O valor acompanha os gramas.`
+    ? `O pacote de ${calcPortionLabel(item)} sai a ${unitPrice} no ${tierName}.${loteNote} O valor acompanha os gramas.`
     : `Cada unidade sai a ${unitPrice} no ${tierName}.${loteNote}`;
 
   presets?.querySelectorAll('[data-preset]').forEach((button) => {
@@ -492,6 +517,8 @@ function initCalculator() {
     const button = event.target.closest('[data-flavor]');
     if (!button) return;
     calcState.id = button.dataset.flavor;
+    const picked = calcItem();
+    if (picked.calcPortion) calcState.grams = picked.calcPortion;
     host.querySelectorAll('[data-flavor]').forEach((other) => {
       const active = other === button;
       other.classList.toggle('is-active', active);
