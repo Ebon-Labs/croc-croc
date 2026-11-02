@@ -11,7 +11,7 @@ O cardápio tem dois preços:
 
 O custo de cada unidade soma ingredientes, material, gás, água e mão de obra. A embalagem da pipoca custa **R$ 0,10**. Barrinha e pirulitos usam o material descrito na ficha de cada um. A mão de obra usa o salário mínimo de 2026, **R$ 7,37 por hora**, sem encargos. O preço precisa deixar essa hora paga.
 
-Atualizado em **28 de outubro de 2026**.
+Atualizado em **2 de novembro de 2026**.
 
 ## Índice
 
@@ -38,6 +38,10 @@ Atualizado em **28 de outubro de 2026**.
 - [Como calcular](#como-calcular)
 
 ## Atualizações do documento
+
+### 2 de novembro de 2026 — preço de Cebola e Trufadas Prestígio
+
+O custo não mudou. O preço de venda saiu do fator 3 e do fator 2 para ficar perto dos outros sabores. Cebola: varejo **R$ 10,00** e atacado **R$ 8,00** (antes R$ 13,00 e R$ 9,00). Trufadas Prestígio: varejo **R$ 38,00** e atacado **R$ 26,00** (antes R$ 47,00 e R$ 31,00), R$ 1,00 acima das Trufadas. O racional está na ficha de cada sabor.
 
 ### 28 de outubro de 2026 — corante na pipoca caramelada de chocolate
 
@@ -103,12 +107,12 @@ Preço por pacote. O custo já inclui ingredientes, embalagem, gás, água e mã
 
 | Sabor | Porção | Custo | Varejo | Atacado |
 | --- | ---: | ---: | ---: | ---: |
-| [Cebola](#cebola) | 25 g | R$ 4,39 | **R$ 13,00** | **R$ 9,00** |
+| [Cebola](#cebola) | 25 g | R$ 4,39 | **R$ 10,00** | **R$ 8,00** |
 | [Leite Ninho](#leite-ninho) | 100 g | R$ 8,58 | **R$ 26,00** | **R$ 17,00** |
 | [Meio Amargo](#meio-amargo) | 100 g | R$ 8,79 | **R$ 26,00** | **R$ 18,00** |
 | [Choquito](#choquito) | 100 g | R$ 9,73 | **R$ 29,00** | **R$ 19,00** |
 | [Trufadas](#trufadas) | 100 g | R$ 12,45 | **R$ 37,00** | **R$ 25,00** |
-| [Trufadas Prestígio](#trufadas-prestígio) | 100 g | R$ 15,50 | **R$ 47,00** | **R$ 31,00** |
+| [Trufadas Prestígio](#trufadas-prestígio) | 100 g | R$ 15,50 | **R$ 38,00** | **R$ 26,00** |
 | [Barrinha de chocolate](#barrinha-de-chocolate) | 1 un. | R$ 0,77 | **R$ 2,50** | **R$ 1,50** |
 | [Pirulito com cobertura](#pirulito-com-cobertura) | 1 un. | R$ 4,40 | **R$ 13,00** | **R$ 9,00** |
 | [Pirulito simples](#pirulito-simples) | 1 un. | R$ 2,00 | **R$ 6,00** | **R$ 4,00** |
@@ -120,7 +124,7 @@ Preço por pacote. O custo já inclui ingredientes, embalagem, gás, água e mã
 | [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 215 g | R$ 13,64 | **R$ 41,00** | **R$ 27,00** |
 | [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 200 g | R$ 13,24 | **R$ 40,00** | **R$ 26,00** |
 
-Varejo = custo × 3, arredondado. Atacado = custo × 2, arredondado. A pipoca leva uma embalagem de R$ 0,10. Barrinha e pirulitos levam o material da ficha. Na barrinha o arredondamento é de R$ 0,50, para o varejo e o atacado não caírem no mesmo valor.
+Varejo = custo × 3, arredondado. Atacado = custo × 2, arredondado. A pipoca leva uma embalagem de R$ 0,10. Barrinha e pirulitos levam o material da ficha. Na barrinha o arredondamento é de R$ 0,50, para o varejo e o atacado não caírem no mesmo valor. Cebola e Trufadas Prestígio saem dessa conta: o preço de venda foi ajustado para ficar perto dos outros sabores. O racional está na ficha de cada um.
 
 ---
 
@@ -184,19 +188,20 @@ O tempo estimado é **2,4 horas** de trabalho e cerca de **11 minutos** de fogo.
 
 #### Varejo e atacado
 
-O varejo usa o fator 3: 4,39 × 3 = 13,17, arredondado para **R$ 13,00**. Os 6 pacotes rendem R$ 78,00 e deixam **R$ 69,35** nas 2,4 horas — cerca de **R$ 29 por hora**.
+O fator 3 daria 4,39 × 3 = 13,17, arredondado para R$ 13,00. O fator 2 daria 4,39 × 2 = 8,78, arredondado para R$ 9,00. Nesse pacote de 25 g, R$ 13,00 são R$ 0,52 por grama. Os sabores de 100 g ficam entre R$ 0,26 e R$ 0,37; as carameladas, perto de R$ 0,20.
 
-O atacado usa o fator 2: 4,39 × 2 = 8,78, arredondado para **R$ 9,00**. Os 6 pacotes rendem R$ 54,00 e deixam **R$ 45,35**, cerca de **R$ 19 por hora**. Quem compra a R$ 9,00 e revende a R$ 13,00 fica com R$ 4,00 por pacote.
+Observado: o preço de venda foi baixado para acompanhar o cardápio, e a hora continua acima do mínimo de R$ 7,37. Varejo **R$ 10,00**. Atacado **R$ 8,00**.
+
+Os 6 pacotes no varejo rendem R$ 60,00 e deixam **R$ 51,35** nas 2,4 horas — cerca de **R$ 21 por hora**. No atacado rendem R$ 48,00 e deixam **R$ 39,35**, cerca de **R$ 16 por hora**. Quem compra a R$ 8,00 e revende a R$ 10,00 fica com R$ 2,00 por pacote.
 
 A coluna "por hora" divide o dinheiro do lote pelas 2,4 horas estimadas.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 9,00** | **Atacado** | **R$ 0,36** | **R$ 4,61** | **R$ 45,35** | **R$ 19** |
-| R$ 10,00 | | R$ 0,40 | R$ 5,61 | R$ 51,35 | R$ 21 |
-| R$ 12,00 | | R$ 0,48 | R$ 7,61 | R$ 63,35 | R$ 26 |
-| **R$ 13,00** | **Varejo** | **R$ 0,52** | **R$ 8,61** | **R$ 69,35** | **R$ 29** |
-| R$ 14,00 | | R$ 0,56 | R$ 9,61 | R$ 75,35 | R$ 31 |
+| **R$ 8,00** | **Atacado** | **R$ 0,32** | **R$ 3,61** | **R$ 39,35** | **R$ 16** |
+| R$ 9,00 | fator 2 | R$ 0,36 | R$ 4,61 | R$ 45,35 | R$ 19 |
+| **R$ 10,00** | **Varejo** | **R$ 0,40** | **R$ 5,61** | **R$ 51,35** | **R$ 21** |
+| R$ 13,00 | fator 3 | R$ 0,52 | R$ 8,61 | R$ 69,35 | R$ 29 |
 
 ### Leite Ninho
 
@@ -506,16 +511,18 @@ O garfo e o coco desidratado multiplicam pelo número de pacotes.
 
 #### Varejo e atacado
 
-O varejo usa o fator 3: 15,50 × 3 = 46,50, arredondado para **R$ 47,00**. Fica **R$ 39,98** nas 1,15 hora — cerca de **R$ 35 por hora**.
+O fator 3 daria 15,50 × 3 = 46,50, arredondado para R$ 47,00. O fator 2 daria 15,50 × 2 = 31,00. As Trufadas, o mesmo pacote de 100 g sem o coco, saem a R$ 37,00 e R$ 25,00. R$ 47,00 deixava o Prestígio R$ 10,00 acima, por um acréscimo de custo de R$ 3,05.
 
-O atacado usa o fator 2: 15,50 × 2 = 31,00, que já é **R$ 31,00**. Fica **R$ 23,98**, cerca de **R$ 21 por hora**. Quem compra a R$ 31,00 e revende a R$ 47,00 fica com R$ 16,00 por pacote.
+Observado: o preço de venda fica R$ 1,00 acima das Trufadas, a pipoca de 100 g mais cara abaixo desta. Varejo **R$ 38,00**. Atacado **R$ 26,00**.
+
+No varejo o lucro depois da hora mínima é **R$ 22,50** por pacote. Fica **R$ 30,98** na 1,15 hora — cerca de **R$ 27 por hora**. No atacado o lucro é **R$ 10,50** por pacote. Fica **R$ 18,98**, cerca de **R$ 17 por hora**. Quem compra a R$ 26,00 e revende a R$ 38,00 fica com R$ 12,00 por pacote.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 31,00** | **Atacado** | **R$ 0,31** | **R$ 15,50** | **R$ 23,98** | **R$ 21** |
-| R$ 40,00 | | R$ 0,40 | R$ 24,50 | R$ 32,98 | R$ 29 |
-| **R$ 47,00** | **Varejo** | **R$ 0,47** | **R$ 31,50** | **R$ 39,98** | **R$ 35** |
-| R$ 50,00 | | R$ 0,50 | R$ 34,50 | R$ 42,98 | R$ 37 |
+| **R$ 26,00** | **Atacado** | **R$ 0,26** | **R$ 10,50** | **R$ 18,98** | **R$ 17** |
+| R$ 31,00 | fator 2 | R$ 0,31 | R$ 15,50 | R$ 23,98 | R$ 21 |
+| **R$ 38,00** | **Varejo** | **R$ 0,38** | **R$ 22,50** | **R$ 30,98** | **R$ 27** |
+| R$ 47,00 | fator 3 | R$ 0,47 | R$ 31,50 | R$ 39,98 | R$ 35 |
 
 ### Barrinha de chocolate
 
