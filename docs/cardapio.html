@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cardápio — Croc Croc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --red: #e30613;
+            --red-deep: #b10510;
+            --cream: #fff6ea;
+            --cream-deep: #ffe7c4;
+            --popcorn: #fff4d0;
+            --kernel: #f0c14b;
+            --ink: #2b1214;
+            --muted: #6d534c;
+            --script: "Pacifico", cursive;
+            --font: "Outfit", sans-serif;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--ink);
+            font-family: var(--font);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        body {
+            padding-bottom: 16mm;
+        }
+
+        .ribbon {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 5;
+            height: 13mm;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 6mm;
+            padding: 0 12mm;
+            background: var(--red);
+            color: #fff;
+            font-size: 9pt;
+            font-weight: 600;
+        }
+
+        .ribbon span {
+            white-space: nowrap;
+        }
+
+        .ribbon em {
+            font-style: normal;
+            font-weight: 500;
+            opacity: 0.92;
+        }
+
+        .mast,
+        .carry {
+            position: relative;
+            background: var(--cream);
+        }
+
+        .bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 22mm;
+            padding: 0 12mm 6mm;
+            background: var(--red);
+        }
+
+        .mast::after,
+        .carry::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: calc(22mm - 14px);
+            height: 14px;
+            z-index: 2;
+            background: radial-gradient(circle 14px at 14px 0, transparent 13px, var(--cream) 14px);
+            background-size: 46px 14px;
+            background-repeat: repeat-x;
+        }
+
+        .mast__inner,
+        .carry__inner {
+            position: relative;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            gap: 6mm;
+            padding: 3mm 12mm 1mm;
+        }
+
+        .wordmark {
+            display: block;
+            height: 11mm;
+            width: auto;
+            filter: brightness(0) invert(1);
+        }
+
+        h1,
+        .carry strong {
+            margin: 0;
+            font-family: var(--script);
+            font-size: 26pt;
+            font-weight: 400;
+            line-height: 1;
+            color: var(--red);
+        }
+
+        .lead {
+            margin: 1.2mm 0 0;
+            font-size: 10pt;
+            font-weight: 500;
+            color: var(--ink);
+        }
+
+        main {
+            padding: 2mm 10mm 4mm;
+        }
+
+        .group {
+            margin: 0 0 3.5mm;
+        }
+
+        .group h2 {
+            margin: 1mm 0 2.2mm;
+            font-family: var(--script);
+            font-size: 16pt;
+            font-weight: 400;
+            color: var(--red);
+            line-height: 1;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2.6mm;
+        }
+
+        .card {
+            display: grid;
+            grid-template-columns: 24mm 1fr;
+            gap: 2.6mm;
+            min-height: 28mm;
+            padding: 2mm;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 5px 14px rgba(43, 18, 20, 0.07);
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        .card img {
+            width: 24mm;
+            height: 24mm;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 8px;
+            background: var(--popcorn);
+        }
+
+        .card h3 {
+            margin: 0;
+            font-size: 10.5pt;
+            line-height: 1.15;
+            font-weight: 700;
+        }
+
+        .desc {
+            margin: 0.7mm 0 1.2mm;
+            font-size: 7.6pt;
+            line-height: 1.25;
+            color: var(--muted);
+        }
+
+        .buy {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 2mm;
+        }
+
+        .portion {
+            margin: 0;
+            flex: none;
+            font-size: 8pt;
+            font-weight: 700;
+            color: var(--red-deep);
+            white-space: nowrap;
+        }
+
+        .prices {
+            display: flex;
+            gap: 1.6mm;
+        }
+
+        .prices p {
+            margin: 0;
+            min-width: 22mm;
+            padding: 0.8mm 1.8mm 1mm;
+            border-radius: 7px;
+            background: var(--cream);
+            text-align: right;
+        }
+
+        .prices span {
+            display: block;
+            font-size: 6.2pt;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        .prices strong {
+            display: block;
+            font-size: 10pt;
+            line-height: 1.1;
+            color: var(--red);
+        }
+
+        .sheet-break {
+            break-before: page;
+            page-break-before: always;
+        }
+
+        .carry {
+            margin: 0 -10mm 3mm;
+        }
+
+        .carry strong {
+            font-size: 18pt;
+            color: #fff;
+        }
+
+        .sheet-break .grid {
+            gap: 3.4mm;
+        }
+
+        .sheet-break .card {
+            grid-template-columns: 26mm 1fr;
+            min-height: 32mm;
+            padding: 2.2mm;
+        }
+
+        .sheet-break .card img {
+            width: 26mm;
+            height: 26mm;
+            border-radius: 8px;
+        }
+
+        .sheet-break .buy {
+            align-items: center;
+        }
+
+        .sheet-break .buy+.buy {
+            margin-top: 1.1mm;
+        }
+
+        .sheet-break .portion {
+            min-width: 20mm;
+            font-size: 7.4pt;
+        }
+
+        .sheet-break .prices p {
+            min-width: 15mm;
+            padding: 0.5mm 1.3mm 0.6mm;
+        }
+
+        .sheet-break .prices strong {
+            font-size: 8.5pt;
+        }
+
+        .sheet-break .card h3 {
+            font-size: 12pt;
+        }
+
+        .sheet-break .desc {
+            font-size: 8.5pt;
+            line-height: 1.3;
+        }
+
+        .note {
+            margin: 1mm 2mm 0;
+            font-size: 8pt;
+            line-height: 1.35;
+            color: var(--muted);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="mast">
+        <div class="bar">
+            <img class="wordmark" src="../assets/logo-linha.png" alt="Croc Croc">
+        </div>
+    </header></br>
+    <div class="mast__inner">
+        <div>
+            <h1>Cardápio</h1>
+            <p class="lead" style="margin-top: 12px">Pipocas artesanais feitas em casa. Aceitamos encomendas.</p>
+        </div>
+    </div>
+    </header>
+    <br>
+
+    <main>
+        <section class="group">
+            <h2>Salgada</h2>
+            <div class="grid">
+                <article class="card">
+                    <img src="../assets/instagram/cebola.png"
+                        alt="Pacote de pipoca de cebola com laço preto e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Cebola</h3>
+                        <p class="desc">Salgada, com manteiga, azeite doce e creme de cebola.</p>
+                        <div class="buy">
+                            <p class="portion">25 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 10,00</strong></p>
+                                <p><span>Atacado · lote de 6</span><strong>R$ 8,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="group">
+            <h2>Doces</h2>
+            <div class="grid">
+                <article class="card">
+                    <img src="../assets/instagram/ninho.png"
+                        alt="Pipoca de Leite Ninho coberta de chocolate branco, em um prato.">
+                    <div>
+                        <h3>Leite Ninho</h3>
+                        <p class="desc">Pipoca caramelada coberta com chocolate branco e finalizada com leite em pó.</p>
+                        <div class="buy">
+                            <p class="portion">100 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 26,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 17,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/meio-amargo.png"
+                        alt="Pipoca meio amargo com leite em pó e chocolate em pó, em um prato.">
+                    <div>
+                        <h3>Meio amargo</h3>
+                        <p class="desc">Pipoca caramelada coberta com chocolate meio amargo, finalizada com leite em pó
+                            e chocolate em pó.</p>
+                        <div class="buy">
+                            <p class="portion">100 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 26,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 18,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/choquito.jpg" alt="Pipoca Choquito com flocos de arroz, em um prato.">
+                    <div>
+                        <h3>Choquito</h3>
+                        <p class="desc">Chocolate com flocos de arroz.</p>
+                        <div class="buy">
+                            <p class="portion">100 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 29,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 19,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/trufadas.png" alt="Pipocas trufadas, cada uma coberta de chocolate.">
+                    <div>
+                        <h3>Trufadas</h3>
+                        <p class="desc">Cada pipoca sai do banho de chocolate, uma a uma.</p>
+                        <div class="buy">
+                            <p class="portion">100 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 37,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 25,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/prestigio.jpg"
+                        alt="Pipoca trufada Prestígio com coco ralado, em um prato.">
+                    <div>
+                        <h3>Trufadas Prestígio</h3>
+                        <p class="desc">Pipoca caramelada banhada no chocolate meio amargo, finalizada com coco ralado
+                            desidratado.</p>
+                        <div class="buy">
+                            <p class="portion">100 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 38,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 26,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="group">
+            <h2>Para levar</h2>
+            <div class="grid">
+                <article class="card">
+                    <img src="../assets/instagram/barrinha.png"
+                        alt="Barrinhas de chocolate branco e meio amargo com o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Barrinha de chocolate</h3>
+                        <p class="desc">Pipoca caramelada levemente triturada, banhada em chocolate branco ou meio
+                            amargo.</p>
+                        <div class="buy">
+                            <p class="portion">1 un.</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 2,50</strong></p>
+                                <p><span>Atacado · lote de 12</span><strong>R$ 1,50</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/pirulitos.jpg"
+                        alt="Pirulitos de pipoca com cobertura de chocolate, saquinho e fita de cetim.">
+                    <div>
+                        <h3>Pirulito com cobertura</h3>
+                        <p class="desc">Pipoca caramelada de chocolate em formato de pirulito, banhada no chocolate, com
+                            saquinho plástico e fita de cetim.</p>
+                        <div class="buy">
+                            <p class="portion">1 un.</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 13,00</strong></p>
+                                <p><span>Atacado · lote de 8</span><strong>R$ 9,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/pirulito-simples.jpg"
+                        alt="Pirulito simples de pipoca caramelada de chocolate, com saquinho e fita de cetim.">
+                    <div>
+                        <h3>Pirulito simples</h3>
+                        <p class="desc">Pipoca caramelada de chocolate em formato de pirulito, com saquinho plástico e
+                            fita de cetim.</p>
+                        <div class="buy">
+                            <p class="portion">1 un.</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
+                                <p><span>Atacado · lote de 8</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="group sheet-break">
+            <header class="carry">
+                <div class="bar">
+                    <img class="wordmark" src="../assets/logo-linha.png" alt="Croc Croc">
+                    <strong>Carameladas</strong>
+                </div>
+            </header>
+            <div class="grid">
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-cocada.jpg"
+                        alt="Pacote de pipoca caramelada de cocada com laço e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de cocada</h3>
+                        <p class="desc">Pacote com coco ralado e leite em pó.</p>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 41,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">Festa 27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-cocada-colorida.jpg"
+                        alt="Pacotes de pipoca caramelada de cocada colorida com laços verde, laranja e dourado.">
+                    <div>
+                        <h3>Pipoca caramelada de cocada colorida</h3>
+                        <p class="desc">A cocada de 200 g com 1 g de corante.</p>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 42,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">Festa 27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-churros.jpg"
+                        alt="Pacote de pipoca caramelada de churros com canela e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de churros</h3>
+                        <p class="desc">Pacote com canela e leite em pó na finalização.</p>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 43,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 29,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">Festa 27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-chocolate.jpg"
+                        alt="Pacote de pipoca caramelada de chocolate com laço e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de chocolate</h3>
+                        <p class="desc">Pacote com chocolate em pó, leite em pó e corante.</p>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 42,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">Festa 27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-limao.jpg"
+                        alt="Pacote de pipoca caramelada de limão com raspas e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de limão</h3>
+                        <p class="desc">Pacote com raspa de limão e leite em pó.</p>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 37,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 25,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">Festa 27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-amendoim.jpg"
+                        alt="Sacos de pipoca caramelada de amendoim com laço xadrez e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de amendoim</h3>
+                        <p class="desc">Pacote com amendoim triturado, leite em pó e canela na finalização.</p>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 41,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 27,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">Festa 27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-ninho.jpg"
+                        alt="Pipoca caramelada de Leite Ninho em um prato, com leite em pó ao lado.">
+                    <div>
+                        <h3>Pipoca caramelada de Leite Ninho</h3>
+                        <p class="desc">Pacote com leite em pó na massa e na finalização.</p>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 40,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 26,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">Festa 27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="ribbon">
+        <span>WhatsApp (71) 98676-2904</span>
+        <em>Feitas em casa · encomendas</em>
+        <span>@croc.croc.doces</span>
+    </footer>
+</body>
+
+</html>

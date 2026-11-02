@@ -121,7 +121,7 @@ const MENU = [
   {
     id: 'caramelada-cocada',
     name: 'Pipoca caramelada de cocada',
-    portion: '215 g',
+    portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 41,00',
     atacado: 'R$ 28,00',
@@ -134,13 +134,13 @@ const MENU = [
   {
     id: 'caramelada-cocada-colorida',
     name: 'Pipoca caramelada de cocada colorida',
-    portion: '215 g',
+    portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 42,00',
     atacado: 'R$ 28,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'A cocada de 215 g com 1 g de corante.',
+    desc: 'A cocada de 200 g com 1 g de corante.',
     photo: 'assets/instagram/caramelada-cocada-colorida.jpg',
     photoAlt: 'Sacos de pipoca caramelada de cocada colorida, com laços e pipoca rosa, azul e amarela.'
   },
@@ -160,7 +160,7 @@ const MENU = [
   {
     id: 'caramelada-chocolate',
     name: 'Pipoca caramelada de chocolate',
-    portion: '215 g',
+    portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 42,00',
     atacado: 'R$ 28,00',
@@ -186,7 +186,7 @@ const MENU = [
   {
     id: 'caramelada-amendoim',
     name: 'Pipoca caramelada de amendoim',
-    portion: '215 g',
+    portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 41,00',
     atacado: 'R$ 27,00',

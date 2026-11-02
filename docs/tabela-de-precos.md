@@ -17,6 +17,8 @@ Atualizado em **2 de novembro de 2026**.
 
 - [Atualizações do documento](#atualizações-do-documento)
 - [Cardápio](#cardápio)
+  - [Tamanho Festa](#tamanho-festa)
+- [Cardápio de Apresentação](#cardápio-de-apresentação)
 - [Sabores](#sabores)
   - [Cebola](#cebola)
   - [Leite Ninho](#leite-ninho)
@@ -38,6 +40,14 @@ Atualizado em **2 de novembro de 2026**.
 - [Como calcular](#como-calcular)
 
 ## Atualizações do documento
+
+### 2 de novembro de 2026 — cardápio de apresentação
+
+Entrou o cardápio de apresentação, igual ao cardápio. Nas pipocas de 215 g, a porção aparece como 200 g. Custo, varejo e atacado não mudam.
+
+### 2 de novembro de 2026 — Tamanho Festa
+
+As pipocas carameladas ganharam o Tamanho Festa, um pacote de 27 g. O custo tira a embalagem do pacote grande, reparte o restante pelos gramas e soma de novo R$ 0,10. Varejo e atacado seguem o fator 3 e o fator 2.
 
 ### 2 de novembro de 2026 — preço de Cebola e Trufadas Prestígio
 
@@ -125,6 +135,45 @@ Preço por pacote. O custo já inclui ingredientes, embalagem, gás, água e mã
 | [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 200 g | R$ 13,24 | **R$ 40,00** | **R$ 26,00** |
 
 Varejo = custo × 3, arredondado. Atacado = custo × 2, arredondado. A pipoca leva uma embalagem de R$ 0,10. Barrinha e pirulitos levam o material da ficha. Na barrinha o arredondamento é de R$ 0,50, para o varejo e o atacado não caírem no mesmo valor. Cebola e Trufadas Prestígio saem dessa conta: o preço de venda foi ajustado para ficar perto dos outros sabores. O racional está na ficha de cada um.
+
+### Tamanho Festa
+
+O mesmo sabor das pipocas carameladas, em um pacote de 27 g. O custo tira a embalagem do pacote grande, reparte o restante pelos gramas e soma de novo R$ 0,10. Varejo e atacado seguem o fator 3 e o fator 2.
+
+| Sabor | Porção | Custo | Varejo | Atacado |
+| --- | ---: | ---: | ---: | ---: |
+| [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 27 g | R$ 1,81 | **R$ 5,00** | **R$ 4,00** |
+| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 27 g | R$ 1,84 | **R$ 6,00** | **R$ 4,00** |
+| [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 27 g | R$ 2,04 | **R$ 6,00** | **R$ 4,00** |
+| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 27 g | R$ 1,83 | **R$ 5,00** | **R$ 4,00** |
+| [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 27 g | R$ 1,77 | **R$ 5,00** | **R$ 4,00** |
+| [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 27 g | R$ 1,80 | **R$ 5,00** | **R$ 4,00** |
+| [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 27 g | R$ 1,87 | **R$ 6,00** | **R$ 4,00** |
+
+---
+
+## Cardápio de Apresentação
+
+A mesma tabela do cardápio. Nas pipocas carameladas de 215 g, a porção aparece como 200 g. Custo, varejo e atacado continuam os do pacote da ficha.
+
+| Sabor | Porção | Custo | Varejo | Atacado |
+| --- | ---: | ---: | ---: | ---: |
+| [Cebola](#cebola) | 25 g | R$ 4,39 | **R$ 10,00** | **R$ 8,00** |
+| [Leite Ninho](#leite-ninho) | 100 g | R$ 8,58 | **R$ 26,00** | **R$ 17,00** |
+| [Meio Amargo](#meio-amargo) | 100 g | R$ 8,79 | **R$ 26,00** | **R$ 18,00** |
+| [Choquito](#choquito) | 100 g | R$ 9,73 | **R$ 29,00** | **R$ 19,00** |
+| [Trufadas](#trufadas) | 100 g | R$ 12,45 | **R$ 37,00** | **R$ 25,00** |
+| [Trufadas Prestígio](#trufadas-prestígio) | 100 g | R$ 15,50 | **R$ 38,00** | **R$ 26,00** |
+| [Barrinha de chocolate](#barrinha-de-chocolate) | 1 un. | R$ 0,77 | **R$ 2,50** | **R$ 1,50** |
+| [Pirulito com cobertura](#pirulito-com-cobertura) | 1 un. | R$ 4,40 | **R$ 13,00** | **R$ 9,00** |
+| [Pirulito simples](#pirulito-simples) | 1 un. | R$ 2,00 | **R$ 6,00** | **R$ 4,00** |
+| [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 200 g | R$ 13,75 | **R$ 41,00** | **R$ 28,00** |
+| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 200 g | R$ 13,99 | **R$ 42,00** | **R$ 28,00** |
+| [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 200 g | R$ 14,47 | **R$ 43,00** | **R$ 29,00** |
+| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 200 g | R$ 13,86 | **R$ 42,00** | **R$ 28,00** |
+| [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 200 g | R$ 12,44 | **R$ 37,00** | **R$ 25,00** |
+| [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 200 g | R$ 13,64 | **R$ 41,00** | **R$ 27,00** |
+| [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 200 g | R$ 13,24 | **R$ 40,00** | **R$ 26,00** |
 
 ---
 
