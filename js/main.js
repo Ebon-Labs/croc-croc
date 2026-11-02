@@ -223,6 +223,11 @@ function loteCount(item) {
   return `${item.lote} ${word}`;
 }
 
+function lotePhrase(item) {
+  const phrase = `lote de ${loteCount(item)}`;
+  return phrase === 'lote de 6 pacotes' ? '' : phrase;
+}
+
 function formatMoney(value) {
   const [reais, cents] = value.toFixed(2).split('.');
   const grouped = reais.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
@@ -240,7 +245,8 @@ function shownPrice(item) {
 
 function whatsappLink(item) {
   const tierLabel = menuState.tier === 'varejo' ? 'varejo' : 'atacado';
-  const lote = menuState.tier === 'atacado' ? `, lote de ${loteCount(item)}` : '';
+  const loteText = lotePhrase(item);
+  const lote = menuState.tier === 'atacado' && loteText ? `, ${loteText}` : '';
   const text = `Olá! Quero encomendar ${item.name} (${item.portion}), preço de ${tierLabel} ${shownPrice(item)}${lote}.`;
   return `${WHATSAPP}?text=${encodeURIComponent(text)}`;
 }
@@ -263,7 +269,6 @@ function renderMenu() {
         <p class="menu-card__price">
           <span class="menu-card__tier">${tierLabel}</span>
           ${shownPrice(item)}
-          ${menuState.tier === 'atacado' ? `<span class="menu-card__lote">lote de ${loteCount(item)}</span>` : ''}
         </p>
         <a class="menu-card__order" href="${whatsappLink(item)}" target="_blank" rel="noopener noreferrer">Pedir</a>
       </div>
@@ -414,7 +419,8 @@ function updateCalc() {
   const wholesale = calcState.tier === 'atacado';
   const tierName = wholesale ? 'atacado' : 'varejo';
   const unitPrice = wholesale ? item.atacado : item.varejo;
-  const loteNote = wholesale ? ` O lote de ${loteCount(item)} sai a ${lotePrice(item)}.` : '';
+  const loteText = lotePhrase(item);
+  const loteNote = wholesale && loteText ? ` O ${loteText} sai a ${lotePrice(item)}.` : '';
   group.textContent = item.group;
   name.textContent = item.name;
   document.getElementById('calc-tier-label').textContent = wholesale ? 'Atacado' : 'Varejo';

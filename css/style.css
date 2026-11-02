@@ -834,16 +834,6 @@ a {
   font-weight: 700;
 }
 
-.menu-card__lote {
-  display: block;
-  margin-top: 0.2rem;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  text-transform: none;
-  color: var(--red);
-}
-
 .menu-card__price {
   font-size: 1.45rem;
   font-weight: 800;
