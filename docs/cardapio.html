@@ -34,7 +34,6 @@
         html,
         body {
             margin: 0;
-            background: var(--cream);
             color: var(--ink);
             font-family: var(--font);
             -webkit-print-color-adjust: exact;
@@ -76,7 +75,6 @@
         .mast,
         .carry {
             position: relative;
-            background: var(--cream);
         }
 
         .bar {
@@ -88,7 +86,6 @@
             background: var(--red);
         }
 
-        .mast::after,
         .carry::after {
             content: "";
             position: absolute;
@@ -112,6 +109,12 @@
             padding: 3mm 12mm 1mm;
         }
 
+        .mast__art {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
         .wordmark {
             display: block;
             height: 11mm;
@@ -130,7 +133,7 @@
         }
 
         .lead {
-            margin: 1.2mm 0 0;
+            margin: 3.2mm 0 4mm;
             font-size: 10pt;
             font-weight: 500;
             color: var(--ink);
@@ -317,18 +320,14 @@
 
 <body>
     <header class="mast">
-        <div class="bar">
-            <img class="wordmark" src="../assets/logo-linha.png" alt="Croc Croc">
+        <img class="mast__art" src="../assets/cardapio-cabecalho.png" alt="Croc Croc, pipocas artesanais">
+        <div class="mast__inner">
+            <div style="margin-top: -38px;">
+                <h1>Cardápio</h1>
+                <p class="lead">Pipocas artesanais feitas em casa. Aceitamos encomendas.</p>
+            </div>
         </div>
-    </header></br>
-    <div class="mast__inner">
-        <div>
-            <h1>Cardápio</h1>
-            <p class="lead" style="margin-top: 12px">Pipocas artesanais feitas em casa. Aceitamos encomendas.</p>
-        </div>
-    </div>
     </header>
-    <br>
 
     <main>
         <section class="group">
@@ -336,7 +335,7 @@
             <div class="grid">
                 <article class="card">
                     <img src="../assets/instagram/cebola.png"
-                        alt="Pacote de pipoca de cebola com laço preto e o adesivo da Croc Croc.">
+                        alt="Pacote de pipoca de cebola com o adesivo da Croc Croc, chapéu de palha e flores de papel.">
                     <div>
                         <h3>Cebola</h3>
                         <p class="desc">Salgada, com manteiga, azeite doce e creme de cebola.</p>
@@ -390,7 +389,7 @@
                     <img src="../assets/instagram/choquito.jpg" alt="Pipoca Choquito com flocos de arroz, em um prato.">
                     <div>
                         <h3>Choquito</h3>
-                        <p class="desc">Chocolate com flocos de arroz.</p>
+                        <p class="desc">Pipoca caramelada coberta com chocolate meio amargo e flocos de arroz.</p>
                         <div class="buy">
                             <p class="portion">100 g</p>
                             <div class="prices">
@@ -401,10 +400,11 @@
                     </div>
                 </article>
                 <article class="card">
-                    <img src="../assets/instagram/trufadas.png" alt="Pipocas trufadas, cada uma coberta de chocolate.">
+                    <img src="../assets/instagram/trufadas.png"
+                        alt="Pipocas trufadas de chocolate em uma taça de vidro, ao lado de uma barra de chocolate.">
                     <div>
                         <h3>Trufadas</h3>
-                        <p class="desc">Cada pipoca sai do banho de chocolate, uma a uma.</p>
+                        <p class="desc">Pipoca caramelada, cuidadosamente banhada no chocolate.</p>
                         <div class="buy">
                             <p class="portion">100 g</p>
                             <div class="prices">
@@ -425,6 +425,159 @@
                             <p class="portion">100 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 38,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 26,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="group">
+            <h2>Carameladas</h2>
+            <div class="grid">
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-cocada.jpg"
+                        alt="Pacote de pipoca caramelada de cocada com laço e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de cocada</h3>
+                        <p class="desc">Preparada com côco ralado e finalizada com leite em pó.</p>
+                        <div class="buy buy--main">
+                            <p class="portion">27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-cocada-colorida.jpg"
+                        alt="Pacotes de pipoca caramelada de cocada colorida com laços verde, laranja e dourado.">
+                    <div>
+                        <h3>Pipoca caramelada de cocada colorida</h3>
+                        <p class="desc">Com côco ralado, corante e finalizada com leite em pó.</p>
+                        <div class="buy buy--main">
+                            <p class="portion">27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-churros.jpg"
+                        alt="Pacote de pipoca caramelada de churros com canela e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de churros</h3>
+                        <p class="desc">Com canela em pó, finalizada com leite em pó e canela em pó.</p>
+                        <div class="buy buy--main">
+                            <p class="portion">27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Atacado</span><strong>R$ 29,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-chocolate.jpg"
+                        alt="Pacote de pipoca caramelada de chocolate com laço e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de chocolate</h3>
+                        <p class="desc">Preparada com chocolate em pó e leite em pó.</p>
+                        <div class="buy buy--main">
+                            <p class="portion">27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-limao.jpg"
+                        alt="Pacote de pipoca caramelada de limão com raspas e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de limão</h3>
+                        <p class="desc">Com raspas de limão e finalizada com leite em pó.</p>
+                        <div class="buy buy--main">
+                            <p class="portion">27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Atacado</span><strong>R$ 25,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-amendoim.jpg"
+                        alt="Sacos de pipoca caramelada de amendoim com laço xadrez e o adesivo da Croc Croc.">
+                    <div>
+                        <h3>Pipoca caramelada de amendoim</h3>
+                        <p class="desc">Preparada com amendoim torrado e triturado.</p>
+                        <div class="buy buy--main">
+                            <p class="portion">27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
+                                <p><span>Atacado</span><strong>R$ 27,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="../assets/instagram/caramelada-ninho.jpg"
+                        alt="Pipoca caramelada de Leite Ninho em um prato, com leite em pó ao lado.">
+                    <div>
+                        <h3>Pipoca caramelada de Leite Ninho</h3>
+                        <p class="desc">Preparada e finalizada com leite em pó.</p>
+                        <div class="buy buy--main">
+                            <p class="portion">27 g</p>
+                            <div class="prices">
+                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
+                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <p class="portion">200 g</p>
+                            <div class="prices">
                                 <p><span>Atacado</span><strong>R$ 26,00</strong></p>
                             </div>
                         </div>
@@ -480,164 +633,6 @@
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 6,00</strong></p>
                                 <p><span>Atacado · lote de 8</span><strong>R$ 4,00</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section class="group sheet-break">
-            <header class="carry">
-                <div class="bar">
-                    <img class="wordmark" src="../assets/logo-linha.png" alt="Croc Croc">
-                    <strong>Carameladas</strong>
-                </div>
-            </header>
-            <div class="grid">
-                <article class="card">
-                    <img src="../assets/instagram/caramelada-cocada.jpg"
-                        alt="Pacote de pipoca caramelada de cocada com laço e o adesivo da Croc Croc.">
-                    <div>
-                        <h3>Pipoca caramelada de cocada</h3>
-                        <p class="desc">Pacote com coco ralado e leite em pó.</p>
-                        <div class="buy buy--main">
-                            <p class="portion">27 g</p>
-                            <div class="prices">
-                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
-                            </div>
-                        </div>
-                        <div class="buy">
-                            <p class="portion">200 g</p>
-                            <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <img src="../assets/instagram/caramelada-cocada-colorida.jpg"
-                        alt="Pacotes de pipoca caramelada de cocada colorida com laços verde, laranja e dourado.">
-                    <div>
-                        <h3>Pipoca caramelada de cocada colorida</h3>
-                        <p class="desc">A cocada de 200 g com 1 g de corante.</p>
-                        <div class="buy buy--main">
-                            <p class="portion">27 g</p>
-                            <div class="prices">
-                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
-                            </div>
-                        </div>
-                        <div class="buy">
-                            <p class="portion">200 g</p>
-                            <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <img src="../assets/instagram/caramelada-churros.jpg"
-                        alt="Pacote de pipoca caramelada de churros com canela e o adesivo da Croc Croc.">
-                    <div>
-                        <h3>Pipoca caramelada de churros</h3>
-                        <p class="desc">Pacote com canela e leite em pó na finalização.</p>
-                        <div class="buy buy--main">
-                            <p class="portion">27 g</p>
-                            <div class="prices">
-                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
-                            </div>
-                        </div>
-                        <div class="buy">
-                            <p class="portion">200 g</p>
-                            <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 29,00</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <img src="../assets/instagram/caramelada-chocolate.jpg"
-                        alt="Pacote de pipoca caramelada de chocolate com laço e o adesivo da Croc Croc.">
-                    <div>
-                        <h3>Pipoca caramelada de chocolate</h3>
-                        <p class="desc">Pacote com chocolate em pó, leite em pó e corante.</p>
-                        <div class="buy buy--main">
-                            <p class="portion">27 g</p>
-                            <div class="prices">
-                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
-                            </div>
-                        </div>
-                        <div class="buy">
-                            <p class="portion">200 g</p>
-                            <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <img src="../assets/instagram/caramelada-limao.jpg"
-                        alt="Pacote de pipoca caramelada de limão com raspas e o adesivo da Croc Croc.">
-                    <div>
-                        <h3>Pipoca caramelada de limão</h3>
-                        <p class="desc">Pacote com raspa de limão e leite em pó.</p>
-                        <div class="buy buy--main">
-                            <p class="portion">27 g</p>
-                            <div class="prices">
-                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
-                            </div>
-                        </div>
-                        <div class="buy">
-                            <p class="portion">200 g</p>
-                            <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 25,00</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <img src="../assets/instagram/caramelada-amendoim.jpg"
-                        alt="Sacos de pipoca caramelada de amendoim com laço xadrez e o adesivo da Croc Croc.">
-                    <div>
-                        <h3>Pipoca caramelada de amendoim</h3>
-                        <p class="desc">Pacote com amendoim triturado, leite em pó e canela na finalização.</p>
-                        <div class="buy buy--main">
-                            <p class="portion">27 g</p>
-                            <div class="prices">
-                                <p><span>Varejo</span><strong>R$ 5,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
-                            </div>
-                        </div>
-                        <div class="buy">
-                            <p class="portion">200 g</p>
-                            <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 27,00</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <img src="../assets/instagram/caramelada-ninho.jpg"
-                        alt="Pipoca caramelada de Leite Ninho em um prato, com leite em pó ao lado.">
-                    <div>
-                        <h3>Pipoca caramelada de Leite Ninho</h3>
-                        <p class="desc">Pacote com leite em pó na massa e na finalização.</p>
-                        <div class="buy buy--main">
-                            <p class="portion">27 g</p>
-                            <div class="prices">
-                                <p><span>Varejo</span><strong>R$ 6,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
-                            </div>
-                        </div>
-                        <div class="buy">
-                            <p class="portion">200 g</p>
-                            <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 26,00</strong></p>
                             </div>
                         </div>
                     </div>
