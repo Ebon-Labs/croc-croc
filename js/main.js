@@ -12,7 +12,7 @@ const MENU = [
     loteUnit: 'pacote',
     desc: 'Salgada, com manteiga, azeite doce e creme de cebola.',
     photo: 'assets/instagram/cebola.png',
-    photoAlt: 'Sacos de pipoca clara com laço vermelho e o adesivo da Croc Croc.'
+    photoAlt: 'Pacote de pipoca de cebola com o adesivo da Croc Croc, chapéu de palha e flores de papel.'
   },
   {
     id: 'ninho',
@@ -49,7 +49,7 @@ const MENU = [
     atacado: 'R$ 19,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Chocolate com flocos de arroz.',
+    desc: 'Pipoca caramelada coberta com chocolate meio amargo e flocos de arroz.',
     photo: 'assets/instagram/choquito.jpg',
     photoAlt: 'Choquito de chocolate com flocos, ao lado do cartão da Croc Croc.'
   },
@@ -62,9 +62,9 @@ const MENU = [
     atacado: 'R$ 25,00',
     lote: 1,
     loteUnit: 'pacote',
-    desc: 'Cada pipoca sai do banho de chocolate, uma a uma.',
+    desc: 'Pipoca caramelada, cuidadosamente banhada no chocolate.',
     photo: 'assets/instagram/trufadas.png',
-    photoAlt: 'Bandeja com pipocas trufadas brancas e de chocolate e o adesivo da Croc Croc.'
+    photoAlt: 'Pipocas trufadas de chocolate em uma taça de vidro, ao lado de uma barra de chocolate.'
   },
   {
     id: 'prestigio',
@@ -129,7 +129,7 @@ const MENU = [
     loteUnit: 'pacote',
     calcPortion: 27,
     festa: { varejo: 'R$ 5,00', atacado: 'R$ 4,00' },
-    desc: 'Pacote com coco ralado e leite em pó.',
+    desc: 'Preparada com côco ralado e finalizada com leite em pó.',
     photo: 'assets/instagram/caramelada-cocada.jpg',
     photoAlt: 'Pote de pipoca caramelada de cocada, com o cartão da Croc Croc ao fundo.'
   },
@@ -144,7 +144,7 @@ const MENU = [
     loteUnit: 'pacote',
     calcPortion: 27,
     festa: { varejo: 'R$ 6,00', atacado: 'R$ 4,00' },
-    desc: 'A cocada de 200 g com 1 g de corante.',
+    desc: 'Com côco ralado, corante e finalizada com leite em pó.',
     photo: 'assets/instagram/caramelada-cocada-colorida.jpg',
     photoAlt: 'Sacos de pipoca caramelada de cocada colorida, com laços e pipoca rosa, azul e amarela.'
   },
@@ -159,7 +159,7 @@ const MENU = [
     loteUnit: 'pacote',
     calcPortion: 27,
     festa: { varejo: 'R$ 6,00', atacado: 'R$ 4,00' },
-    desc: 'Pacote com canela e leite em pó na finalização.',
+    desc: 'Com canela em pó, finalizada com leite em pó e canela em pó.',
     photo: 'assets/instagram/caramelada-churros.jpg',
     photoAlt: 'Saco de pipoca caramelada de churros com laço verde e o adesivo da Croc Croc.'
   },
@@ -174,7 +174,7 @@ const MENU = [
     loteUnit: 'pacote',
     calcPortion: 27,
     festa: { varejo: 'R$ 5,00', atacado: 'R$ 4,00' },
-    desc: 'Pacote com chocolate em pó, leite em pó e corante.',
+    desc: 'Preparada com chocolate em pó e leite em pó.',
     photo: 'assets/instagram/caramelada-chocolate.jpg',
     photoAlt: 'Saco de pipoca caramelada de chocolate com laço vermelho e o adesivo da Croc Croc.'
   },
@@ -189,7 +189,7 @@ const MENU = [
     loteUnit: 'pacote',
     calcPortion: 27,
     festa: { varejo: 'R$ 5,00', atacado: 'R$ 4,00' },
-    desc: 'Pacote com raspa de limão e leite em pó.',
+    desc: 'Com raspas de limão e finalizada com leite em pó.',
     photo: 'assets/instagram/caramelada-limao.jpg',
     photoAlt: 'Pipoca caramelada de limão verde-água, com fatias de limão e o cartão da Croc Croc.'
   },
@@ -204,7 +204,7 @@ const MENU = [
     loteUnit: 'pacote',
     calcPortion: 27,
     festa: { varejo: 'R$ 5,00', atacado: 'R$ 4,00' },
-    desc: 'Pacote com amendoim triturado, leite em pó e canela na finalização.',
+    desc: 'Preparada com amendoim torrado e triturado.',
     photo: 'assets/instagram/caramelada-amendoim.jpg',
     photoAlt: 'Sacos de pipoca caramelada de amendoim com laço xadrez e o adesivo da Croc Croc.'
   },
@@ -219,7 +219,7 @@ const MENU = [
     loteUnit: 'pacote',
     calcPortion: 27,
     festa: { varejo: 'R$ 6,00', atacado: 'R$ 4,00' },
-    desc: 'Pacote com leite em pó na massa e na finalização.',
+    desc: 'Preparada e finalizada com leite em pó.',
     photo: 'assets/instagram/caramelada-ninho.jpg',
     photoAlt: 'Pipoca caramelada de Leite Ninho em um prato, com leite em pó ao lado e o cartão da Croc Croc.'
   }
