@@ -43,6 +43,10 @@ Atualizado em **9 de novembro de 2026**.
 
 ## Atualizações do documento
 
+### 9 de novembro de 2026 — preço da cocada colorida
+
+O custo não mudou. O varejo da pipoca caramelada de cocada colorida sai do fator 3 e fica igual ao da cocada. No pacote de 215 g, o varejo passa de R$ 43,00 para **R$ 42,00**. O atacado continua **R$ 29,00**. No Tamanho Festa de 27 g, o varejo passa de R$ 6,00 para **R$ 5,00**. O atacado continua **R$ 4,00**. O corante segue na ficha, R$ 0,24.
+
 ### 9 de novembro de 2026 — margarina no lugar da manteiga
 
 Leite Ninho, Meio Amargo, Trufadas e Trufadas Prestígio deixam a manteiga. Cada pacote passa a levar **10 g de margarina**. A margarina fica em **R$ 11,50** o pacote de 500 g, ou R$ 0,023000 por grama. Os 10 g custam R$ 0,23, no lugar de R$ 0,58 de manteiga. O pacote fica R$ 0,35 mais barato.
@@ -153,23 +157,23 @@ Preço por pacote. O custo já inclui ingredientes, embalagem, gás, água e mã
 | [Pirulito com cobertura](#pirulito-com-cobertura) | 1 un. | R$ 4,40 | **R$ 13,00** | **R$ 9,00** |
 | [Pirulito simples](#pirulito-simples) | 1 un. | R$ 2,00 | **R$ 6,00** | **R$ 4,00** |
 | [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 215 g | R$ 13,75 | **R$ 42,00** | **R$ 29,00** |
-| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 215 g | R$ 13,99 | **R$ 43,00** | **R$ 29,00** |
+| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 215 g | R$ 13,99 | **R$ 42,00** | **R$ 29,00** |
 | [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 200 g | R$ 14,47 | **R$ 45,00** | **R$ 30,00** |
 | [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 215 g | R$ 13,86 | **R$ 43,00** | **R$ 29,00** |
 | [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 200 g | R$ 12,44 | **R$ 38,00** | **R$ 26,00** |
 | [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 215 g | R$ 13,64 | **R$ 42,00** | **R$ 28,00** |
 | [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 200 g | R$ 13,24 | **R$ 41,00** | **R$ 27,00** |
 
-Varejo parte do custo × 3, arredondado. Atacado parte do custo × 2, arredondado. Os dois ainda dividem por 0,9661 e arredondam de novo, para cobrir o crédito à vista. A pipoca leva uma embalagem de R$ 0,10. Barrinha e pirulitos levam o material da ficha. Na barrinha o arredondamento é de R$ 0,50, para o varejo e o atacado não caírem no mesmo valor. Cebola e Trufadas Prestígio saem do fator 3 e do fator 2: o preço de venda foi ajustado para ficar perto dos outros sabores, e a taxa do cartão entra em cima desse preço. O racional está na ficha de cada um e na nota de 6 de novembro.
+Varejo parte do custo × 3, arredondado. Atacado parte do custo × 2, arredondado. Os dois ainda dividem por 0,9661 e arredondam de novo, para cobrir o crédito à vista. A pipoca leva uma embalagem de R$ 0,10. Barrinha e pirulitos levam o material da ficha. Na barrinha o arredondamento é de R$ 0,50, para o varejo e o atacado não caírem no mesmo valor. Cebola e Trufadas Prestígio saem do fator 3 e do fator 2: o preço de venda foi ajustado para ficar perto dos outros sabores, e a taxa do cartão entra em cima desse preço. A cocada colorida sai do fator 3 no varejo e fica no preço da cocada. O racional está na ficha de cada um e nas notas de 6 e 9 de novembro.
 
 ### Tamanho Festa
 
-O mesmo sabor das pipocas carameladas, em um pacote de 27 g. O custo tira a embalagem do pacote grande, reparte o restante pelos gramas e soma de novo R$ 0,10. Varejo e atacado seguem o fator 3 e o fator 2. A conta do cartão, preço ÷ 0,9661, foi feita. O arredondamento manteve os preços.
+O mesmo sabor das pipocas carameladas, em um pacote de 27 g. O custo tira a embalagem do pacote grande, reparte o restante pelos gramas e soma de novo R$ 0,10. Varejo e atacado seguem o fator 3 e o fator 2. A conta do cartão, preço ÷ 0,9661, foi feita. O arredondamento manteve os preços. A cocada colorida sai do fator 3 no varejo e fica em R$ 5,00, o mesmo da cocada.
 
 | Sabor | Porção | Custo | Varejo | Atacado |
 | --- | ---: | ---: | ---: | ---: |
 | [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 27 g | R$ 1,81 | **R$ 5,00** | **R$ 4,00** |
-| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 27 g | R$ 1,84 | **R$ 6,00** | **R$ 4,00** |
+| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 27 g | R$ 1,84 | **R$ 5,00** | **R$ 4,00** |
 | [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 27 g | R$ 2,04 | **R$ 6,00** | **R$ 4,00** |
 | [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 27 g | R$ 1,83 | **R$ 5,00** | **R$ 4,00** |
 | [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 27 g | R$ 1,77 | **R$ 5,00** | **R$ 4,00** |
@@ -194,7 +198,7 @@ A mesma tabela do cardápio. Nas pipocas carameladas de 215 g, a porção aparec
 | [Pirulito com cobertura](#pirulito-com-cobertura) | 1 un. | R$ 4,40 | **R$ 13,00** | **R$ 9,00** |
 | [Pirulito simples](#pirulito-simples) | 1 un. | R$ 2,00 | **R$ 6,00** | **R$ 4,00** |
 | [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 200 g | R$ 13,75 | **R$ 42,00** | **R$ 29,00** |
-| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 200 g | R$ 13,99 | **R$ 43,00** | **R$ 29,00** |
+| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 200 g | R$ 13,99 | **R$ 42,00** | **R$ 29,00** |
 | [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 200 g | R$ 14,47 | **R$ 45,00** | **R$ 30,00** |
 | [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 200 g | R$ 13,86 | **R$ 43,00** | **R$ 29,00** |
 | [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 200 g | R$ 12,44 | **R$ 38,00** | **R$ 26,00** |
@@ -912,16 +916,18 @@ O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
 
 #### Varejo e atacado
 
-O varejo usa o fator 3: 13,99 × 3 = 41,97, arredondado para R$ 42,00. A conta do cartão leva esse valor a 42,00 ÷ 0,9661 = 43,47, arredondado para **R$ 43,00**. Fica **R$ 37,85** nas 1,2 hora — cerca de **R$ 32 por hora**.
+O fator 3 daria 13,99 × 3 = 41,97, arredondado para R$ 42,00. A conta do cartão levaria esse valor a 42,00 ÷ 0,9661 = 43,47, arredondado para R$ 43,00. A cocada, o mesmo pacote sem o 1 g de corante, sai a R$ 42,00 e R$ 29,00. O corante soma R$ 0,24.
 
-O atacado usa o fator 2: 13,99 × 2 = 27,98, arredondado para R$ 28,00. Com o cartão, 28,00 ÷ 0,9661 = 28,98, arredondado para **R$ 29,00**. Fica **R$ 23,85**, cerca de **R$ 20 por hora**. Quem compra a R$ 29,00 e revende a R$ 43,00 fica com R$ 14,00 por pacote.
+Observado: o varejo fica igual ao da cocada, **R$ 42,00**. O atacado já era o mesmo. O fator 2 dá 13,99 × 2 = 27,98, arredondado para R$ 28,00. Com o cartão, 28,00 ÷ 0,9661 = 28,98, arredondado para **R$ 29,00**.
+
+No varejo fica **R$ 36,85** nas 1,2 hora — cerca de **R$ 31 por hora**. No atacado fica **R$ 23,85**, cerca de **R$ 20 por hora**. Quem compra a R$ 29,00 e revende a R$ 42,00 fica com R$ 13,00 por pacote.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
 | **R$ 29,00** | **Atacado** | **R$ 0,13** | **R$ 15,01** | **R$ 23,85** | **R$ 20** |
 | R$ 35,00 | | R$ 0,16 | R$ 21,01 | R$ 29,85 | R$ 25 |
-| **R$ 43,00** | **Varejo** | **R$ 0,20** | **R$ 29,01** | **R$ 37,85** | **R$ 32** |
-| R$ 45,00 | | R$ 0,21 | R$ 31,01 | R$ 39,85 | R$ 33 |
+| **R$ 42,00** | **Varejo** | **R$ 0,20** | **R$ 28,01** | **R$ 36,85** | **R$ 31** |
+| R$ 43,00 | fator 3 | R$ 0,20 | R$ 29,01 | R$ 37,85 | R$ 32 |
 
 ### Pipoca caramelada de churros
 
