@@ -45,7 +45,7 @@ const MENU = [
     name: 'Choquito',
     portion: '100 g',
     group: 'Doces',
-    varejo: 'R$ 30,00',
+    varejo: 'R$ 29,00',
     atacado: 'R$ 20,00',
     lote: 1,
     loteUnit: 'pacote',

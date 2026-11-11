@@ -13,7 +13,7 @@ Esse valor ainda divide por 0,9661, para cobrir a taxa do crédito à vista, e a
 
 O custo de cada unidade soma ingredientes, material, gás, água e mão de obra. A embalagem da pipoca custa **R$ 0,10**. Barrinha e pirulitos usam o material descrito na ficha de cada um. A mão de obra usa o salário mínimo de 2026, **R$ 7,37 por hora**, sem encargos. O preço precisa deixar essa hora paga.
 
-Atualizado em **9 de novembro de 2026**.
+Atualizado em **10 de novembro de 2026**.
 
 ## Índice
 
@@ -42,6 +42,14 @@ Atualizado em **9 de novembro de 2026**.
 - [Como calcular](#como-calcular)
 
 ## Atualizações do documento
+
+### 10 de novembro de 2026 — margarina no Choquito
+
+O Choquito deixa a manteiga. O pacote passa a levar **10 g de margarina**, a R$ 0,23, no lugar de R$ 0,58. O pacote fica R$ 0,35 mais barato.
+
+O custo cai de R$ 9,73 para R$ 9,38. Varejo **R$ 29,00** (antes R$ 30,00). O atacado continua **R$ 20,00**.
+
+Cebola, barrinha, pirulitos e as pipocas carameladas seguem com manteiga.
 
 ### 9 de novembro de 2026 — preço da cocada colorida
 
@@ -150,7 +158,7 @@ Preço por pacote. O custo já inclui ingredientes, embalagem, gás, água e mã
 | [Cebola](#cebola) | 25 g | R$ 4,39 | **R$ 10,00** | **R$ 8,00** |
 | [Leite Ninho](#leite-ninho) | 100 g | R$ 8,23 | **R$ 26,00** | **R$ 17,00** |
 | [Meio Amargo](#meio-amargo) | 100 g | R$ 8,44 | **R$ 26,00** | **R$ 18,00** |
-| [Choquito](#choquito) | 100 g | R$ 9,73 | **R$ 30,00** | **R$ 20,00** |
+| [Choquito](#choquito) | 100 g | R$ 9,38 | **R$ 29,00** | **R$ 20,00** |
 | [Trufadas](#trufadas) | 100 g | R$ 12,10 | **R$ 37,00** | **R$ 25,00** |
 | [Trufadas Prestígio](#trufadas-prestígio) | 100 g | R$ 15,15 | **R$ 38,00** | **R$ 26,00** |
 | [Barrinha de chocolate](#barrinha-de-chocolate) | 1 un. | R$ 0,77 | **R$ 2,50** | **R$ 1,50** |
@@ -191,7 +199,7 @@ A mesma tabela do cardápio. Nas pipocas carameladas de 215 g, a porção aparec
 | [Cebola](#cebola) | 25 g | R$ 4,39 | **R$ 10,00** | **R$ 8,00** |
 | [Leite Ninho](#leite-ninho) | 100 g | R$ 8,23 | **R$ 26,00** | **R$ 17,00** |
 | [Meio Amargo](#meio-amargo) | 100 g | R$ 8,44 | **R$ 26,00** | **R$ 18,00** |
-| [Choquito](#choquito) | 100 g | R$ 9,73 | **R$ 30,00** | **R$ 20,00** |
+| [Choquito](#choquito) | 100 g | R$ 9,38 | **R$ 29,00** | **R$ 20,00** |
 | [Trufadas](#trufadas) | 100 g | R$ 12,10 | **R$ 37,00** | **R$ 25,00** |
 | [Trufadas Prestígio](#trufadas-prestígio) | 100 g | R$ 15,15 | **R$ 38,00** | **R$ 26,00** |
 | [Barrinha de chocolate](#barrinha-de-chocolate) | 1 un. | R$ 0,77 | **R$ 2,50** | **R$ 1,50** |
@@ -412,7 +420,7 @@ O atacado usa o fator 2: 8,44 × 2 = 16,88, arredondado para R$ 17,00. Com o car
 
 **1 pacote de 100 g.** Ingredientes pesados: 180 g. Rendimento: 56% (o restante sai como vapor e perda de cozimento).
 
-Leva 20 g de milho, 30 g de açúcar, 10 g de manteiga, 80 g de chocolate fracionado e uma embalagem. No lugar do leite em pó do Leite Ninho entram **40 g de flocos de arroz**. Gás, água e as 0,4 h são os mesmos.
+Leva 20 g de milho, 30 g de açúcar, 10 g de margarina, 80 g de chocolate fracionado e uma embalagem. No lugar do leite em pó do Leite Ninho entram **40 g de flocos de arroz**. Gás, água e as 0,4 h são os mesmos.
 
 | Item do lote padrão | Neste pacote |
 | --- | ---: |
@@ -427,28 +435,28 @@ Leva 20 g de milho, 30 g de açúcar, 10 g de manteiga, 80 g de chocolate fracio
 | --- | ---: | --- | ---: |
 | Milho | 20 g | 20 × 0,008000 | R$ 0,16 |
 | Açúcar | 30 g | 30 × 0,003800 | R$ 0,11 |
-| Manteiga | 10 g | 10 × 0,057500 | R$ 0,58 |
+| Margarina | 10 g | 10 × 0,023000 | R$ 0,23 |
 | Chocolate fracionado | 80 g | 80 × 0,048000 | R$ 3,84 |
 | Flocos de arroz | 40 g | 40 × 0,048000 | R$ 1,92 |
-| **Ingredientes** | | | **R$ 6,61** |
+| **Ingredientes** | | | **R$ 6,26** |
 | Embalagem | 1 un. | 1 × 0,10 | R$ 0,10 |
-| **Ingredientes + embalagem** | | | **R$ 6,71** |
+| **Ingredientes + embalagem** | | | **R$ 6,36** |
 
-O chocolate fracionado sozinho é R$ 3,84 de R$ 6,71 (57% dos ingredientes e da embalagem). Os flocos de arroz são R$ 1,92 (29%).
+O chocolate fracionado sozinho é R$ 3,84 de R$ 6,36 (60% dos ingredientes e da embalagem). Os flocos de arroz são R$ 1,92 (30%).
 
 #### Custos
 
 | Item | Custo |
 | --- | ---: |
-| Ingredientes | R$ 6,61 |
+| Ingredientes | R$ 6,26 |
 | Embalagem | R$ 0,10 |
 | Gás (cerca de 2 min) | R$ 0,06 |
 | Água (0,53 L) | R$ 0,01 |
 | Mão de obra (0,4 h × R$ 7,37) | R$ 2,95 |
-| **Total do pacote de 100 g** | **R$ 9,73** |
-| **Custo por grama** | **R$ 0,097** |
+| **Total do pacote de 100 g** | **R$ 9,38** |
+| **Custo por grama** | **R$ 0,094** |
 
-Composição do pacote: mão de obra R$ 2,95; ingredientes R$ 6,61; embalagem R$ 0,10; gás R$ 0,06; água R$ 0,01.
+Composição do pacote: mão de obra R$ 2,95; ingredientes R$ 6,26; embalagem R$ 0,10; gás R$ 0,06; água R$ 0,01.
 
 Aqui o chocolate e os flocos pesam mais que a hora de trabalho.
 
@@ -456,7 +464,7 @@ Aqui o chocolate e os flocos pesam mais que a hora de trabalho.
 
 O cozimento estimado é **0,4 hora** de trabalho e cerca de **2 minutos** de fogo.
 
-1. Pesar milho, açúcar, manteiga, chocolate fracionado e flocos de arroz.
+1. Pesar milho, açúcar, margarina, chocolate fracionado e flocos de arroz.
 2. Cozinhar no fogão a gás.
 3. Deixar descansar.
 4. Porcionar 100 g.
@@ -464,16 +472,16 @@ O cozimento estimado é **0,4 hora** de trabalho e cerca de **2 minutos** de fog
 
 #### Varejo e atacado
 
-O varejo usa o fator 3: 9,73 × 3 = 29,19, arredondado para R$ 29,00. A conta do cartão leva esse valor a 29,00 ÷ 0,9661 = 30,02, arredondado para **R$ 30,00**. Depois de ingredientes, embalagem, gás e água, fica **R$ 23,22** nas 0,4 hora — cerca de **R$ 58 por hora**.
+O varejo usa o fator 3: 9,38 × 3 = 28,14, arredondado para R$ 28,00. A conta do cartão leva esse valor a 28,00 ÷ 0,9661 = 28,98, arredondado para **R$ 29,00**. Depois de ingredientes, embalagem, gás e água, fica **R$ 22,57** nas 0,4 hora — cerca de **R$ 56 por hora**.
 
-O atacado usa o fator 2: 9,73 × 2 = 19,46, arredondado para R$ 19,00. Com o cartão, 19,00 ÷ 0,9661 = 19,67, arredondado para **R$ 20,00**. Fica **R$ 13,22**, cerca de **R$ 33 por hora**. Quem compra a R$ 20,00 e revende a R$ 30,00 fica com R$ 10,00 por pacote.
+O atacado usa o fator 2: 9,38 × 2 = 18,76, arredondado para R$ 19,00. Com o cartão, 19,00 ÷ 0,9661 = 19,67, arredondado para **R$ 20,00**. Fica **R$ 13,57**, cerca de **R$ 34 por hora**. Quem compra a R$ 20,00 e revende a R$ 29,00 fica com R$ 9,00 por pacote.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 20,00** | **Atacado** | **R$ 0,20** | **R$ 10,27** | **R$ 13,22** | **R$ 33** |
-| R$ 24,00 | | R$ 0,24 | R$ 14,27 | R$ 17,22 | R$ 43 |
-| **R$ 30,00** | **Varejo** | **R$ 0,30** | **R$ 20,27** | **R$ 23,22** | **R$ 58** |
-| R$ 32,00 | | R$ 0,32 | R$ 22,27 | R$ 25,22 | R$ 63 |
+| **R$ 20,00** | **Atacado** | **R$ 0,20** | **R$ 10,62** | **R$ 13,57** | **R$ 34** |
+| R$ 24,00 | | R$ 0,24 | R$ 14,62 | R$ 17,57 | R$ 44 |
+| **R$ 29,00** | **Varejo** | **R$ 0,29** | **R$ 19,62** | **R$ 22,57** | **R$ 56** |
+| R$ 32,00 | | R$ 0,32 | R$ 22,62 | R$ 25,57 | R$ 64 |
 
 ### Trufadas
 
@@ -1244,8 +1252,8 @@ Compra conferida em **24 de outubro de 2026**.
 | --- | ---: | ---: | ---: | --- |
 | Milho | 500 g | R$ 4,00 | R$ 0,008000/g | Todos os sabores |
 | Açúcar | 1.000 g | R$ 3,80 | R$ 0,003800/g | Pipocas carameladas, Leite Ninho, Meio Amargo, Choquito, Trufadas, Trufadas Prestígio, Barrinha, Pirulitos |
-| Manteiga | 200 g | R$ 11,50 | R$ 0,057500/g | Cebola, Choquito, Barrinha, Pirulitos, Pipocas carameladas |
-| Margarina | 500 g | R$ 11,50 | R$ 0,023000/g | Pipocas carameladas, Leite Ninho, Meio Amargo, Trufadas, Trufadas Prestígio |
+| Manteiga | 200 g | R$ 11,50 | R$ 0,057500/g | Cebola, Barrinha, Pirulitos, Pipocas carameladas |
+| Margarina | 500 g | R$ 11,50 | R$ 0,023000/g | Pipocas carameladas, Leite Ninho, Meio Amargo, Choquito, Trufadas, Trufadas Prestígio |
 | Coco ralado | 50 g | R$ 2,50 | R$ 0,050000/g | Pipoca caramelada de cocada |
 | Coco ralado desidratado | 50 g | R$ 6,00 | R$ 0,120000/g | Trufadas Prestígio |
 | Leite em pó | 200 g | R$ 7,00 | R$ 0,035000/g | Pipocas carameladas, Leite Ninho, Meio Amargo |
@@ -1260,7 +1268,7 @@ Compra conferida em **24 de outubro de 2026**.
 | Creme de cebola | 65 g | R$ 9,00 | R$ 0,138462/g | Cebola |
 | Azeite doce | 500 ml | R$ 11,00 | R$ 0,022000/ml | Cebola |
 
-O chocolate em pó continua na embalagem de 200 g. Margarina, corante, creme de cebola e azeite doce não foram recotados em 18 de outubro de 2026. Em 24 de outubro de 2026 entraram coco ralado, limão, canela em pó e amendoim descascado, e o ovomaltine passou para o pacote de 190 g. Em 9 de novembro de 2026 a margarina passou de R$ 11,30 para R$ 11,50 (500 g). Leite Ninho, Meio Amargo, Trufadas e Trufadas Prestígio trocam os 10 g de manteiga por 10 g dessa margarina. Nas pipocas carameladas os 2 g continuam R$ 0,05. O coco ralado comum entra na pipoca caramelada de cocada. Só as Trufadas Prestígio usam o desidratado, que permanece R$ 6,00. A canela entra nas pipocas de churros e de amendoim, e o limão na de limão. Os flocos de arroz entram no Choquito. O amendoim triturado usa o preço do amendoim descascado. Ovomaltine ainda não entra em um sabor.
+O chocolate em pó continua na embalagem de 200 g. Margarina, corante, creme de cebola e azeite doce não foram recotados em 18 de outubro de 2026. Em 24 de outubro de 2026 entraram coco ralado, limão, canela em pó e amendoim descascado, e o ovomaltine passou para o pacote de 190 g. Em 9 de novembro de 2026 a margarina passou de R$ 11,30 para R$ 11,50 (500 g). Leite Ninho, Meio Amargo, Trufadas e Trufadas Prestígio trocam os 10 g de manteiga por 10 g dessa margarina. Em 10 de novembro de 2026 o Choquito faz a mesma troca. Nas pipocas carameladas os 2 g continuam R$ 0,05. O coco ralado comum entra na pipoca caramelada de cocada. Só as Trufadas Prestígio usam o desidratado, que permanece R$ 6,00. A canela entra nas pipocas de churros e de amendoim, e o limão na de limão. Os flocos de arroz entram no Choquito. O amendoim triturado usa o preço do amendoim descascado. Ovomaltine ainda não entra em um sabor.
 
 ### Material
 
