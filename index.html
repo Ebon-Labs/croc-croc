@@ -4,15 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Croc Croc — Pipocas artesanais em Salvador</title>
+    <title>Croc Croc — Pipocas artesanais no Piatã, Salvador</title>
     <meta name="description"
-        content="Pipocas artesanais da Croc Croc em Salvador. Cardápio com varejo, atacado e encomendas.">
+        content="Pipocas artesanais da Croc Croc no Piatã, Salvador. Doces, salgadas, trufas, barrinha e pirulito. Varejo, atacado e encomendas pelo WhatsApp.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="theme-color" content="#e30613">
-    <meta property="og:title" content="Croc Croc — Pipocas artesanais">
+    <link rel="canonical" href="https://croc-croc.pages.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Croc Croc">
+    <meta property="og:url" content="https://croc-croc.pages.dev/">
+    <meta property="og:title" content="Croc Croc — Pipocas artesanais no Piatã, Salvador">
     <meta property="og:description"
-        content="Pipocas doces e salgadas, trufas, barrinha e pirulito. Encomendas em Salvador.">
-    <meta property="og:image" content="assets/instagram/colorida.jpg">
+        content="Pipocas artesanais da Croc Croc no Piatã, Salvador. Doces, salgadas, trufas, barrinha e pirulito. Varejo, atacado e encomendas pelo WhatsApp.">
+    <meta property="og:image" content="https://croc-croc.pages.dev/assets/instagram/colorida.jpg">
+    <meta property="og:image:width" content="640">
+    <meta property="og:image:height" content="640">
+    <meta property="og:image:alt"
+        content="Sacos de pipoca colorida da Croc Croc com laços verde, laranja e dourado.">
     <meta property="og:locale" content="pt_BR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Croc Croc — Pipocas artesanais no Piatã, Salvador">
+    <meta name="twitter:description"
+        content="Pipocas artesanais da Croc Croc no Piatã, Salvador. Doces, salgadas, trufas, barrinha e pirulito. Varejo, atacado e encomendas pelo WhatsApp.">
+    <meta name="twitter:image" content="https://croc-croc.pages.dev/assets/instagram/colorida.jpg">
     <link rel="icon" href="assets/logo.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,10 +38,16 @@
     "@context": "https://schema.org",
     "@type": "FoodEstablishment",
     "name": "Croc Croc",
-    "description": "Pipocas artesanais em Salvador. Encomendas pelo WhatsApp.",
-    "image": "assets/croc-croc-cartao-frente.png",
+    "url": "https://croc-croc.pages.dev/",
+    "description": "Pipocas artesanais feitas em casa no Piatã, Salvador. Doces, salgadas, trufas, barrinha, pirulito e encomendas pelo WhatsApp.",
+    "image": [
+      "https://croc-croc.pages.dev/assets/logo.png",
+      "https://croc-croc.pages.dev/assets/instagram/colorida.jpg"
+    ],
     "telephone": "+5571986762904",
     "email": "rosavirsantos@gmail.com",
+    "priceRange": "R$",
+    "currenciesAccepted": "BRL",
     "servesCuisine": "Pipoca artesanal",
     "address": {
       "@type": "PostalAddress",
@@ -35,7 +55,138 @@
       "addressRegion": "BA",
       "addressCountry": "BR"
     },
-    "sameAs": ["https://www.instagram.com/croc.croc.doces/"]
+    "areaServed": {
+      "@type": "Place",
+      "name": "Piatã, Salvador — BA"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+5571986762904",
+      "contactType": "customer service",
+      "availableLanguage": "Portuguese",
+      "url": "https://wa.me/5571986762904"
+    },
+    "sameAs": ["https://www.instagram.com/croc.croc.doces/"],
+    "hasMenu": {
+      "@type": "Menu",
+      "name": "Cardápio Croc Croc",
+      "hasMenuSection": [
+        {
+          "@type": "MenuSection",
+          "name": "Salgadas",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Cebola",
+              "description": "Salgada, com manteiga, azeite doce e creme de cebola. Pacote de 25 g.",
+              "offers": { "@type": "Offer", "price": "10.00", "priceCurrency": "BRL" }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Doces",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Leite Ninho",
+              "description": "Pipoca caramelada coberta com chocolate branco e finalizada com leite em pó. Pacote de 100 g.",
+              "offers": { "@type": "Offer", "price": "26.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Meio amargo",
+              "description": "Pipoca caramelada coberta com chocolate meio amargo, finalizada com leite em pó e chocolate em pó. Pacote de 100 g.",
+              "offers": { "@type": "Offer", "price": "26.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Choquito",
+              "description": "Pipoca caramelada coberta com chocolate meio amargo e flocos de arroz. Pacote de 100 g.",
+              "offers": { "@type": "Offer", "price": "29.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Trufadas",
+              "description": "Pipoca caramelada, cuidadosamente banhada no chocolate. Pacote de 100 g.",
+              "offers": { "@type": "Offer", "price": "37.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Trufadas Prestígio",
+              "description": "Pipoca caramelada banhada no chocolate meio amargo, finalizada com coco ralado desidratado. Pacote de 100 g.",
+              "offers": { "@type": "Offer", "price": "38.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Pipoca caramelada de cocada",
+              "description": "Preparada com côco ralado e finalizada com leite em pó. Tamanho festa de 27 g.",
+              "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Pipoca caramelada de cocada colorida",
+              "description": "Com côco ralado, corante e finalizada com leite em pó. Tamanho festa de 27 g.",
+              "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Pipoca caramelada de churros",
+              "description": "Com canela em pó, finalizada com leite em pó e canela em pó. Tamanho festa de 27 g.",
+              "offers": { "@type": "Offer", "price": "6.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Pipoca caramelada de chocolate",
+              "description": "Preparada com chocolate em pó e leite em pó. Tamanho festa de 27 g.",
+              "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Pipoca caramelada de limão",
+              "description": "Com raspas de limão e finalizada com leite em pó. Tamanho festa de 27 g.",
+              "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Pipoca caramelada de amendoim",
+              "description": "Preparada com amendoim torrado e triturado. Tamanho festa de 27 g.",
+              "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Pipoca caramelada de Leite Ninho",
+              "description": "Preparada e finalizada com leite em pó. Tamanho festa de 27 g.",
+              "offers": { "@type": "Offer", "price": "6.00", "priceCurrency": "BRL" }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Pra levar",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Barrinha de chocolate",
+              "description": "Pipoca caramelada levemente triturada, banhada em chocolate branco ou meio amargo.",
+              "offers": { "@type": "Offer", "price": "2.50", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Pirulito com cobertura",
+              "description": "Pipoca caramelada de chocolate em formato de pirulito, banhada no chocolate, com saquinho plástico e fita de cetim.",
+              "offers": { "@type": "Offer", "price": "13.00", "priceCurrency": "BRL" }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Pirulito simples",
+              "description": "Pipoca caramelada de chocolate em formato de pirulito, com saquinho plástico e fita de cetim.",
+              "offers": { "@type": "Offer", "price": "6.00", "priceCurrency": "BRL" }
+            }
+          ]
+        }
+      ]
+    }
   }
   </script>
 </head>
@@ -134,9 +285,10 @@
                 <div class="hero__copy">
                     <p class="eyebrow">Salvador — BA</p>
                     <h1 id="hero-title">
-                        <img src="assets/logo-linha.png" alt="Croc Croc" width="311" height="86">
+                        <img src="assets/logo-linha.png" alt="" width="311" height="86">
+                        <span class="visually-hidden">Croc Croc, pipocas artesanais no Piatã, Salvador</span>
                     </h1>
-                    <p class="hero__lead">Pipocas artesanais feitas em casa. Aceitamos encomendas.</p>
+                    <p class="hero__lead">Pipocas artesanais feitas em casa, no Piatã. Aceitamos encomendas.</p>
                     <div class="hero__actions">
                         <a class="btn" href="#cardapio">Ver cardápio</a>
                         <a class="btn btn--ghost" href="https://wa.me/5571986762904" target="_blank"
@@ -156,8 +308,8 @@
                 <div class="reveal">
                     <p class="eyebrow">A casa</p>
                     <h2 class="section__title" id="casa-title">Doce, salgada e para presente</h2>
-                    <p>A Croc Croc faz pipoca artesanal em Salvador. As trufas, a barrinha e os pirulitos levam
-                        chocolate.</p>
+                    <p>A Croc Croc faz pipoca artesanal no Piatã, em Salvador. As trufas, a barrinha e os pirulitos
+                        levam chocolate.</p>
                     <p>O cardápio tem dois preços: varejo, para quem compra direto, e atacado, para quem revende.</p>
                 </div>
             </div>
@@ -282,22 +434,22 @@
                 <div class="menu-grid" id="menu-grid"></div>
                 <noscript>
                     <ul>
-                        <li>Cebola 25 g — varejo R$ 10,00, atacado R$ 8,00</li>
-                        <li>Leite Ninho 100 g — varejo R$ 26,00, atacado R$ 17,00</li>
-                        <li>Meio amargo 100 g — varejo R$ 26,00, atacado R$ 18,00</li>
-                        <li>Choquito 100 g — varejo R$ 29,00, atacado R$ 20,00</li>
-                        <li>Trufadas 100 g — varejo R$ 37,00, atacado R$ 25,00</li>
-                        <li>Trufadas Prestígio 100 g — varejo R$ 38,00, atacado R$ 26,00</li>
-                        <li>Barrinha de chocolate — varejo R$ 2,50, atacado R$ 1,50</li>
-                        <li>Pirulito com cobertura — varejo R$ 13,00, atacado R$ 9,00</li>
-                        <li>Pirulito simples — varejo R$ 6,00, atacado R$ 4,00</li>
-                        <li>Pipoca caramelada de cocada — varejo 27 g R$ 5,00, atacado 200 g R$ 29,00</li>
-                        <li>Pipoca caramelada de cocada colorida — varejo 27 g R$ 5,00, atacado 200 g R$ 29,00</li>
-                        <li>Pipoca caramelada de churros — varejo 27 g R$ 6,00, atacado 200 g R$ 30,00</li>
-                        <li>Pipoca caramelada de chocolate — varejo 27 g R$ 5,00, atacado 200 g R$ 29,00</li>
-                        <li>Pipoca caramelada de limão — varejo 27 g R$ 5,00, atacado 200 g R$ 26,00</li>
-                        <li>Pipoca caramelada de amendoim — varejo 27 g R$ 5,00, atacado 200 g R$ 28,00</li>
-                        <li>Pipoca caramelada de Leite Ninho — varejo 27 g R$ 6,00, atacado 200 g R$ 27,00</li>
+                        <li>Cebola, 25 g. Salgada, com manteiga, azeite doce e creme de cebola. Varejo R$ 10,00, atacado R$ 8,00.</li>
+                        <li>Leite Ninho, 100 g. Pipoca caramelada coberta com chocolate branco e leite em pó. Varejo R$ 26,00, atacado R$ 17,00.</li>
+                        <li>Meio amargo, 100 g. Chocolate meio amargo, leite em pó e chocolate em pó. Varejo R$ 26,00, atacado R$ 18,00.</li>
+                        <li>Choquito, 100 g. Chocolate meio amargo e flocos de arroz. Varejo R$ 29,00, atacado R$ 20,00.</li>
+                        <li>Trufadas, 100 g. Pipoca caramelada banhada no chocolate. Varejo R$ 37,00, atacado R$ 25,00.</li>
+                        <li>Trufadas Prestígio, 100 g. Chocolate meio amargo e coco ralado desidratado. Varejo R$ 38,00, atacado R$ 26,00.</li>
+                        <li>Barrinha de chocolate. Varejo R$ 2,50, atacado R$ 1,50.</li>
+                        <li>Pirulito com cobertura. Varejo R$ 13,00, atacado R$ 9,00.</li>
+                        <li>Pirulito simples. Varejo R$ 6,00, atacado R$ 4,00.</li>
+                        <li>Pipoca caramelada de cocada. Varejo 27 g R$ 5,00, atacado 200 g R$ 29,00.</li>
+                        <li>Pipoca caramelada de cocada colorida. Varejo 27 g R$ 5,00, atacado 200 g R$ 29,00.</li>
+                        <li>Pipoca caramelada de churros. Varejo 27 g R$ 6,00, atacado 200 g R$ 30,00.</li>
+                        <li>Pipoca caramelada de chocolate. Varejo 27 g R$ 5,00, atacado 200 g R$ 29,00.</li>
+                        <li>Pipoca caramelada de limão. Varejo 27 g R$ 5,00, atacado 200 g R$ 26,00.</li>
+                        <li>Pipoca caramelada de amendoim. Varejo 27 g R$ 5,00, atacado 200 g R$ 28,00.</li>
+                        <li>Pipoca caramelada de Leite Ninho. Varejo 27 g R$ 6,00, atacado 200 g R$ 27,00.</li>
                     </ul>
                 </noscript>
             </div>
@@ -373,7 +525,7 @@
                 <p class="footer__name">
                     <img src="assets/logo-linha.png" alt="Croc Croc" width="311" height="86">
                 </p>
-                <p>Pipocas artesanais · Salvador — BA</p>
+                <p>Pipocas artesanais · Piatã, Salvador — BA</p>
             </div>
             <div class="footer__links">
                 <a href="tel:+5571986762904">+55 71 98676-2904</a>
