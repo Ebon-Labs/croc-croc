@@ -852,6 +852,15 @@ a {
   line-height: 1.1;
 }
 
+.menu-card__amount {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.menu-card__amount:last-child {
+  margin-bottom: 0;
+}
+
 .menu-card__order {
   background: var(--red);
   color: var(--white);

@@ -7,8 +7,10 @@ const MENU = [
     portion: '25 g',
     group: 'Salgadas',
     varejo: 'R$ 10,00',
+    receita: 6,
+    atacadoFaixa: 'R$ 9,00',
     atacado: 'R$ 8,00',
-    lote: 6,
+    lote: 1,
     loteUnit: 'pacote',
     desc: 'Salgada, com manteiga, azeite doce e creme de cebola.',
     photo: 'assets/instagram/cebola.png',
@@ -20,7 +22,9 @@ const MENU = [
     portion: '100 g',
     group: 'Doces',
     varejo: 'R$ 26,00',
-    atacado: 'R$ 17,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 23,00',
+    atacado: 'R$ 21,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada coberta com chocolate branco e finalizada com leite em pó.',
@@ -33,7 +37,9 @@ const MENU = [
     portion: '100 g',
     group: 'Doces',
     varejo: 'R$ 26,00',
-    atacado: 'R$ 18,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 23,00',
+    atacado: 'R$ 21,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada coberta com chocolate meio amargo, finalizada com leite em pó e chocolate em pó.',
@@ -46,7 +52,9 @@ const MENU = [
     portion: '100 g',
     group: 'Doces',
     varejo: 'R$ 29,00',
-    atacado: 'R$ 20,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 26,00',
+    atacado: 'R$ 23,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada coberta com chocolate meio amargo e flocos de arroz.',
@@ -59,7 +67,9 @@ const MENU = [
     portion: '100 g',
     group: 'Doces',
     varejo: 'R$ 37,00',
-    atacado: 'R$ 25,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 33,00',
+    atacado: 'R$ 30,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada, cuidadosamente banhada no chocolate.',
@@ -72,7 +82,9 @@ const MENU = [
     portion: '100 g',
     group: 'Doces',
     varejo: 'R$ 38,00',
-    atacado: 'R$ 26,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 34,00',
+    atacado: 'R$ 30,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada banhada no chocolate meio amargo, finalizada com coco ralado desidratado.',
@@ -85,8 +97,9 @@ const MENU = [
     portion: '1 un.',
     group: 'Pra levar',
     varejo: 'R$ 2,50',
-    atacado: 'R$ 1,50',
-    lote: 12,
+    receita: 12,
+    atacado: 'R$ 2,00',
+    lote: 1,
     loteUnit: 'unidade',
     desc: 'Pipoca caramelada levemente triturada, banhada em chocolate branco ou meio amargo.',
     photo: 'assets/instagram/barrinha.png',
@@ -98,8 +111,10 @@ const MENU = [
     portion: '1 un.',
     group: 'Pra levar',
     varejo: 'R$ 13,00',
-    atacado: 'R$ 9,00',
-    lote: 8,
+    receita: 8,
+    atacadoFaixa: 'R$ 12,00',
+    atacado: 'R$ 10,00',
+    lote: 1,
     loteUnit: 'unidade',
     desc: 'Pipoca caramelada de chocolate em formato de pirulito, banhada no chocolate, com saquinho plástico e fita de cetim.',
     photo: 'assets/instagram/pirulitos.jpg',
@@ -111,8 +126,9 @@ const MENU = [
     portion: '1 un.',
     group: 'Pra levar',
     varejo: 'R$ 6,00',
-    atacado: 'R$ 4,00',
-    lote: 8,
+    receita: 8,
+    atacado: 'R$ 5,00',
+    lote: 1,
     loteUnit: 'unidade',
     desc: 'Pipoca caramelada de chocolate em formato de pirulito, com saquinho plástico e fita de cetim.',
     photo: 'assets/instagram/pirulito-simples.jpg',
@@ -124,7 +140,10 @@ const MENU = [
     portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 42,00',
-    atacado: 'R$ 29,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 38,00',
+    atacado: 'R$ 34,00',
+    festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
     calcPortion: 27,
@@ -139,7 +158,10 @@ const MENU = [
     portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 42,00',
-    atacado: 'R$ 29,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 38,00',
+    atacado: 'R$ 34,00',
+    festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
     calcPortion: 27,
@@ -154,11 +176,14 @@ const MENU = [
     portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 45,00',
-    atacado: 'R$ 30,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 41,00',
+    atacado: 'R$ 36,00',
+    festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
     calcPortion: 27,
-    festa: { varejo: 'R$ 6,00', atacado: 'R$ 4,00' },
+    festa: { varejo: 'R$ 6,00', atacado: 'R$ 5,00' },
     desc: 'Com canela em pó, finalizada com leite em pó e canela em pó.',
     photo: 'assets/instagram/caramelada-churros.jpg',
     photoAlt: 'Saco de pipoca caramelada de churros com laço verde e o adesivo da Croc Croc.'
@@ -169,7 +194,10 @@ const MENU = [
     portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 43,00',
-    atacado: 'R$ 29,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 39,00',
+    atacado: 'R$ 34,00',
+    festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
     calcPortion: 27,
@@ -184,7 +212,10 @@ const MENU = [
     portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 38,00',
-    atacado: 'R$ 26,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 34,00',
+    atacado: 'R$ 30,00',
+    festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
     calcPortion: 27,
@@ -199,7 +230,10 @@ const MENU = [
     portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 42,00',
-    atacado: 'R$ 28,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 38,00',
+    atacado: 'R$ 34,00',
+    festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
     calcPortion: 27,
@@ -214,11 +248,14 @@ const MENU = [
     portion: '200 g',
     group: 'Doces',
     varejo: 'R$ 41,00',
-    atacado: 'R$ 27,00',
+    receita: 1,
+    atacadoFaixa: 'R$ 37,00',
+    atacado: 'R$ 33,00',
+    festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
     calcPortion: 27,
-    festa: { varejo: 'R$ 6,00', atacado: 'R$ 4,00' },
+    festa: { varejo: 'R$ 6,00', atacado: 'R$ 5,00' },
     desc: 'Preparada e finalizada com leite em pó.',
     photo: 'assets/instagram/caramelada-ninho.jpg',
     photoAlt: 'Pipoca caramelada de Leite Ninho em um prato, com leite em pó ao lado e o cartão da Croc Croc.'
@@ -232,26 +269,10 @@ const menuState = {
   group: 'Todas'
 };
 
-function loteCount(item) {
-  const word = item.lote === 1 ? item.loteUnit : `${item.loteUnit}s`;
-  return `${item.lote} ${word}`;
-}
-
-function lotePhrase(item) {
-  if (!item.lote || item.lote <= 1) return '';
-  const phrase = `lote de ${loteCount(item)}`;
-  return phrase === 'lote de 6 pacotes' ? '' : phrase;
-}
-
 function formatMoney(value) {
   const [reais, cents] = value.toFixed(2).split('.');
   const grouped = reais.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
   return `R$ ${grouped},${cents}`;
-}
-
-function lotePrice(item) {
-  const unit = Number(item.atacado.replace(/[^\d,]/g, '').replace(',', '.'));
-  return formatMoney(unit * item.lote);
 }
 
 function shownPortion(item) {
@@ -263,11 +284,35 @@ function shownPrice(item) {
   return menuState.tier === 'atacado' ? item.atacado : item.varejo;
 }
 
+function receitaLabel(recipes, count) {
+  const name = recipes === 1 ? '1 receita' : `${recipes} receitas`;
+  return count === recipes ? name : `${name} · ${count}`;
+}
+
+function priceMarkup(item) {
+  if (menuState.tier !== 'atacado') {
+    return `<span class="menu-card__tier">Varejo</span>${shownPrice(item)}`;
+  }
+  const lines = [];
+  if (item.atacadoFaixa) {
+    lines.push(`<span class="menu-card__tier">${receitaLabel(1, item.receita)}</span><span class="menu-card__amount">${item.atacadoFaixa}</span>`);
+  }
+  const recipes = item.atacadoFaixa ? 2 : 1;
+  const count = item.receita * recipes;
+  lines.push(`<span class="menu-card__tier">${receitaLabel(recipes, count)}</span><span class="menu-card__amount">${item.atacado}</span>`);
+  return lines.join('');
+}
+
+function orderPriceText(item) {
+  if (menuState.tier !== 'atacado') return `varejo ${shownPrice(item)}`;
+  const deepCount = item.atacadoFaixa ? item.receita * 2 : item.receita;
+  const deep = `${receitaLabel(item.atacadoFaixa ? 2 : 1, deepCount)} por ${item.atacado}`;
+  if (!item.atacadoFaixa) return `atacado, ${deep}`;
+  return `atacado, ${receitaLabel(1, item.receita)} por ${item.atacadoFaixa}, e ${deep}`;
+}
+
 function whatsappLink(item) {
-  const tierLabel = menuState.tier === 'varejo' ? 'varejo' : 'atacado';
-  const loteText = lotePhrase(item);
-  const lote = menuState.tier === 'atacado' && loteText ? `, ${loteText}` : '';
-  const text = `Olá! Quero encomendar ${item.name} (${shownPortion(item)}), preço de ${tierLabel} ${shownPrice(item)}${lote}.`;
+  const text = `Olá! Quero encomendar ${item.name} (${shownPortion(item)}), preço de ${orderPriceText(item)}.`;
   return `${WHATSAPP}?text=${encodeURIComponent(text)}`;
 }
 
@@ -276,8 +321,6 @@ function renderMenu() {
   if (!grid) return;
 
   const items = MENU.filter((item) => menuState.group === 'Todas' || item.group === menuState.group);
-  const tierLabel = menuState.tier === 'varejo' ? 'Varejo' : 'Atacado';
-
   grid.innerHTML = items.map((item, index) => `
     <article class="menu-card reveal visible" style="transition-delay: ${(index % 3) * 0.08}s" aria-labelledby="item-${item.id}">
       ${item.photo ? `<img class="menu-card__photo" src="${item.photo}" alt="${item.photoAlt}">` : ''}
@@ -287,8 +330,7 @@ function renderMenu() {
       <p class="menu-card__portion">${shownPortion(item)}</p>
       <div class="menu-card__footer">
         <p class="menu-card__price">
-          <span class="menu-card__tier">${tierLabel}</span>
-          ${shownPrice(item)}
+          ${priceMarkup(item)}
         </p>
         <a class="menu-card__order" href="${whatsappLink(item)}" target="_blank" rel="noopener noreferrer">Pedir</a>
       </div>
@@ -341,9 +383,28 @@ function calcPortionLabel(item) {
   return grams ? `${grams} g` : item.portion;
 }
 
+function packCount(item, amount) {
+  const grams = portionGrams(item);
+  return grams ? amount / grams : amount;
+}
+
+function bandFor(item, packs) {
+  const varejoText = item.festa ? item.festa.varejo : item.varejo;
+  if (calcState.tier !== 'atacado') return { text: varejoText, price: moneyValue(varejoText), name: 'varejo' };
+  const whole = Math.floor(packs);
+  const recipe = item.festa ? item.festaMin : item.receita;
+  const deepText = item.festa ? item.festa.atacado : item.atacado;
+  const deepMin = !item.festa && item.atacadoFaixa ? recipe * 2 : recipe;
+  if (whole >= deepMin) return { text: deepText, price: moneyValue(deepText), name: 'atacado' };
+  if (!item.festa && item.atacadoFaixa && whole >= recipe) {
+    return { text: item.atacadoFaixa, price: moneyValue(item.atacadoFaixa), name: 'atacado' };
+  }
+  return { text: varejoText, price: moneyValue(varejoText), name: 'varejo', below: recipe };
+}
+
 function calcPriceText(item) {
-  const tier = calcState.tier === 'atacado' ? 'atacado' : 'varejo';
-  return item.festa ? item.festa[tier] : item[tier];
+  const amount = portionGrams(item) ? calcState.grams : calcState.units;
+  return bandFor(item, packCount(item, amount)).text;
 }
 
 function moneyValue(text) {
@@ -361,12 +422,8 @@ function calcItem() {
   return MENU.find((item) => item.id === calcState.id) || MENU[0];
 }
 
-function calcUnitPrice(item) {
-  return moneyValue(calcPriceText(item));
-}
-
 function calcTotal(item, amount) {
-  const price = calcUnitPrice(item);
+  const price = bandFor(item, packCount(item, amount)).price;
   const grams = portionGrams(item);
   if (!grams) return Math.round(price * amount * 100) / 100;
   if (amount % grams === 0) return price * (amount / grams);
@@ -375,8 +432,13 @@ function calcTotal(item, amount) {
 
 function calcPresets(item) {
   const grams = portionGrams(item);
-  if (grams) return [...new Set([grams, 50, 100, 250, 500])].sort((a, b) => a - b);
-  return [...new Set([1, item.lote])].sort((a, b) => a - b);
+  if (grams) {
+    const recipe = item.festa ? item.festaMin * grams : item.receita * grams;
+    const second = !item.festa && item.atacadoFaixa ? recipe * 2 : null;
+    return [...new Set([grams, recipe, second, 250, 500].filter(Boolean))].sort((a, b) => a - b);
+  }
+  const second = item.atacadoFaixa ? item.receita * 2 : null;
+  return [...new Set([1, item.receita, second].filter(Boolean))].sort((a, b) => a - b);
 }
 
 function renderCalcFlavors() {
@@ -447,17 +509,17 @@ function updateCalc() {
   const presets = document.getElementById('calc-presets');
   if (!priceEl || !order) return;
 
-  const wholesale = calcState.tier === 'atacado';
-  const tierName = wholesale ? 'atacado' : 'varejo';
-  const unitPrice = calcPriceText(item);
-  const loteText = item.festa ? '' : lotePhrase(item);
-  const loteNote = wholesale && loteText ? ` O ${loteText} sai a ${lotePrice(item)}.` : '';
+  const band = bandFor(item, amount === null ? 0 : packCount(item, amount));
+  const unitWord = item.portion.includes('un') ? 'unidades' : 'pacotes';
+  const belowNote = band.below
+    ? ` O atacado começa em 1 receita${band.below === 1 ? '' : ` (${band.below} ${unitWord})`}.`
+    : '';
   group.textContent = item.group;
   name.textContent = item.name;
-  document.getElementById('calc-tier-label').textContent = wholesale ? 'Atacado' : 'Varejo';
+  document.getElementById('calc-tier-label').textContent = calcState.tier === 'atacado' ? 'Atacado' : 'Varejo';
   ref.textContent = grams
-    ? `O pacote de ${calcPortionLabel(item)} sai a ${unitPrice} no ${tierName}.${loteNote} O valor acompanha os gramas.`
-    : `Cada unidade sai a ${unitPrice} no ${tierName}.${loteNote}`;
+    ? `O pacote de ${calcPortionLabel(item)} sai a ${band.text} no ${band.name}.${belowNote} O valor acompanha os gramas.`
+    : `Cada unidade sai a ${band.text} no ${band.name}.${belowNote}`;
 
   presets?.querySelectorAll('[data-preset]').forEach((button) => {
     button.classList.toggle('is-active', Number(button.dataset.preset) === amount);
@@ -481,7 +543,7 @@ function updateCalc() {
   const qty = grams
     ? `${amount} g de ${item.name}`
     : `${amount} ${amount === 1 ? 'unidade' : 'unidades'} de ${item.name}`;
-  const text = `Olá! Quero encomendar ${qty}. Preço de ${tierName}: ${priceLabel}.`;
+  const text = `Olá! Quero encomendar ${qty}. Preço de ${band.name}: ${priceLabel}.`;
   order.href = `${WHATSAPP}?text=${encodeURIComponent(text)}`;
   order.setAttribute('aria-disabled', 'false');
   order.tabIndex = 0;

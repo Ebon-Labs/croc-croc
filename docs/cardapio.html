@@ -220,13 +220,15 @@
 
         .prices {
             display: flex;
-            gap: 1.6mm;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 1mm;
         }
 
         .prices p {
             margin: 0;
-            min-width: 22mm;
-            padding: 0.8mm 1.8mm 1mm;
+            min-width: 16mm;
+            padding: 0.6mm 1.2mm 0.8mm;
             border-radius: 7px;
             background: var(--cream);
             text-align: right;
@@ -234,9 +236,9 @@
 
         .prices span {
             display: block;
-            font-size: 6.2pt;
+            font-size: 5.4pt;
             font-weight: 700;
-            letter-spacing: 0.06em;
+            letter-spacing: 0.02em;
             text-transform: uppercase;
             color: var(--muted);
         }
@@ -358,7 +360,8 @@
                             <p class="portion">25 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 10,00</strong></p>
-                                <p><span>Atacado · lote de 6</span><strong>R$ 8,00</strong></p>
+                                <p><span>1 receita · 6</span><strong>R$ 9,00</strong></p>
+                                <p><span>2 receitas · 12</span><strong>R$ 8,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -379,7 +382,8 @@
                             <p class="portion">100 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 26,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 17,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 23,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 21,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -395,7 +399,8 @@
                             <p class="portion">100 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 26,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 18,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 23,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 21,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -409,7 +414,8 @@
                             <p class="portion">100 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 29,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 20,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 26,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 23,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -424,7 +430,8 @@
                             <p class="portion">100 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 37,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 25,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 33,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 30,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -440,7 +447,8 @@
                             <p class="portion">100 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 38,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 26,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 34,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 30,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -464,13 +472,14 @@
                             <p class="portion">27 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 5,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                                <p><span>1 receita · 8</span><strong>R$ 4,00</strong></p>
                             </div>
                         </div>
                         <div class="buy">
                             <p class="portion">200 g</p>
                             <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 29,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 38,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 34,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -485,13 +494,14 @@
                             <p class="portion">27 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 5,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                                <p><span>1 receita · 8</span><strong>R$ 4,00</strong></p>
                             </div>
                         </div>
                         <div class="buy">
                             <p class="portion">200 g</p>
                             <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 29,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 38,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 34,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -506,13 +516,14 @@
                             <p class="portion">27 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 6,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                                <p><span>1 receita · 8</span><strong>R$ 5,00</strong></p>
                             </div>
                         </div>
                         <div class="buy">
                             <p class="portion">200 g</p>
                             <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 30,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 41,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 36,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -527,13 +538,14 @@
                             <p class="portion">27 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 5,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                                <p><span>1 receita · 8</span><strong>R$ 4,00</strong></p>
                             </div>
                         </div>
                         <div class="buy">
                             <p class="portion">200 g</p>
                             <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 29,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 39,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 34,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -548,13 +560,14 @@
                             <p class="portion">27 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 5,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                                <p><span>1 receita · 8</span><strong>R$ 4,00</strong></p>
                             </div>
                         </div>
                         <div class="buy">
                             <p class="portion">200 g</p>
                             <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 26,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 34,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 30,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -569,13 +582,14 @@
                             <p class="portion">27 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 5,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                                <p><span>1 receita · 8</span><strong>R$ 4,00</strong></p>
                             </div>
                         </div>
                         <div class="buy">
                             <p class="portion">200 g</p>
                             <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 28,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 38,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 34,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -590,13 +604,14 @@
                             <p class="portion">27 g</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 6,00</strong></p>
-                                <p><span>Atacado</span><strong>R$ 4,00</strong></p>
+                                <p><span>1 receita · 8</span><strong>R$ 5,00</strong></p>
                             </div>
                         </div>
                         <div class="buy">
                             <p class="portion">200 g</p>
                             <div class="prices">
-                                <p><span>Atacado</span><strong>R$ 27,00</strong></p>
+                                <p><span>1 receita</span><strong>R$ 37,00</strong></p>
+                                <p><span>2 receitas</span><strong>R$ 33,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -618,7 +633,7 @@
                             <p class="portion">1 un.</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 2,50</strong></p>
-                                <p><span>Atacado · lote de 12</span><strong>R$ 1,50</strong></p>
+                                <p><span>1 receita · 12</span><strong>R$ 2,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -634,7 +649,8 @@
                             <p class="portion">1 un.</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 13,00</strong></p>
-                                <p><span>Atacado · lote de 8</span><strong>R$ 9,00</strong></p>
+                                <p><span>1 receita · 8</span><strong>R$ 12,00</strong></p>
+                                <p><span>2 receitas · 16</span><strong>R$ 10,00</strong></p>
                             </div>
                         </div>
                     </div>
@@ -650,7 +666,7 @@
                             <p class="portion">1 un.</p>
                             <div class="prices">
                                 <p><span>Varejo</span><strong>R$ 6,00</strong></p>
-                                <p><span>Atacado · lote de 8</span><strong>R$ 4,00</strong></p>
+                                <p><span>1 receita · 8</span><strong>R$ 5,00</strong></p>
                             </div>
                         </div>
                     </div>
