@@ -5,11 +5,11 @@ const MENU = [
     id: 'cebola',
     name: 'Cebola',
     portion: '25 g',
+    atacadoGrams: 150,
     group: 'Salgadas',
     varejo: 'R$ 10,00',
     receita: 6,
-    atacadoFaixa: 'R$ 9,00',
-    atacado: 'R$ 8,00',
+    atacado: 'R$ 9,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Salgada, com manteiga, azeite doce e creme de cebola.',
@@ -20,11 +20,11 @@ const MENU = [
     id: 'ninho',
     name: 'Leite Ninho',
     portion: '100 g',
+    varejoGrams: 30,
     group: 'Doces',
     varejo: 'R$ 26,00',
     receita: 1,
-    atacadoFaixa: 'R$ 23,00',
-    atacado: 'R$ 21,00',
+    atacado: 'R$ 23,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada coberta com chocolate branco e finalizada com leite em pó.',
@@ -35,11 +35,11 @@ const MENU = [
     id: 'meio-amargo',
     name: 'Meio amargo',
     portion: '100 g',
+    varejoGrams: 30,
     group: 'Doces',
     varejo: 'R$ 26,00',
     receita: 1,
-    atacadoFaixa: 'R$ 23,00',
-    atacado: 'R$ 21,00',
+    atacado: 'R$ 23,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada coberta com chocolate meio amargo, finalizada com leite em pó e chocolate em pó.',
@@ -50,11 +50,11 @@ const MENU = [
     id: 'choquito',
     name: 'Choquito',
     portion: '100 g',
+    varejoGrams: 30,
     group: 'Doces',
     varejo: 'R$ 29,00',
     receita: 1,
-    atacadoFaixa: 'R$ 26,00',
-    atacado: 'R$ 23,00',
+    atacado: 'R$ 26,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada coberta com chocolate meio amargo e flocos de arroz.',
@@ -65,11 +65,11 @@ const MENU = [
     id: 'trufadas',
     name: 'Trufadas',
     portion: '100 g',
+    varejoGrams: 30,
     group: 'Doces',
     varejo: 'R$ 37,00',
     receita: 1,
-    atacadoFaixa: 'R$ 33,00',
-    atacado: 'R$ 30,00',
+    atacado: 'R$ 33,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada, cuidadosamente banhada no chocolate.',
@@ -80,11 +80,11 @@ const MENU = [
     id: 'prestigio',
     name: 'Trufadas Prestígio',
     portion: '100 g',
+    varejoGrams: 30,
     group: 'Doces',
     varejo: 'R$ 38,00',
     receita: 1,
-    atacadoFaixa: 'R$ 34,00',
-    atacado: 'R$ 30,00',
+    atacado: 'R$ 34,00',
     lote: 1,
     loteUnit: 'pacote',
     desc: 'Pipoca caramelada banhada no chocolate meio amargo, finalizada com coco ralado desidratado.',
@@ -112,8 +112,7 @@ const MENU = [
     group: 'Pra levar',
     varejo: 'R$ 13,00',
     receita: 8,
-    atacadoFaixa: 'R$ 12,00',
-    atacado: 'R$ 10,00',
+    atacado: 'R$ 12,00',
     lote: 1,
     loteUnit: 'unidade',
     desc: 'Pipoca caramelada de chocolate em formato de pirulito, banhada no chocolate, com saquinho plástico e fita de cetim.',
@@ -141,8 +140,7 @@ const MENU = [
     group: 'Doces',
     varejo: 'R$ 42,00',
     receita: 1,
-    atacadoFaixa: 'R$ 38,00',
-    atacado: 'R$ 34,00',
+    atacado: 'R$ 38,00',
     festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
@@ -159,8 +157,7 @@ const MENU = [
     group: 'Doces',
     varejo: 'R$ 42,00',
     receita: 1,
-    atacadoFaixa: 'R$ 38,00',
-    atacado: 'R$ 34,00',
+    atacado: 'R$ 38,00',
     festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
@@ -177,8 +174,7 @@ const MENU = [
     group: 'Doces',
     varejo: 'R$ 45,00',
     receita: 1,
-    atacadoFaixa: 'R$ 41,00',
-    atacado: 'R$ 36,00',
+    atacado: 'R$ 41,00',
     festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
@@ -195,8 +191,7 @@ const MENU = [
     group: 'Doces',
     varejo: 'R$ 43,00',
     receita: 1,
-    atacadoFaixa: 'R$ 39,00',
-    atacado: 'R$ 34,00',
+    atacado: 'R$ 39,00',
     festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
@@ -213,8 +208,7 @@ const MENU = [
     group: 'Doces',
     varejo: 'R$ 38,00',
     receita: 1,
-    atacadoFaixa: 'R$ 34,00',
-    atacado: 'R$ 30,00',
+    atacado: 'R$ 34,00',
     festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
@@ -231,8 +225,7 @@ const MENU = [
     group: 'Doces',
     varejo: 'R$ 42,00',
     receita: 1,
-    atacadoFaixa: 'R$ 38,00',
-    atacado: 'R$ 34,00',
+    atacado: 'R$ 38,00',
     festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
@@ -249,8 +242,7 @@ const MENU = [
     group: 'Doces',
     varejo: 'R$ 41,00',
     receita: 1,
-    atacadoFaixa: 'R$ 37,00',
-    atacado: 'R$ 33,00',
+    atacado: 'R$ 37,00',
     festaMin: 8,
     lote: 1,
     loteUnit: 'pacote',
@@ -275,40 +267,55 @@ function formatMoney(value) {
   return `R$ ${grouped},${cents}`;
 }
 
+function varejoUnitPrice(item) {
+  const grams = Number(String(item.portion).match(/(\d+)/)?.[1]);
+  if (!item.varejoGrams || !grams) return item.varejo;
+  const value = Math.round(moneyValue(item.varejo) * item.varejoGrams / grams * 100) / 100;
+  return formatMoney(value);
+}
+
+function atacadoBundlePrice(item) {
+  const grams = Number(String(item.portion).match(/(\d+)/)?.[1]);
+  if (!item.atacadoGrams || !grams) return item.atacado;
+  const value = Math.round(moneyValue(item.atacado) * item.atacadoGrams / grams * 100) / 100;
+  return formatMoney(value);
+}
+
+function unitRecipe(item) {
+  return item.portion.includes('un.') && item.receita > 1;
+}
+
+function unitRecipePrice(item) {
+  const value = Math.round(moneyValue(item.atacado) * item.receita * 100) / 100;
+  return formatMoney(value);
+}
+
 function shownPortion(item) {
+  if (menuState.tier === 'varejo' && item.varejoGrams) return `${item.varejoGrams} g`;
+  if (menuState.tier === 'atacado' && item.atacadoGrams) return `${item.atacadoGrams} g`;
+  if (menuState.tier === 'atacado' && unitRecipe(item)) return `${item.receita} un.`;
   return menuState.tier === 'varejo' && item.festa ? '27 g' : item.portion;
 }
 
 function shownPrice(item) {
+  if (menuState.tier === 'varejo' && item.varejoGrams) return varejoUnitPrice(item);
   if (menuState.tier === 'varejo' && item.festa) return item.festa.varejo;
-  return menuState.tier === 'atacado' ? item.atacado : item.varejo;
-}
-
-function receitaLabel(recipes, count) {
-  const name = recipes === 1 ? '1 receita' : `${recipes} receitas`;
-  return count === recipes ? name : `${name} · ${count}`;
+  if (menuState.tier === 'atacado' && item.atacadoGrams) return atacadoBundlePrice(item);
+  if (menuState.tier === 'atacado' && unitRecipe(item)) return unitRecipePrice(item);
+  if (menuState.tier === 'atacado') return item.atacado;
+  return item.varejo;
 }
 
 function priceMarkup(item) {
-  if (menuState.tier !== 'atacado') {
-    return `<span class="menu-card__tier">Varejo</span>${shownPrice(item)}`;
-  }
-  const lines = [];
-  if (item.atacadoFaixa) {
-    lines.push(`<span class="menu-card__tier">${receitaLabel(1, item.receita)}</span><span class="menu-card__amount">${item.atacadoFaixa}</span>`);
-  }
-  const recipes = item.atacadoFaixa ? 2 : 1;
-  const count = item.receita * recipes;
-  lines.push(`<span class="menu-card__tier">${receitaLabel(recipes, count)}</span><span class="menu-card__amount">${item.atacado}</span>`);
-  return lines.join('');
+  const tier = menuState.tier === 'atacado' ? 'Atacado' : 'Varejo';
+  const unitLine = menuState.tier === 'atacado' && unitRecipe(item)
+    ? `<span class="menu-card__bundle">1 un. ${item.atacado}</span>`
+    : '';
+  return `<span class="menu-card__tier">${tier}</span>${shownPrice(item)}${unitLine}`;
 }
 
 function orderPriceText(item) {
-  if (menuState.tier !== 'atacado') return `varejo ${shownPrice(item)}`;
-  const deepCount = item.atacadoFaixa ? item.receita * 2 : item.receita;
-  const deep = `${receitaLabel(item.atacadoFaixa ? 2 : 1, deepCount)} por ${item.atacado}`;
-  if (!item.atacadoFaixa) return `atacado, ${deep}`;
-  return `atacado, ${receitaLabel(1, item.receita)} por ${item.atacadoFaixa}, e ${deep}`;
+  return menuState.tier === 'atacado' ? `atacado ${shownPrice(item)}` : `varejo ${shownPrice(item)}`;
 }
 
 function whatsappLink(item) {
@@ -373,6 +380,8 @@ function initTierToggle() {
 }
 
 function portionGrams(item) {
+  if (item.varejoGrams && calcState.tier === 'varejo') return item.varejoGrams;
+  if (item.atacadoGrams && calcState.tier === 'atacado') return item.atacadoGrams;
   if (item.calcPortion) return item.calcPortion;
   const match = item.portion.match(/(\d+)\s*g/);
   return match ? Number(match[1]) : null;
@@ -380,7 +389,9 @@ function portionGrams(item) {
 
 function calcPortionLabel(item) {
   const grams = portionGrams(item);
-  return grams ? `${grams} g` : item.portion;
+  if (grams) return `${grams} g`;
+  if (calcState.tier === 'atacado' && unitRecipe(item)) return `${item.receita} un.`;
+  return item.portion;
 }
 
 function packCount(item, amount) {
@@ -389,16 +400,19 @@ function packCount(item, amount) {
 }
 
 function bandFor(item, packs) {
-  const varejoText = item.festa ? item.festa.varejo : item.varejo;
+  const varejoText = item.festa
+    ? item.festa.varejo
+    : (calcState.tier !== 'atacado' && item.varejoGrams ? varejoUnitPrice(item) : item.varejo);
   if (calcState.tier !== 'atacado') return { text: varejoText, price: moneyValue(varejoText), name: 'varejo' };
+  if (item.atacadoGrams) {
+    const text = atacadoBundlePrice(item);
+    if (Math.floor(packs) >= 1) return { text, price: moneyValue(text), name: 'atacado' };
+    return { text: item.varejo, price: moneyValue(item.varejo), name: 'varejo', below: 1 };
+  }
   const whole = Math.floor(packs);
   const recipe = item.festa ? item.festaMin : item.receita;
-  const deepText = item.festa ? item.festa.atacado : item.atacado;
-  const deepMin = !item.festa && item.atacadoFaixa ? recipe * 2 : recipe;
-  if (whole >= deepMin) return { text: deepText, price: moneyValue(deepText), name: 'atacado' };
-  if (!item.festa && item.atacadoFaixa && whole >= recipe) {
-    return { text: item.atacadoFaixa, price: moneyValue(item.atacadoFaixa), name: 'atacado' };
-  }
+  const atacadoText = item.festa ? item.festa.atacado : item.atacado;
+  if (whole >= recipe) return { text: atacadoText, price: moneyValue(atacadoText), name: 'atacado' };
   return { text: varejoText, price: moneyValue(varejoText), name: 'varejo', below: recipe };
 }
 
@@ -414,7 +428,7 @@ function moneyValue(text) {
 const calcState = {
   id: MENU[0].id,
   tier: 'varejo',
-  grams: portionGrams(MENU[0]) || 100,
+  grams: Number(String(MENU[0].portion).match(/(\d+)/)?.[1]) || 100,
   units: 1
 };
 
@@ -423,22 +437,25 @@ function calcItem() {
 }
 
 function calcTotal(item, amount) {
-  const price = bandFor(item, packCount(item, amount)).price;
-  const grams = portionGrams(item);
-  if (!grams) return Math.round(price * amount * 100) / 100;
-  if (amount % grams === 0) return price * (amount / grams);
-  return Math.round((price / grams) * amount * 100) / 100;
+  const band = bandFor(item, packCount(item, amount));
+  const retail = item.portion.match(/(\d+)\s*g/);
+  const grams = band.name === 'varejo' && item.atacadoGrams && calcState.tier === 'atacado' && retail
+    ? Number(retail[1])
+    : portionGrams(item);
+  if (!grams) return Math.round(band.price * amount * 100) / 100;
+  if (amount % grams === 0) return band.price * (amount / grams);
+  return Math.round((band.price / grams) * amount * 100) / 100;
 }
 
 function calcPresets(item) {
   const grams = portionGrams(item);
   if (grams) {
-    const recipe = item.festa ? item.festaMin * grams : item.receita * grams;
-    const second = !item.festa && item.atacadoFaixa ? recipe * 2 : null;
-    return [...new Set([grams, recipe, second, 250, 500].filter(Boolean))].sort((a, b) => a - b);
+    const recipe = item.atacadoGrams && calcState.tier === 'atacado'
+      ? grams
+      : (item.festa ? item.festaMin * grams : item.receita * grams);
+    return [...new Set([grams, recipe, 250, 500])].sort((a, b) => a - b);
   }
-  const second = item.atacadoFaixa ? item.receita * 2 : null;
-  return [...new Set([1, item.receita, second].filter(Boolean))].sort((a, b) => a - b);
+  return [...new Set([1, item.receita])].sort((a, b) => a - b);
 }
 
 function renderCalcFlavors() {
@@ -510,16 +527,25 @@ function updateCalc() {
   if (!priceEl || !order) return;
 
   const band = bandFor(item, amount === null ? 0 : packCount(item, amount));
-  const unitWord = item.portion.includes('un') ? 'unidades' : 'pacotes';
-  const belowNote = band.below
-    ? ` O atacado começa em 1 receita${band.below === 1 ? '' : ` (${band.below} ${unitWord})`}.`
-    : '';
+  const unitWord = item.portion.includes('un')
+    ? (band.below === 1 ? 'unidade' : 'unidades')
+    : (band.below === 1 ? 'pacote' : 'pacotes');
+  const belowNote = !band.below
+    ? ''
+    : item.atacadoGrams
+      ? ` O atacado começa em ${item.atacadoGrams} g.`
+      : ` O atacado começa em ${band.below} ${unitWord}.`;
   group.textContent = item.group;
   name.textContent = item.name;
   document.getElementById('calc-tier-label').textContent = calcState.tier === 'atacado' ? 'Atacado' : 'Varejo';
+  const packLabel = band.name === 'varejo' && item.atacadoGrams && calcState.tier === 'atacado'
+    ? item.portion
+    : calcPortionLabel(item);
   ref.textContent = grams
-    ? `O pacote de ${calcPortionLabel(item)} sai a ${band.text} no ${band.name}.${belowNote} O valor acompanha os gramas.`
-    : `Cada unidade sai a ${band.text} no ${band.name}.${belowNote}`;
+    ? `O pacote de ${packLabel} sai a ${band.text} no ${band.name}.${belowNote} O valor acompanha os gramas.`
+    : unitRecipe(item) && band.name === 'atacado'
+      ? `As ${item.receita} unidades saem a ${unitRecipePrice(item)} no atacado. Cada unidade sai a ${item.atacado}.`
+      : `Cada unidade sai a ${band.text} no ${band.name}.${belowNote}`;
 
   presets?.querySelectorAll('[data-preset]').forEach((button) => {
     button.classList.toggle('is-active', Number(button.dataset.preset) === amount);
@@ -577,6 +603,17 @@ function initCalculator() {
         other.classList.toggle('is-active', active);
         other.setAttribute('aria-pressed', String(active));
       });
+      const current = calcItem();
+      if (current.varejoGrams || current.atacadoGrams) {
+        const pack = Number(String(current.portion).match(/(\d+)/)?.[1]);
+        calcState.grams = calcState.tier === 'varejo'
+          ? (current.varejoGrams || pack || calcState.grams)
+          : (current.atacadoGrams || pack || calcState.grams);
+      } else if (unitRecipe(current)) {
+        calcState.units = calcState.tier === 'atacado' ? current.receita : 1;
+      }
+      renderCalcFlavors();
+      syncCalcControls();
       updateCalc();
     });
   });
@@ -586,7 +623,10 @@ function initCalculator() {
     if (!button) return;
     calcState.id = button.dataset.flavor;
     const picked = calcItem();
-    if (picked.calcPortion) calcState.grams = picked.calcPortion;
+    if (calcState.tier === 'varejo' && picked.varejoGrams) calcState.grams = picked.varejoGrams;
+    else if (calcState.tier === 'atacado' && picked.atacadoGrams) calcState.grams = picked.atacadoGrams;
+    else if (unitRecipe(picked)) calcState.units = calcState.tier === 'atacado' ? picked.receita : 1;
+    else if (picked.calcPortion) calcState.grams = picked.calcPortion;
     host.querySelectorAll('[data-flavor]').forEach((other) => {
       const active = other === button;
       other.classList.toggle('is-active', active);

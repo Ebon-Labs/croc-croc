@@ -7,7 +7,7 @@ Venda no bairro de **Piatã, Salvador — BA**. Produção caseira, em fogão a 
 O cardápio tem o preço de 1 unidade e o preço da receita:
 
 - **Varejo:** 1 unidade. É o preço que já estava no cardápio.
-- **Atacado:** a venda de uma receita completa. 10% sobre o varejo nessa receita. 20% a partir de 2 receitas, quando o arredondamento ainda baixa o preço.
+- **Atacado:** a venda a partir de uma receita completa. O desconto dessa receita vale também em qualquer quantidade maior.
 
 O lucro da unidade é o preço × 0,9661 − custo. A nota de 12 de novembro diz o tamanho de cada receita. A de 11 de novembro explica a faixa e o piso.
 
@@ -45,13 +45,13 @@ Atualizado em **12 de novembro de 2026**.
 
 ### 12 de novembro de 2026 — atacado é uma receita
 
-O preço das faixas não muda. Muda a quantidade. Atacado é a venda de uma receita completa, a fornada escrita na ficha.
+Atacado é a venda de uma receita completa, a fornada escrita na ficha. O preço dessa receita vale também para qualquer quantidade maior.
 
 A receita da Cebola é **6 pacotes**. A da barrinha é **12 unidades**. A dos pirulitos é **8 unidades**. Leite Ninho, Meio Amargo, Choquito, Trufadas, Prestígio e cada pipoca caramelada de 200 g ou 215 g são **1 pacote**: a ficha já é a fornada.
 
 No Tamanho Festa, a receita é o pacote grande partido em 27 g. 7 pacotes somam 189 g e não fecham a fornada. **8 pacotes** somam 216 g e cobrem os 200 g e os 215 g.
 
-10% vale em 1 receita. 20% vale a partir de 2 receitas. Onde o arredondamento deixa uma faixa só, esse preço é o da primeira receita.
+O atacado tem um preço só: o da primeira receita. Esse desconto não muda em quantidades maiores. Onde 10% arredonda de volta para o varejo, o atacado fica no desconto que ainda baixa o preço.
 
 ### 11 de novembro de 2026 — atacado por faixa
 
@@ -173,66 +173,67 @@ Primeira tabela, com Cocada, Chocolate caramelado e Cebola, mais gás, água e m
 
 Preço por pacote. O custo já inclui ingredientes, embalagem, gás, água e mão de obra.
 
-| Sabor | Porção | Custo | Varejo | Receita | 1 receita | 2 receitas |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| [Cebola](#cebola) | 25 g | R$ 4,39 | **R$ 10,00** | 6 pacotes | **R$ 9,00** | **R$ 8,00** |
-| [Leite Ninho](#leite-ninho) | 100 g | R$ 8,23 | **R$ 26,00** | 1 pacote | **R$ 23,00** | **R$ 21,00** |
-| [Meio Amargo](#meio-amargo) | 100 g | R$ 8,44 | **R$ 26,00** | 1 pacote | **R$ 23,00** | **R$ 21,00** |
-| [Choquito](#choquito) | 100 g | R$ 9,38 | **R$ 29,00** | 1 pacote | **R$ 26,00** | **R$ 23,00** |
-| [Trufadas](#trufadas) | 100 g | R$ 12,10 | **R$ 37,00** | 1 pacote | **R$ 33,00** | **R$ 30,00** |
-| [Trufadas Prestígio](#trufadas-prestígio) | 100 g | R$ 15,15 | **R$ 38,00** | 1 pacote | **R$ 34,00** | **R$ 30,00** |
-| [Barrinha de chocolate](#barrinha-de-chocolate) | 1 un. | R$ 0,77 | **R$ 2,50** | 12 un. | **R$ 2,00** | — |
-| [Pirulito com cobertura](#pirulito-com-cobertura) | 1 un. | R$ 4,40 | **R$ 13,00** | 8 un. | **R$ 12,00** | **R$ 10,00** |
-| [Pirulito simples](#pirulito-simples) | 1 un. | R$ 2,00 | **R$ 6,00** | 8 un. | **R$ 5,00** | — |
-| [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 215 g | R$ 13,75 | **R$ 42,00** | 1 pacote | **R$ 38,00** | **R$ 34,00** |
-| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 215 g | R$ 13,99 | **R$ 42,00** | 1 pacote | **R$ 38,00** | **R$ 34,00** |
-| [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 200 g | R$ 14,47 | **R$ 45,00** | 1 pacote | **R$ 41,00** | **R$ 36,00** |
-| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 215 g | R$ 13,86 | **R$ 43,00** | 1 pacote | **R$ 39,00** | **R$ 34,00** |
-| [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 200 g | R$ 12,44 | **R$ 38,00** | 1 pacote | **R$ 34,00** | **R$ 30,00** |
-| [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 215 g | R$ 13,64 | **R$ 42,00** | 1 pacote | **R$ 38,00** | **R$ 34,00** |
-| [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 200 g | R$ 13,24 | **R$ 41,00** | 1 pacote | **R$ 37,00** | **R$ 33,00** |
+| Sabor | Porção | Custo | Varejo | Receita | Atacado |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| [Cebola](#cebola) | 25 g | R$ 4,39 | **R$ 10,00** | 6 pacotes | **R$ 9,00** |
+| [Leite Ninho](#leite-ninho) | 100 g | R$ 8,23 | **R$ 26,00** | 1 pacote | **R$ 23,00** |
+| [Meio Amargo](#meio-amargo) | 100 g | R$ 8,44 | **R$ 26,00** | 1 pacote | **R$ 23,00** |
+| [Choquito](#choquito) | 100 g | R$ 9,38 | **R$ 29,00** | 1 pacote | **R$ 26,00** |
+| [Trufadas](#trufadas) | 100 g | R$ 12,10 | **R$ 37,00** | 1 pacote | **R$ 33,00** |
+| [Trufadas Prestígio](#trufadas-prestígio) | 100 g | R$ 15,15 | **R$ 38,00** | 1 pacote | **R$ 34,00** |
+| [Barrinha de chocolate](#barrinha-de-chocolate) | 1 un. | R$ 0,77 | **R$ 2,50** | 12 un. | **R$ 2,00** |
+| [Pirulito com cobertura](#pirulito-com-cobertura) | 1 un. | R$ 4,40 | **R$ 13,00** | 8 un. | **R$ 12,00** |
+| [Pirulito simples](#pirulito-simples) | 1 un. | R$ 2,00 | **R$ 6,00** | 8 un. | **R$ 5,00** |
+| [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 215 g | R$ 13,75 | **R$ 42,00** | 1 pacote | **R$ 38,00** |
+| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 215 g | R$ 13,99 | **R$ 42,00** | 1 pacote | **R$ 38,00** |
+| [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 200 g | R$ 14,47 | **R$ 45,00** | 1 pacote | **R$ 41,00** |
+| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 215 g | R$ 13,86 | **R$ 43,00** | 1 pacote | **R$ 39,00** |
+| [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 200 g | R$ 12,44 | **R$ 38,00** | 1 pacote | **R$ 34,00** |
+| [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 215 g | R$ 13,64 | **R$ 42,00** | 1 pacote | **R$ 38,00** |
+| [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 200 g | R$ 13,24 | **R$ 41,00** | 1 pacote | **R$ 37,00** |
 
-Varejo é o preço de 1 unidade. 1 receita leva 10% de desconto sobre o varejo. 2 receitas levam 20%. Os dois arredondam para o real mais próximo. Na barrinha, no pirulito simples e nos pacotes de 27 g em que o segundo desconto não baixa o real, fica o preço de 1 receita. A nota de 12 de novembro diz quantas unidades cabem na receita.
+Varejo é o preço de 1 unidade. O atacado é o preço de 1 receita e continua o mesmo em quantidades maiores. A nota de 12 de novembro diz quantas unidades cabem na receita.
 
 ### Tamanho Festa
 
-O mesmo sabor das pipocas carameladas, em um pacote de 27 g. O custo tira a embalagem do pacote grande, reparte o restante pelos gramas e soma de novo R$ 0,10. O varejo continua o que já estava. O atacado usa a mesma faixa do pacote grande, e a receita são **8 pacotes**: 8 × 27 g = 216 g, o bastante para cobrir a fornada de 200 g ou 215 g. Em R$ 5,00, 10% arredonda de volta para R$ 5,00, e a faixa que abre é a de 20%, **R$ 4,00** na receita. Em R$ 6,00, 20% arredonda de volta para R$ 5,00, e a faixa que abre é a de 10%, **R$ 5,00** na receita.
+O mesmo sabor das pipocas carameladas, em um pacote de 27 g. O custo tira a embalagem do pacote grande, reparte o restante pelos gramas e soma de novo R$ 0,10. O varejo continua o que já estava. O atacado usa a mesma faixa do pacote grande, e a receita são **8 pacotes**: 8 × 27 g = 216 g, o bastante para cobrir a fornada de 200 g ou 215 g. Em R$ 5,00, 10% arredonda de volta para R$ 5,00, e a faixa que abre é a de 20%, **R$ 4,00** na receita. Em R$ 6,00, 20% arredonda de volta para R$ 5,00, e a faixa que abre é a de 10%, **R$ 5,00** na receita. Esse preço vale a partir dos 8 pacotes e não muda acima disso.
 
-| Sabor | Porção | Custo | Varejo | Receita | 1 receita | 2 receitas |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 27 g | R$ 1,81 | **R$ 5,00** | 8 pacotes | **R$ 4,00** | — |
-| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 27 g | R$ 1,84 | **R$ 5,00** | 8 pacotes | **R$ 4,00** | — |
-| [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 27 g | R$ 2,04 | **R$ 6,00** | 8 pacotes | **R$ 5,00** | — |
-| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 27 g | R$ 1,83 | **R$ 5,00** | 8 pacotes | **R$ 4,00** | — |
-| [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 27 g | R$ 1,77 | **R$ 5,00** | 8 pacotes | **R$ 4,00** | — |
-| [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 27 g | R$ 1,80 | **R$ 5,00** | 8 pacotes | **R$ 4,00** | — |
-| [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 27 g | R$ 1,87 | **R$ 6,00** | 8 pacotes | **R$ 5,00** | — |
+| Sabor | Porção | Custo | Varejo | Receita | Atacado |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 27 g | R$ 1,81 | **R$ 5,00** | 8 pacotes | **R$ 4,00** |
+| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 27 g | R$ 1,84 | **R$ 5,00** | 8 pacotes | **R$ 4,00** |
+| [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 27 g | R$ 2,04 | **R$ 6,00** | 8 pacotes | **R$ 5,00** |
+| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 27 g | R$ 1,83 | **R$ 5,00** | 8 pacotes | **R$ 4,00** |
+| [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 27 g | R$ 1,77 | **R$ 5,00** | 8 pacotes | **R$ 4,00** |
+| [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 27 g | R$ 1,80 | **R$ 5,00** | 8 pacotes | **R$ 4,00** |
+| [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 27 g | R$ 1,87 | **R$ 6,00** | 8 pacotes | **R$ 5,00** |
 
 ---
 
 ## Cardápio de Apresentação
 
-A mesma tabela do cardápio. Nas pipocas carameladas de 215 g, a porção aparece como 200 g. Custo, varejo e as duas faixas continuam os do pacote da ficha.
+A mesma tabela do cardápio. Nas pipocas carameladas de 215 g, a porção aparece como 200 g. Custo, varejo e o atacado continuam os do pacote da ficha.
 
-| Sabor | Porção | Custo | Varejo | Receita | 1 receita | 2 receitas |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| [Cebola](#cebola) | 25 g | R$ 4,39 | **R$ 10,00** | 6 pacotes | **R$ 9,00** | **R$ 8,00** |
-| [Leite Ninho](#leite-ninho) | 100 g | R$ 8,23 | **R$ 26,00** | 1 pacote | **R$ 23,00** | **R$ 21,00** |
-| [Meio Amargo](#meio-amargo) | 100 g | R$ 8,44 | **R$ 26,00** | 1 pacote | **R$ 23,00** | **R$ 21,00** |
-| [Choquito](#choquito) | 100 g | R$ 9,38 | **R$ 29,00** | 1 pacote | **R$ 26,00** | **R$ 23,00** |
-| [Trufadas](#trufadas) | 100 g | R$ 12,10 | **R$ 37,00** | 1 pacote | **R$ 33,00** | **R$ 30,00** |
-| [Trufadas Prestígio](#trufadas-prestígio) | 100 g | R$ 15,15 | **R$ 38,00** | 1 pacote | **R$ 34,00** | **R$ 30,00** |
-| [Barrinha de chocolate](#barrinha-de-chocolate) | 1 un. | R$ 0,77 | **R$ 2,50** | 12 un. | **R$ 2,00** | — |
-| [Pirulito com cobertura](#pirulito-com-cobertura) | 1 un. | R$ 4,40 | **R$ 13,00** | 8 un. | **R$ 12,00** | **R$ 10,00** |
-| [Pirulito simples](#pirulito-simples) | 1 un. | R$ 2,00 | **R$ 6,00** | 8 un. | **R$ 5,00** | — |
-| [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 200 g | R$ 13,75 | **R$ 42,00** | 1 pacote | **R$ 38,00** | **R$ 34,00** |
-| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 200 g | R$ 13,99 | **R$ 42,00** | 1 pacote | **R$ 38,00** | **R$ 34,00** |
-| [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 200 g | R$ 14,47 | **R$ 45,00** | 1 pacote | **R$ 41,00** | **R$ 36,00** |
-| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 200 g | R$ 13,86 | **R$ 43,00** | 1 pacote | **R$ 39,00** | **R$ 34,00** |
-| [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 200 g | R$ 12,44 | **R$ 38,00** | 1 pacote | **R$ 34,00** | **R$ 30,00** |
-| [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 200 g | R$ 13,64 | **R$ 42,00** | 1 pacote | **R$ 38,00** | **R$ 34,00** |
-| [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 200 g | R$ 13,24 | **R$ 41,00** | 1 pacote | **R$ 37,00** | **R$ 33,00** |
+| Sabor | Porção | Custo | Varejo | Receita | Atacado |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| [Cebola](#cebola) | 25 g | R$ 4,39 | **R$ 10,00** | 6 pacotes | **R$ 9,00** |
+| [Leite Ninho](#leite-ninho) | 100 g | R$ 8,23 | **R$ 26,00** | 1 pacote | **R$ 23,00** |
+| [Meio Amargo](#meio-amargo) | 100 g | R$ 8,44 | **R$ 26,00** | 1 pacote | **R$ 23,00** |
+| [Choquito](#choquito) | 100 g | R$ 9,38 | **R$ 29,00** | 1 pacote | **R$ 26,00** |
+| [Trufadas](#trufadas) | 100 g | R$ 12,10 | **R$ 37,00** | 1 pacote | **R$ 33,00** |
+| [Trufadas Prestígio](#trufadas-prestígio) | 100 g | R$ 15,15 | **R$ 38,00** | 1 pacote | **R$ 34,00** |
+| [Barrinha de chocolate](#barrinha-de-chocolate) | 1 un. | R$ 0,77 | **R$ 2,50** | 12 un. | **R$ 2,00** |
+| [Pirulito com cobertura](#pirulito-com-cobertura) | 1 un. | R$ 4,40 | **R$ 13,00** | 8 un. | **R$ 12,00** |
+| [Pirulito simples](#pirulito-simples) | 1 un. | R$ 2,00 | **R$ 6,00** | 8 un. | **R$ 5,00** |
+| [Pipoca caramelada de cocada](#pipoca-caramelada-de-cocada) | 200 g | R$ 13,75 | **R$ 42,00** | 1 pacote | **R$ 38,00** |
+| [Pipoca caramelada de cocada colorida](#pipoca-caramelada-de-cocada-colorida) | 200 g | R$ 13,99 | **R$ 42,00** | 1 pacote | **R$ 38,00** |
+| [Pipoca caramelada de churros](#pipoca-caramelada-de-churros) | 200 g | R$ 14,47 | **R$ 45,00** | 1 pacote | **R$ 41,00** |
+| [Pipoca caramelada de chocolate](#pipoca-caramelada-de-chocolate) | 200 g | R$ 13,86 | **R$ 43,00** | 1 pacote | **R$ 39,00** |
+| [Pipoca caramelada de limão](#pipoca-caramelada-de-limão) | 200 g | R$ 12,44 | **R$ 38,00** | 1 pacote | **R$ 34,00** |
+| [Pipoca caramelada de amendoim](#pipoca-caramelada-de-amendoim) | 200 g | R$ 13,64 | **R$ 42,00** | 1 pacote | **R$ 38,00** |
+| [Pipoca caramelada de Leite Ninho](#pipoca-caramelada-de-leite-ninho) | 200 g | R$ 13,24 | **R$ 41,00** | 1 pacote | **R$ 37,00** |
 
+> A coluna "Rceita" indica o redimento de uma receita, sendo Receita x Porção (g) o rendimento em gramas de uma receita. Deste modo para Cebola, cada receita rende 25g x 6 = 150g, e Leite Ninho  100g x 1 = 100g por receita. O valor de "Atacado" é referente à venda do equivalente a uma receita; para cebola, apartir de 6 pacotes de 25, para Ninho, a partir de 1 pacote de 100g.
 ---
 
 ## Sabores
@@ -299,14 +300,14 @@ O fator 3 daria 4,39 × 3 = 13,17, arredondado para R$ 13,00. O fator 2 daria 4,
 
 Observado: o varejo foi baixado para acompanhar o cardápio, e a hora continua acima do mínimo de R$ 7,37. Varejo **R$ 10,00**. A conta do cartão, preço ÷ 0,9661, foi feita em cima desse valor. O arredondamento manteve o varejo.
 
-O atacado sai do varejo e começa na receita, que são os 6 pacotes. 10% dá **R$ 9,00** nessa receita. Os 6 pacotes rendem R$ 54,00 e deixam **R$ 45,35** nas 2,4 horas — cerca de **R$ 19 por hora**. 20% dá **R$ 8,00** a partir de 2 receitas, 12 pacotes. Essas 12 rendem R$ 96,00 e deixam **R$ 78,70** nas 4,8 horas — cerca de **R$ 16 por hora**. Quem compra a R$ 9,00 e revende a R$ 10,00 fica com R$ 1,00 por pacote. Quem compra a R$ 8,00 fica com R$ 2,00.
+O atacado sai do varejo e começa na receita, que são os 6 pacotes. 10% dá **R$ 9,00** nessa receita. Os 6 pacotes rendem R$ 54,00 e deixam **R$ 45,35** nas 2,4 horas — cerca de **R$ 19 por hora**. Quem compra a R$ 9,00 e revende a R$ 10,00 fica com R$ 1,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
-A coluna "por hora" divide o dinheiro da fornada de 6 pelas 2,4 horas. O preço de 2 receitas entra nessa coluna pelo valor da unidade.
+A coluna "por hora" divide o dinheiro da fornada de 6 pelas 2,4 horas.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 8,00** | **20%, 2 receitas** | **R$ 0,32** | **R$ 3,61** | **R$ 39,35** | **R$ 16** |
-| **R$ 9,00** | **10%, 1 receita** | **R$ 0,36** | **R$ 4,61** | **R$ 45,35** | **R$ 19** |
+| R$ 8,00 |  | R$ 0,32 | R$ 3,61 | R$ 39,35 | R$ 16 |
+| **R$ 9,00** | **Atacado** | **R$ 0,36** | **R$ 4,61** | **R$ 45,35** | **R$ 19** |
 | **R$ 10,00** | **Varejo** | **R$ 0,40** | **R$ 5,61** | **R$ 51,35** | **R$ 21** |
 | R$ 13,00 | fator 3 | R$ 0,52 | R$ 8,61 | R$ 69,35 | R$ 29 |
 
@@ -368,12 +369,12 @@ O cozimento estimado é **0,4 hora** de trabalho e cerca de **2 minutos** de fog
 
 O varejo usa o fator 3: 8,23 × 3 = 24,69, arredondado para R$ 25,00. A conta do cartão leva esse valor a 25,00 ÷ 0,9661 = 25,88, arredondado para **R$ 26,00**. Depois de ingredientes, embalagem, gás e água, fica **R$ 20,72** nas 0,4 hora — cerca de **R$ 52 por hora**.
 
-O atacado sai do varejo. 10% de R$ 26,00 dá R$ 23,40, arredondado para **R$ 23,00** em 1 receita. Fica **R$ 17,72**, cerca de **R$ 44 por hora**. 20% dá R$ 20,80, arredondado para **R$ 21,00** em 2 receitas. Fica **R$ 15,72**, cerca de **R$ 39 por hora**. Quem compra a R$ 23,00 e revende a R$ 26,00 fica com R$ 3,00 por pacote. Quem compra a R$ 21,00 fica com R$ 5,00.
+O atacado sai do varejo. 10% de R$ 26,00 dá R$ 23,40, arredondado para **R$ 23,00** a partir de 1 receita. Fica **R$ 17,72**, cerca de **R$ 44 por hora**. Quem compra a R$ 23,00 e revende a R$ 26,00 fica com R$ 3,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 21,00** | **20%, 2 receitas** | **R$ 0,21** | **R$ 12,77** | **R$ 15,72** | **R$ 39** |
-| **R$ 23,00** | **10%, 1 receita** | **R$ 0,23** | **R$ 14,77** | **R$ 17,72** | **R$ 44** |
+| R$ 21,00 |  | R$ 0,21 | R$ 12,77 | R$ 15,72 | R$ 39 |
+| **R$ 23,00** | **Atacado** | **R$ 0,23** | **R$ 14,77** | **R$ 17,72** | **R$ 44** |
 | **R$ 26,00** | **Varejo** | **R$ 0,26** | **R$ 17,77** | **R$ 20,72** | **R$ 52** |
 | R$ 28,00 | | R$ 0,28 | R$ 19,77 | R$ 22,72 | R$ 57 |
 
@@ -427,12 +428,12 @@ O mesmo tempo do Leite Ninho: **0,4 hora** de trabalho e cerca de **2 minutos** 
 
 O varejo usa o fator 3: 8,44 × 3 = 25,32, arredondado para R$ 25,00. A conta do cartão leva esse valor a 25,00 ÷ 0,9661 = 25,88, arredondado para **R$ 26,00**. Fica **R$ 20,51** nas 0,4 hora — cerca de **R$ 51 por hora**.
 
-O atacado sai do varejo. 10% de R$ 26,00 dá R$ 23,40, arredondado para **R$ 23,00** em 1 receita. Fica **R$ 17,51**, cerca de **R$ 44 por hora**. 20% dá R$ 20,80, arredondado para **R$ 21,00** em 2 receitas. Fica **R$ 15,51**, cerca de **R$ 39 por hora**. Quem compra a R$ 23,00 e revende a R$ 26,00 fica com R$ 3,00 por pacote. Quem compra a R$ 21,00 fica com R$ 5,00.
+O atacado sai do varejo. 10% de R$ 26,00 dá R$ 23,40, arredondado para **R$ 23,00** a partir de 1 receita. Fica **R$ 17,51**, cerca de **R$ 44 por hora**. Quem compra a R$ 23,00 e revende a R$ 26,00 fica com R$ 3,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 21,00** | **20%, 2 receitas** | **R$ 0,21** | **R$ 12,56** | **R$ 15,51** | **R$ 39** |
-| **R$ 23,00** | **10%, 1 receita** | **R$ 0,23** | **R$ 14,56** | **R$ 17,51** | **R$ 44** |
+| R$ 21,00 |  | R$ 0,21 | R$ 12,56 | R$ 15,51 | R$ 39 |
+| **R$ 23,00** | **Atacado** | **R$ 0,23** | **R$ 14,56** | **R$ 17,51** | **R$ 44** |
 | **R$ 26,00** | **Varejo** | **R$ 0,26** | **R$ 17,56** | **R$ 20,51** | **R$ 51** |
 | R$ 28,00 | | R$ 0,28 | R$ 19,56 | R$ 22,51 | R$ 56 |
 
@@ -494,12 +495,12 @@ O cozimento estimado é **0,4 hora** de trabalho e cerca de **2 minutos** de fog
 
 O varejo usa o fator 3: 9,38 × 3 = 28,14, arredondado para R$ 28,00. A conta do cartão leva esse valor a 28,00 ÷ 0,9661 = 28,98, arredondado para **R$ 29,00**. Depois de ingredientes, embalagem, gás e água, fica **R$ 22,57** nas 0,4 hora — cerca de **R$ 56 por hora**.
 
-O atacado sai do varejo. 10% de R$ 29,00 dá R$ 26,10, arredondado para **R$ 26,00** em 1 receita. Fica **R$ 19,57**, cerca de **R$ 49 por hora**. 20% dá R$ 23,20, arredondado para **R$ 23,00** em 2 receitas. Fica **R$ 16,57**, cerca de **R$ 41 por hora**. Quem compra a R$ 26,00 e revende a R$ 29,00 fica com R$ 3,00 por pacote. Quem compra a R$ 23,00 fica com R$ 6,00.
+O atacado sai do varejo. 10% de R$ 29,00 dá R$ 26,10, arredondado para **R$ 26,00** a partir de 1 receita. Fica **R$ 19,57**, cerca de **R$ 49 por hora**. Quem compra a R$ 26,00 e revende a R$ 29,00 fica com R$ 3,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 23,00** | **20%, 2 receitas** | **R$ 0,23** | **R$ 13,62** | **R$ 16,57** | **R$ 41** |
-| **R$ 26,00** | **10%, 1 receita** | **R$ 0,26** | **R$ 16,62** | **R$ 19,57** | **R$ 49** |
+| R$ 23,00 |  | R$ 0,23 | R$ 13,62 | R$ 16,57 | R$ 41 |
+| **R$ 26,00** | **Atacado** | **R$ 0,26** | **R$ 16,62** | **R$ 19,57** | **R$ 49** |
 | **R$ 29,00** | **Varejo** | **R$ 0,29** | **R$ 19,62** | **R$ 22,57** | **R$ 56** |
 | R$ 32,00 | | R$ 0,32 | R$ 22,62 | R$ 25,57 | R$ 64 |
 
@@ -555,12 +556,12 @@ O tempo do garfo multiplica pelo número de pacotes, porque cada pipoca é retir
 
 O varejo usa o fator 3: 12,10 × 3 = 36,30, arredondado para R$ 36,00. A conta do cartão leva esse valor a 36,00 ÷ 0,9661 = 37,26, arredondado para **R$ 37,00**. Fica **R$ 31,53** nas 0,9 hora — cerca de **R$ 35 por hora**.
 
-O atacado sai do varejo. 10% de R$ 37,00 dá R$ 33,30, arredondado para **R$ 33,00** em 1 receita. Fica **R$ 27,53**, cerca de **R$ 31 por hora**. 20% dá R$ 29,60, arredondado para **R$ 30,00** em 2 receitas. Fica **R$ 24,53**, cerca de **R$ 27 por hora**. Quem compra a R$ 33,00 e revende a R$ 37,00 fica com R$ 4,00 por pacote. Quem compra a R$ 30,00 fica com R$ 7,00.
+O atacado sai do varejo. 10% de R$ 37,00 dá R$ 33,30, arredondado para **R$ 33,00** a partir de 1 receita. Fica **R$ 27,53**, cerca de **R$ 31 por hora**. Quem compra a R$ 33,00 e revende a R$ 37,00 fica com R$ 4,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 30,00** | **20%, 2 receitas** | **R$ 0,30** | **R$ 17,90** | **R$ 24,53** | **R$ 27** |
-| **R$ 33,00** | **10%, 1 receita** | **R$ 0,33** | **R$ 20,90** | **R$ 27,53** | **R$ 31** |
+| R$ 30,00 |  | R$ 0,30 | R$ 17,90 | R$ 24,53 | R$ 27 |
+| **R$ 33,00** | **Atacado** | **R$ 0,33** | **R$ 20,90** | **R$ 27,53** | **R$ 31** |
 | **R$ 37,00** | **Varejo** | **R$ 0,37** | **R$ 24,90** | **R$ 31,53** | **R$ 35** |
 | R$ 40,00 | | R$ 0,40 | R$ 27,90 | R$ 34,53 | R$ 38 |
 
@@ -624,12 +625,12 @@ Observado: o varejo fica R$ 1,00 acima das Trufadas, antes da taxa do cartão. A
 
 No varejo o lucro depois da hora mínima é **R$ 22,85** por pacote. Fica **R$ 31,33** na 1,15 hora — cerca de **R$ 27 por hora**.
 
-O atacado sai do varejo. 10% de R$ 38,00 dá R$ 34,20, arredondado para **R$ 34,00** em 1 receita. O lucro é **R$ 18,85**. Fica **R$ 27,33**, cerca de **R$ 24 por hora**. 20% dá R$ 30,40, arredondado para **R$ 30,00** em 2 receitas. O lucro é **R$ 14,85**. Fica **R$ 23,33**, cerca de **R$ 20 por hora**. Quem compra a R$ 34,00 e revende a R$ 38,00 fica com R$ 4,00 por pacote. Quem compra a R$ 30,00 fica com R$ 8,00.
+O atacado sai do varejo. 10% de R$ 38,00 dá R$ 34,20, arredondado para **R$ 34,00** a partir de 1 receita. O lucro é **R$ 18,85**. Fica **R$ 27,33**, cerca de **R$ 24 por hora**. Quem compra a R$ 34,00 e revende a R$ 38,00 fica com R$ 4,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 30,00** | **20%, 2 receitas** | **R$ 0,30** | **R$ 14,85** | **R$ 23,33** | **R$ 20** |
-| **R$ 34,00** | **10%, 1 receita** | **R$ 0,34** | **R$ 18,85** | **R$ 27,33** | **R$ 24** |
+| R$ 30,00 |  | R$ 0,30 | R$ 14,85 | R$ 23,33 | R$ 20 |
+| **R$ 34,00** | **Atacado** | **R$ 0,34** | **R$ 18,85** | **R$ 27,33** | **R$ 24** |
 | **R$ 38,00** | **Varejo** | **R$ 0,38** | **R$ 22,85** | **R$ 31,33** | **R$ 27** |
 | R$ 45,00 | fator 3 | R$ 0,45 | R$ 29,85 | R$ 38,33 | R$ 33 |
 
@@ -688,12 +689,12 @@ Tempo estimado: **0,4 hora**. Fogo: cerca de **2 minutos**.
 
 O varejo usa o fator 3: 0,77 × 3 = 2,31. O real inteiro mais próximo é R$ 2,00. O passo de R$ 0,50 deixa o varejo em **R$ 2,50**. A conta do cartão, preço ÷ 0,9661, foi feita. O passo manteve o varejo.
 
-10% de R$ 2,50 é R$ 2,25, e o passo de R$ 0,50 devolve **R$ 2,50**. Essa faixa não abre. 20% é R$ 2,00, e o preço baixa: atacado **R$ 2,00** na receita de 12 barrinhas. As 12 a R$ 2,50 rendem R$ 30,00 e deixam **R$ 23,68** nas 0,4 hora — cerca de **R$ 59 por hora**. A R$ 2,00 rendem R$ 24,00 e deixam **R$ 17,68**, cerca de **R$ 44 por hora**. Quem compra a R$ 2,00 e revende a R$ 2,50 fica com R$ 0,50 por barrinha.
+10% de R$ 2,50 é R$ 2,25, e o passo de R$ 0,50 devolve **R$ 2,50**. Essa faixa não abre. 20% é R$ 2,00, e o preço baixa: atacado **R$ 2,00** na receita de 12 barrinhas. As 12 a R$ 2,50 rendem R$ 30,00 e deixam **R$ 23,68** nas 0,4 hora — cerca de **R$ 59 por hora**. A R$ 2,00 rendem R$ 24,00 e deixam **R$ 17,68**, cerca de **R$ 44 por hora**. Quem compra a R$ 2,00 e revende a R$ 2,50 fica com R$ 0,50 por barrinha. Acima de 12, o preço da unidade continua R$ 2,00.
 
 | Preço da unidade | Uso | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: |
 | R$ 1,50 | | R$ 0,73 | R$ 11,68 | R$ 29 |
-| **R$ 2,00** | **20%, 1 receita** | **R$ 1,23** | **R$ 17,68** | **R$ 44** |
+| **R$ 2,00** | **Atacado** | **R$ 1,23** | **R$ 17,68** | **R$ 44** |
 | **R$ 2,50** | **Varejo** | **R$ 1,73** | **R$ 23,68** | **R$ 59** |
 | R$ 3,00 | | R$ 2,23 | R$ 29,68 | R$ 74 |
 
@@ -758,12 +759,12 @@ Tempo estimado: **1 hora**. Fogo: cerca de **4 minutos**.
 
 O varejo usa o fator 3: 4,40 × 3 = 13,20, arredondado para **R$ 13,00**. Os 8 pirulitos rendem R$ 104,00 e deixam **R$ 76,14** na 1 hora. A conta do cartão, preço ÷ 0,9661, foi feita. O arredondamento manteve o varejo.
 
-O atacado sai do varejo e começa na receita de 8 pirulitos. 10% de R$ 13,00 dá R$ 11,70, arredondado para **R$ 12,00**. Os 8 rendem R$ 96,00 e deixam **R$ 68,14** na hora. 20% dá R$ 10,40, arredondado para **R$ 10,00** a partir de 2 receitas, 16 pirulitos. Cada receita de 8, a R$ 10,00, rende R$ 80,00 e deixa **R$ 52,14**. Quem compra a R$ 12,00 e revende a R$ 13,00 fica com R$ 1,00 por pirulito. Quem compra a R$ 10,00 fica com R$ 3,00.
+O atacado sai do varejo e começa na receita de 8 pirulitos. 10% de R$ 13,00 dá R$ 11,70, arredondado para **R$ 12,00**. Os 8 rendem R$ 96,00 e deixam **R$ 68,14** na hora. Quem compra a R$ 12,00 e revende a R$ 13,00 fica com R$ 1,00 por pirulito. O preço da unidade não muda acima de 1 receita.
 
 | Preço da unidade | Uso | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: |
-| **R$ 10,00** | **20%, 2 receitas** | **R$ 5,60** | **R$ 52,14** | **R$ 52** |
-| **R$ 12,00** | **10%, 1 receita** | **R$ 7,60** | **R$ 68,14** | **R$ 68** |
+| R$ 10,00 |  | R$ 5,60 | R$ 52,14 | R$ 52 |
+| **R$ 12,00** | **Atacado** | **R$ 7,60** | **R$ 68,14** | **R$ 68** |
 | **R$ 13,00** | **Varejo** | **R$ 8,60** | **R$ 76,14** | **R$ 76** |
 | R$ 14,00 | | R$ 9,60 | R$ 84,14 | R$ 84 |
 
@@ -820,12 +821,12 @@ Tempo estimado: **1 hora**. Fogo: cerca de **4 minutos**.
 
 O varejo usa o fator 3: 2,00 × 3 = 6,00, que já é **R$ 6,00**. Os 8 pirulitos rendem R$ 48,00 e deixam **R$ 39,34** na 1 hora. A conta do cartão, preço ÷ 0,9661, foi feita. O arredondamento manteve o varejo.
 
-10% de R$ 6,00 é R$ 5,40, arredondado para **R$ 5,00** na receita de 8 pirulitos. Os 8 rendem R$ 40,00 e deixam **R$ 31,34** na hora. 20% é R$ 4,80, que arredonda de volta para R$ 5,00. Essa faixa não abre. Quem compra a R$ 5,00 e revende a R$ 6,00 fica com R$ 1,00 por pirulito.
+10% de R$ 6,00 é R$ 5,40, arredondado para **R$ 5,00** na receita de 8 pirulitos. Os 8 rendem R$ 40,00 e deixam **R$ 31,34** na hora. 20% é R$ 4,80, que arredonda de volta para R$ 5,00. Essa faixa não abre. Quem compra a R$ 5,00 e revende a R$ 6,00 fica com R$ 1,00 por pirulito. Acima de 8, o preço da unidade continua R$ 5,00.
 
 | Preço da unidade | Uso | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: |
 | R$ 4,00 | | R$ 2,00 | R$ 23,34 | R$ 23 |
-| **R$ 5,00** | **10%, 1 receita** | **R$ 3,00** | **R$ 31,34** | **R$ 31** |
+| **R$ 5,00** | **Atacado** | **R$ 3,00** | **R$ 31,34** | **R$ 31** |
 | **R$ 6,00** | **Varejo** | **R$ 4,00** | **R$ 39,34** | **R$ 39** |
 | R$ 7,00 | | R$ 5,00 | R$ 47,34 | R$ 47 |
 
@@ -888,12 +889,12 @@ O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
 
 O varejo usa o fator 3: 13,75 × 3 = 41,25, arredondado para R$ 41,00. A conta do cartão leva esse valor a 41,00 ÷ 0,9661 = 42,44, arredondado para **R$ 42,00**. Depois de ingredientes, embalagem, gás e água, fica **R$ 37,09** nas 1,2 hora — cerca de **R$ 31 por hora**.
 
-O atacado sai do varejo. 10% de R$ 42,00 dá R$ 37,80, arredondado para **R$ 38,00** em 1 receita. Fica **R$ 33,09**, cerca de **R$ 28 por hora**. 20% dá R$ 33,60, arredondado para **R$ 34,00** em 2 receitas. Fica **R$ 29,09**, cerca de **R$ 24 por hora**. Quem compra a R$ 38,00 e revende a R$ 42,00 fica com R$ 4,00 por pacote. Quem compra a R$ 34,00 fica com R$ 8,00.
+O atacado sai do varejo. 10% de R$ 42,00 dá R$ 37,80, arredondado para **R$ 38,00** a partir de 1 receita. Fica **R$ 33,09**, cerca de **R$ 28 por hora**. Quem compra a R$ 38,00 e revende a R$ 42,00 fica com R$ 4,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 34,00** | **20%, 2 receitas** | **R$ 0,16** | **R$ 20,25** | **R$ 29,09** | **R$ 24** |
-| **R$ 38,00** | **10%, 1 receita** | **R$ 0,18** | **R$ 24,25** | **R$ 33,09** | **R$ 28** |
+| R$ 34,00 |  | R$ 0,16 | R$ 20,25 | R$ 29,09 | R$ 24 |
+| **R$ 38,00** | **Atacado** | **R$ 0,18** | **R$ 24,25** | **R$ 33,09** | **R$ 28** |
 | **R$ 42,00** | **Varejo** | **R$ 0,20** | **R$ 28,25** | **R$ 37,09** | **R$ 31** |
 | R$ 45,00 | | R$ 0,21 | R$ 31,25 | R$ 40,09 | R$ 33 |
 
@@ -952,12 +953,12 @@ Observado: o varejo fica igual ao da cocada, **R$ 42,00**.
 
 No varejo fica **R$ 36,85** nas 1,2 hora — cerca de **R$ 31 por hora**.
 
-O atacado sai do varejo, o mesmo preço da cocada. 10% dá **R$ 38,00** em 1 receita. Fica **R$ 32,85**, cerca de **R$ 27 por hora**. 20% dá **R$ 34,00** em 2 receitas. Fica **R$ 28,85**, cerca de **R$ 24 por hora**. Quem compra a R$ 38,00 e revende a R$ 42,00 fica com R$ 4,00 por pacote. Quem compra a R$ 34,00 fica com R$ 8,00.
+O atacado sai do varejo, o mesmo preço da cocada. 10% dá **R$ 38,00** a partir de 1 receita. Fica **R$ 32,85**, cerca de **R$ 27 por hora**. Quem compra a R$ 38,00 e revende a R$ 42,00 fica com R$ 4,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 34,00** | **20%, 2 receitas** | **R$ 0,16** | **R$ 20,01** | **R$ 28,85** | **R$ 24** |
-| **R$ 38,00** | **10%, 1 receita** | **R$ 0,18** | **R$ 24,01** | **R$ 32,85** | **R$ 27** |
+| R$ 34,00 |  | R$ 0,16 | R$ 20,01 | R$ 28,85 | R$ 24 |
+| **R$ 38,00** | **Atacado** | **R$ 0,18** | **R$ 24,01** | **R$ 32,85** | **R$ 27** |
 | **R$ 42,00** | **Varejo** | **R$ 0,20** | **R$ 28,01** | **R$ 36,85** | **R$ 31** |
 | R$ 43,00 | fator 3 | R$ 0,20 | R$ 29,01 | R$ 37,85 | R$ 32 |
 
@@ -1012,12 +1013,12 @@ O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
 
 O varejo usa o fator 3: 14,47 × 3 = 43,41, arredondado para R$ 43,00. A conta do cartão leva esse valor a 43,00 ÷ 0,9661 = 44,51, arredondado para **R$ 45,00**. Fica **R$ 39,37** nas 1,2 hora — cerca de **R$ 33 por hora**.
 
-O atacado sai do varejo. 10% de R$ 45,00 dá R$ 40,50, arredondado para **R$ 41,00** em 1 receita. Fica **R$ 35,37**, cerca de **R$ 29 por hora**. 20% dá R$ 36,00, que já é **R$ 36,00** em 2 receitas. Fica **R$ 30,37**, cerca de **R$ 25 por hora**. Quem compra a R$ 41,00 e revende a R$ 45,00 fica com R$ 4,00 por pacote. Quem compra a R$ 36,00 fica com R$ 9,00.
+O atacado sai do varejo. 10% de R$ 45,00 dá R$ 40,50, arredondado para **R$ 41,00** a partir de 1 receita. Fica **R$ 35,37**, cerca de **R$ 29 por hora**. Quem compra a R$ 41,00 e revende a R$ 45,00 fica com R$ 4,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 36,00** | **20%, 2 receitas** | **R$ 0,18** | **R$ 21,53** | **R$ 30,37** | **R$ 25** |
-| **R$ 41,00** | **10%, 1 receita** | **R$ 0,21** | **R$ 26,53** | **R$ 35,37** | **R$ 29** |
+| R$ 36,00 |  | R$ 0,18 | R$ 21,53 | R$ 30,37 | R$ 25 |
+| **R$ 41,00** | **Atacado** | **R$ 0,21** | **R$ 26,53** | **R$ 35,37** | **R$ 29** |
 | **R$ 45,00** | **Varejo** | **R$ 0,23** | **R$ 30,53** | **R$ 39,37** | **R$ 33** |
 
 ### Pipoca caramelada de chocolate
@@ -1072,12 +1073,12 @@ O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
 
 O varejo usa o fator 3: 13,86 × 3 = 41,58, arredondado para R$ 42,00. A conta do cartão leva esse valor a 42,00 ÷ 0,9661 = 43,47, arredondado para **R$ 43,00**. Fica **R$ 37,98** nas 1,2 hora — cerca de **R$ 32 por hora**.
 
-O atacado sai do varejo. 10% de R$ 43,00 dá R$ 38,70, arredondado para **R$ 39,00** em 1 receita. Fica **R$ 33,98**, cerca de **R$ 28 por hora**. 20% dá R$ 34,40, arredondado para **R$ 34,00** em 2 receitas. Fica **R$ 28,98**, cerca de **R$ 24 por hora**. Quem compra a R$ 39,00 e revende a R$ 43,00 fica com R$ 4,00 por pacote. Quem compra a R$ 34,00 fica com R$ 9,00.
+O atacado sai do varejo. 10% de R$ 43,00 dá R$ 38,70, arredondado para **R$ 39,00** a partir de 1 receita. Fica **R$ 33,98**, cerca de **R$ 28 por hora**. Quem compra a R$ 39,00 e revende a R$ 43,00 fica com R$ 4,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 34,00** | **20%, 2 receitas** | **R$ 0,16** | **R$ 20,14** | **R$ 28,98** | **R$ 24** |
-| **R$ 39,00** | **10%, 1 receita** | **R$ 0,18** | **R$ 25,14** | **R$ 33,98** | **R$ 28** |
+| R$ 34,00 |  | R$ 0,16 | R$ 20,14 | R$ 28,98 | R$ 24 |
+| **R$ 39,00** | **Atacado** | **R$ 0,18** | **R$ 25,14** | **R$ 33,98** | **R$ 28** |
 | **R$ 43,00** | **Varejo** | **R$ 0,20** | **R$ 29,14** | **R$ 37,98** | **R$ 32** |
 | R$ 45,00 | | R$ 0,21 | R$ 31,14 | R$ 39,98 | R$ 33 |
 
@@ -1132,12 +1133,12 @@ O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
 
 O varejo usa o fator 3: 12,44 × 3 = 37,32, arredondado para R$ 37,00. A conta do cartão leva esse valor a 37,00 ÷ 0,9661 = 38,30, arredondado para **R$ 38,00**. Fica **R$ 34,40** nas 1,2 hora — cerca de **R$ 29 por hora**.
 
-O atacado sai do varejo. 10% de R$ 38,00 dá R$ 34,20, arredondado para **R$ 34,00** em 1 receita. Fica **R$ 30,40**, cerca de **R$ 25 por hora**. 20% dá R$ 30,40, arredondado para **R$ 30,00** em 2 receitas. Fica **R$ 26,40**, cerca de **R$ 22 por hora**. Quem compra a R$ 34,00 e revende a R$ 38,00 fica com R$ 4,00 por pacote. Quem compra a R$ 30,00 fica com R$ 8,00.
+O atacado sai do varejo. 10% de R$ 38,00 dá R$ 34,20, arredondado para **R$ 34,00** a partir de 1 receita. Fica **R$ 30,40**, cerca de **R$ 25 por hora**. Quem compra a R$ 34,00 e revende a R$ 38,00 fica com R$ 4,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 30,00** | **20%, 2 receitas** | **R$ 0,15** | **R$ 17,56** | **R$ 26,40** | **R$ 22** |
-| **R$ 34,00** | **10%, 1 receita** | **R$ 0,17** | **R$ 21,56** | **R$ 30,40** | **R$ 25** |
+| R$ 30,00 |  | R$ 0,15 | R$ 17,56 | R$ 26,40 | R$ 22 |
+| **R$ 34,00** | **Atacado** | **R$ 0,17** | **R$ 21,56** | **R$ 30,40** | **R$ 25** |
 | **R$ 38,00** | **Varejo** | **R$ 0,19** | **R$ 25,56** | **R$ 34,40** | **R$ 29** |
 | R$ 40,00 | | R$ 0,20 | R$ 27,56 | R$ 36,40 | R$ 30 |
 
@@ -1194,12 +1195,12 @@ O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
 
 O varejo usa o fator 3: 13,64 × 3 = 40,92, arredondado para R$ 41,00. A conta do cartão leva esse valor a 41,00 ÷ 0,9661 = 42,44, arredondado para **R$ 42,00**. Fica **R$ 37,20** nas 1,2 hora — cerca de **R$ 31 por hora**.
 
-O atacado sai do varejo. 10% de R$ 42,00 dá R$ 37,80, arredondado para **R$ 38,00** em 1 receita. Fica **R$ 33,20**, cerca de **R$ 28 por hora**. 20% dá R$ 33,60, arredondado para **R$ 34,00** em 2 receitas. Fica **R$ 29,20**, cerca de **R$ 24 por hora**. Quem compra a R$ 38,00 e revende a R$ 42,00 fica com R$ 4,00 por pacote. Quem compra a R$ 34,00 fica com R$ 8,00.
+O atacado sai do varejo. 10% de R$ 42,00 dá R$ 37,80, arredondado para **R$ 38,00** a partir de 1 receita. Fica **R$ 33,20**, cerca de **R$ 28 por hora**. Quem compra a R$ 38,00 e revende a R$ 42,00 fica com R$ 4,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 34,00** | **20%, 2 receitas** | **R$ 0,16** | **R$ 20,36** | **R$ 29,20** | **R$ 24** |
-| **R$ 38,00** | **10%, 1 receita** | **R$ 0,18** | **R$ 24,36** | **R$ 33,20** | **R$ 28** |
+| R$ 34,00 |  | R$ 0,16 | R$ 20,36 | R$ 29,20 | R$ 24 |
+| **R$ 38,00** | **Atacado** | **R$ 0,18** | **R$ 24,36** | **R$ 33,20** | **R$ 28** |
 | **R$ 42,00** | **Varejo** | **R$ 0,20** | **R$ 28,36** | **R$ 37,20** | **R$ 31** |
 | R$ 44,00 | | R$ 0,20 | R$ 30,36 | R$ 39,20 | R$ 33 |
 
@@ -1253,12 +1254,12 @@ O tempo estimado é **1,2 hora** de trabalho e cerca de **5 minutos** de fogo.
 
 O varejo usa o fator 3: 13,24 × 3 = 39,72, arredondado para R$ 40,00. A conta do cartão leva esse valor a 40,00 ÷ 0,9661 = 41,40, arredondado para **R$ 41,00**. Fica **R$ 36,60** nas 1,2 hora — cerca de **R$ 31 por hora**.
 
-O atacado sai do varejo. 10% de R$ 41,00 dá R$ 36,90, arredondado para **R$ 37,00** em 1 receita. Fica **R$ 32,60**, cerca de **R$ 27 por hora**. 20% dá R$ 32,80, arredondado para **R$ 33,00** em 2 receitas. Fica **R$ 28,60**, cerca de **R$ 24 por hora**. Quem compra a R$ 37,00 e revende a R$ 41,00 fica com R$ 4,00 por pacote. Quem compra a R$ 33,00 fica com R$ 8,00.
+O atacado sai do varejo. 10% de R$ 41,00 dá R$ 36,90, arredondado para **R$ 37,00** a partir de 1 receita. Fica **R$ 32,60**, cerca de **R$ 27 por hora**. Quem compra a R$ 37,00 e revende a R$ 41,00 fica com R$ 4,00 por pacote. O preço da unidade não muda acima de 1 receita.
 
 | Preço | Uso | Por grama | Lucro depois da hora mínima | No bolso no lote | Por hora |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| **R$ 33,00** | **20%, 2 receitas** | **R$ 0,17** | **R$ 19,76** | **R$ 28,60** | **R$ 24** |
-| **R$ 37,00** | **10%, 1 receita** | **R$ 0,19** | **R$ 23,76** | **R$ 32,60** | **R$ 27** |
+| R$ 33,00 |  | R$ 0,17 | R$ 19,76 | R$ 28,60 | R$ 24 |
+| **R$ 37,00** | **Atacado** | **R$ 0,19** | **R$ 23,76** | **R$ 32,60** | **R$ 27** |
 | **R$ 41,00** | **Varejo** | **R$ 0,21** | **R$ 27,76** | **R$ 36,60** | **R$ 31** |
 | R$ 45,00 | | R$ 0,23 | R$ 31,76 | R$ 40,60 | R$ 34 |
 
